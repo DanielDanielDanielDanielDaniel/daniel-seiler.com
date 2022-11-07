@@ -1,8 +1,10 @@
 extends layout/layout.pug
-block header
-  include includes/header.pug
-  +header
+block menu
+  include includes/menu.pug
+  +menu
 block content
+  .wrapper
+    p Content
 
 block footer
   include includes/footer.pug

@@ -1,0 +1,155 @@
+// Menu
+
+.menu {
+  $self: &;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: $white;
+  background: $gray-4;
+  border-radius: $border-radius-md;
+
+  &-item {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: 122%;
+    letter-spacing: 0.04em;
+    opacity: 0.8;
+    padding: 0 20px;
+    border-radius: $border-radius-sm;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background: rgba($gray-2, 0.3);
+    }
+    &.active {
+      background: rgba($gray-2, 0.3);
+    }
+  }
+  &-mobile-button {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    bottom: 16px;
+    right: 16px;
+    border: none;
+    box-shadow: none;
+    background: $gray-4;
+    width: 60px;
+    height: 60px;
+    border-radius: $border-radius-md;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    span {
+      width: 23px;
+      height: 2px;
+      background: $white;
+      display: block;
+      border-radius: 50%;
+      transition: transform $general-change;
+      transform-origin: 25% 0;
+      + span {
+        margin-top: 6px;
+      }
+    }
+  }
+
+  // Clear styles
+
+  &.clear {
+    background: $whiteish;
+    color: rgba($black, 0.5);
+    #{$self}-item {
+      &:hover {
+        background-color: $gray-light;
+      }
+      &.active {
+        background-color: $gray-light;
+      }
+    }
+  }
+
+  // Media queries
+
+  @include media-query(palm) {
+    display: none;
+    top: auto;
+    bottom: 11px;
+    left: 7px;
+    right: 7px;
+    z-index: 99;
+    padding: 8px;
+
+    &-mobile-button {
+      display: flex;
+    }
+    &-item {
+      padding: 22px 21px;
+      &.active {
+        background: $gray-2;
+      }
+    }
+
+    &.open-nav {
+      display: block;
+      -webkit-animation: slide-in-blurred-bottom 0.5s
+        cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: slide-in-blurred-bottom 0.5s
+        cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      + .menu-mobile-button {
+        background: transparent;
+        span {
+          &:first-child {
+            transform: rotate(45deg);
+          }
+          &:last-child {
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
+  @include media-query(lap-and-up) {
+    margin: 30px auto;
+    padding: 8px 12px;
+    max-width: 1112px;
+    background: rgba($gray-4, 0.7);
+    backdrop-filter: blur(2px);
+    width: calc(100% - 20px);
+    &-clear {
+      background: rgba($whiteish, 0.8);
+    }
+    &-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-item {
+      display: inline-flex;
+      justify-content: center;
+      height: 45px;
+
+      text-align: left;
+      width: 14.28%;
+      white-space: nowrap;
+      &:not(:last-child) {
+        margin-right: 6px;
+      }
+    }
+  }
+
+  @include media-query(desk-wide) {
+    &-item {
+      min-width: 146px;
+      &:not(:last-child) {
+        margin-right: 11px;
+      }
+    }
+  }
+}

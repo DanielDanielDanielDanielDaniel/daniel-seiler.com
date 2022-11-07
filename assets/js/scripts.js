@@ -1,17 +1,15 @@
 /* global $ */
 
-$(function() {
-
-  // Anchor scroll
-  $(".anchor-link").click(function() {
-      return $("html, body").animate({
-          scrollTop: $($.attr(this, "href")).offset().top
-      }, 600),
-      !1
-  })
-
+$(function () {
   // Menu
-  $(".main-header .menu-button").click(function() {
-    $(".main-header").toggleClass("open-nav");
+
+  $('.menu .menu-item').click(function (e) {
+    e.preventDefault(), $('.menu .menu-item').removeClass('active')
+    $(this).toggleClass('active')
   })
-});
+
+  // Menu button
+  $('.menu-mobile-button').click(function () {
+    $('.menu').toggleClass('open-nav')
+  })
+})

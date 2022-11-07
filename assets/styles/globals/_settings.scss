@@ -4,15 +4,18 @@
 
 $black: #000000;
 $white: #ffffff;
-$gray-1: #1A1A1A;
+$white-transparent: rgba($white, 0.3);
+$whiteish: #fbfbfb;
+$gray-light: #efefef;
+$gray-1: #1a1a1a;
 $gray-2: #393939;
-$gray-3: #2D2D2D;
-$color1: rgba($white, .3);
-$green: #4AFFA8;
-$blue: #3C5BFF;
-$cyan: #12D4FF;
-$yellow: #FFDC61;
-$color1: rgba($yellow, 12);
+$gray-3: #2d2d2d;
+$gray-4: #242424;
+$green: #4affa8;
+$blue: #3c5bff;
+$cyan: #12d4ff;
+$yellow: #ffdc61;
+$yellow-transparent: rgba($yellow, 12);
 
 // Fonts
 
@@ -32,10 +35,13 @@ $heavy: 900;
 $font-base: 16;
 $document-font-size: ($font-base / 16) * 100%;
 
+$border-radius-sm: 11px;
+$border-radius-md: 16px;
+
 // Layout
 
 $l-width: 100%;
-$l-maxWidth: 1100px;
+$l-maxWidth: 1148px;
 
 $base-whitespace: 1em;
 
@@ -47,9 +53,11 @@ $base-whitespace: 1em;
 // desk: for anything big enough to be deemed stationary
 
 $palm-start: 540px;
-$lap-start: 860px;
+$lap-start: 740px;
 $desk-start: 1000px;
+$desk-wide-start: 1200px;
 
 $palm-narrow-end: $palm-start;
 $palm-end: $lap-start - 1px;
 $lap-end: $desk-start - 1px;
+$desk-end: $desk-wide-start - 1px;
