@@ -1,1 +1,15 @@
 // UTILS
+
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  &.cyan {
+    background: $cyan;
+  }
+  &.blue {
+    background: $blue;
+  }
+  &.green {
+    background: $green;
+  }
+}

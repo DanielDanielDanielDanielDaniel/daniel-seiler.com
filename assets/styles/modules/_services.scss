@@ -1,0 +1,58 @@
+// Services
+
+.services {
+  &-intro {
+    display: flex;
+    align-items: center;
+
+    .main-text {
+      max-width: 265px;
+      margin-bottom: 20px;
+    }
+    .beta {
+      margin-bottom: 2px;
+    }
+  }
+
+  &-visual {
+    width: 468px;
+    height: 430px;
+    position: relative;
+    margin-left: 172px;
+    .circle {
+      width: 156px;
+      height: 156px;
+      position: absolute;
+      &.green {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &.cyan {
+        bottom: 0;
+        left: 0;
+      }
+      &.blue {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 33.5px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    .circle {
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+    }
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
+  }
+}

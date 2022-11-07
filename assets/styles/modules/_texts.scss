@@ -1,1 +1,29 @@
 // TEXTS
+// Texts
+
+.beta {
+  font-weight: 500;
+  font-size: 33.5px;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  color: $white;
+  opacity: 0.3;
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 122%;
+  letter-spacing: -0.03em;
+  color: $white;
+  opacity: 0.6;
+}
+
+// Clear page
+
+.clear-page {
+  .main-text,
+  .beta {
+    color: $black;
+  }
+}
