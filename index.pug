@@ -1,11 +1,10 @@
 extends layout/layout.pug
 block menu
   include includes/menu.pug
-  +menu
+  +menu('hello')
 block content
   .wrapper
-    p Content
-
+    p HELLO
 block footer
   include includes/footer.pug
   +footer

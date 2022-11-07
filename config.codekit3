@@ -346,6 +346,16 @@
       "oAP" : "\/build\/build",
       "oF" : 0
     },
+    "\/contact.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/contact.html",
+      "oF" : 0,
+      "oS" : 0
+    },
     "\/includes\/footer.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -421,6 +431,46 @@
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
+    },
+    "\/projects.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/projects.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/publications.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/publications.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/services.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/services.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/shop.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/shop.html",
+      "oF" : 0,
+      "oS" : 0
     }
   },
   "hooks" : [
@@ -435,7 +485,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_purple",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 689521611.96342301
+    "lastBuiltDate" : 689529526.24722505
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

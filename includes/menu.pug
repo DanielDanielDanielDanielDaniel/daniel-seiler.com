@@ -1,14 +1,14 @@
 
-mixin menu(className)
-  div.menu
+mixin menu(activePage, menuClass)
+  div.menu(class=menuClass)
     nav.menu-nav
-      a.menu-item(href="/index.html") Hello
-      a.menu-item(href="/about.html") About me
-      a.menu-item(href="") Projects
-      a.menu-item(href="") Services
-      a.menu-item(href="") Publications
-      a.menu-item(href="") Shop
-      a.menu-item(href="") Contact
+      a.menu-item(class={active: activePage === 'hello'} href="/index.html") Hello
+      a.menu-item(class={active: activePage === 'about'} href="/about.html")  About me
+      a.menu-item(class={active: activePage === 'projects'} href="/projects.html") Projects
+      a.menu-item(class={active: activePage === 'services'} href="/services.html") Services
+      a.menu-item(class={active: activePage === 'publications'} href="/publications.html") Publications
+      a.menu-item(class={active: activePage === 'shop'} href="/shop.html") Shop
+      a.menu-item(class={active: activePage === 'contact'} href="/contact.html") Contact
   button.menu-mobile-button
     span
     span
