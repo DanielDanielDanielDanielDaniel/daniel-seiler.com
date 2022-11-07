@@ -1,0 +1,55 @@
+// VARIABLES
+
+// Colors
+
+$black: #000000;
+$white: #ffffff;
+$gray-1: #1A1A1A;
+$gray-2: #393939;
+$gray-3: #2D2D2D;
+$color1: rgba($white, .3);
+$green: #4AFFA8;
+$blue: #3C5BFF;
+$cyan: #12D4FF;
+$yellow: #FFDC61;
+$color1: rgba($yellow, 12);
+
+// Fonts
+
+$font: 'Figtree', sans-serif;
+
+$base-lineHeight: normal;
+
+$extralight: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$extraBold: 800;
+$heavy: 900;
+
+$font-base: 16;
+$document-font-size: ($font-base / 16) * 100%;
+
+// Layout
+
+$l-width: 100%;
+$l-maxWidth: 1100px;
+
+$base-whitespace: 1em;
+
+// Breakpoints
+
+// palm: for handheld devices
+// lap: for tablets and netbooks and the like
+// portable: for both of the above
+// desk: for anything big enough to be deemed stationary
+
+$palm-start: 540px;
+$lap-start: 860px;
+$desk-start: 1000px;
+
+$palm-narrow-end: $palm-start;
+$palm-end: $lap-start - 1px;
+$lap-end: $desk-start - 1px;
