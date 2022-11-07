@@ -1,6 +1,32 @@
 // FOOTER
 
-.main-footer {
+.footer {
   background: $gray-1;
   color: $white;
+  padding: 20px 0;
+
+  &-col {
+    padding: 9px 9px 9px 0;
+    font-size: 10px;
+    opacity: .3;
+  }
+
+  a {
+    color: $white;
+  }
+  @include media-query(lap-and-up) {
+    .wrapper {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    &-col {
+      border-top: 2px solid rgba($white, .1);
+      margin-right: 12px;
+      flex: 1 1 25%;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
