@@ -153,6 +153,7 @@
       display: flex;
       align-items: flex-start;
       flex-wrap: wrap;
+
       &-wrapper {
         padding: 46px 0 33px;
         .jumbo {
@@ -168,7 +169,7 @@
       }
     }
 
-    &-client {
+    &-clients {
       .client {
         flex-basis: 25%;
       }

@@ -21,12 +21,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   font-size: $document-font-size;
-  background: rgb(23, 23, 23);
-  background: linear-gradient(
-    32deg,
-    rgba(23, 23, 23, 1) 0%,
-    rgba(27, 27, 27, 1) 100%
-  );
+  background: $base-bg;
   color: $white;
   font-family: $font;
   font-size: 16px;

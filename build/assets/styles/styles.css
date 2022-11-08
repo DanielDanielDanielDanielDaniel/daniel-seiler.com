@@ -43,7 +43,6 @@ body {
   box-sizing: border-box;
   font-size: 100%;
   background: #171717;
-  background: linear-gradient(32deg, #171717 0%, #1b1b1b 100%);
   color: #ffffff;
   font-family: "Figtree", sans-serif;
   font-size: 16px;
@@ -464,6 +463,16 @@ input[type='radio'] {
   background: #171717;
   background: linear-gradient(#171717, #1b1b1b); }
 
+.show-on-mobile {
+  display: block; }
+  @media only screen and (min-width: 740px) {
+    .show-on-mobile {
+      display: none; } }
+.show-on-desktop {
+  display: none; }
+  @media only screen and (min-width: 740px) {
+    .show-on-desktop {
+      display: block; } }
 .collapsable-button {
   display: none;
   background: transparent;
@@ -661,7 +670,7 @@ input[type='radio'] {
     flex: 1 1 calc(50% - 12px); }
     .services-award:nth-child(odd) {
       margin-right: 12px; }
-  .services-client .client {
+  .services-clients .client {
     flex-basis: 25%; }
   .services-visual {
     margin-bottom: 0; } }
@@ -716,3 +725,55 @@ input[type='radio'] {
 @media only screen and (min-width: 1000px) {
   .product-item {
     flex-basis: 25%; } }
+
+.publications .alpha {
+  margin-bottom: 10px; }
+
+.publications-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+.publications-featured {
+  background: #1b1b1b;
+  border-radius: 16px;
+  overflow: hidden;
+  padding-bottom: 20px; }
+  .publications-featured .beta {
+    padding: 19px 19px 9px 19px; }
+  .publications-featured .text-sm {
+    padding: 0 19px; }
+
+.publications-item .beta {
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 12px; }
+  .publications-item .beta span {
+    display: block; }
+
+@media only screen and (max-width: 739px) {
+  .publications-item {
+    width: 100%;
+    background: linear-gradient(#171717, #1b1b1b);
+    padding: 14px 0; }
+    .publications-item .beta {
+      margin-bottom: 8px; }
+  .publications-featured {
+    width: 100%; } }
+
+@media only screen and (min-width: 740px) {
+  .publications .alpha {
+    margin-bottom: 67px; }
+  .publications-content {
+    display: flex;
+    align-items: flex-start; }
+  .publications-list {
+    flex-direction: row; }
+  .publications-item {
+    flex: 0 1 33.3%;
+    margin-bottom: 37px; }
+  .publications-featured {
+    margin-top: -22px; } }

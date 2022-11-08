@@ -73,3 +73,17 @@
   background: rgb(23, 23, 23);
   background: linear-gradient(#171717, #1b1b1b);
 }
+
+.show-on-mobile {
+  display: block;
+  @include media-query(lap-and-up) {
+    display: none;
+  }
+}
+
+.show-on-desktop {
+  display: none;
+  @include media-query(lap-and-up) {
+    display: block;
+  }
+}
