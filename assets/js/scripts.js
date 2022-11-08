@@ -1,15 +1,22 @@
-/* global $ */
+/* global $, AOS */
 
 $(function () {
-  // Menu
-
-  // $('.menu .menu-item').click(function (e) {
-  //   e.preventDefault(), $('.menu .menu-item').removeClass('active')
-  //   $(this).toggleClass('active')
-  // })
+  // Aos
+  AOS.init({
+    once: true,
+    duration: 600,
+    easing: 'ease-in-out-cubic',
+    placement: 'top-bottom',
+    offset: 0
+  })
 
   // Menu button
   $('.menu-mobile-button').click(function () {
     $('.menu').toggleClass('open-nav')
+  })
+
+  // Expand/collapse button
+  $('.collapsable-button').click(function () {
+    $(this).siblings('.collapsable-content').toggleClass('expand')
   })
 })
