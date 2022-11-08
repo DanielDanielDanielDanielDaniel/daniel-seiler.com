@@ -1,16 +1,22 @@
 // Services
 
 .services {
+  &-block {
+    background: rgb(23, 23, 23);
+    background: linear-gradient(#171717, #1b1b1b);
+  }
   &-intro {
     display: flex;
     align-items: center;
+    margin-bottom: 117px;
 
     .main-text {
       max-width: 265px;
       margin-bottom: 20px;
     }
-    .beta {
+    .alpha {
       margin-bottom: 2px;
+      opacity: 0.3;
     }
   }
 
@@ -47,12 +53,97 @@
     line-height: 40px;
     letter-spacing: -0.04em;
     .circle {
+      flex: 0 0 auto;
       width: 16px;
       height: 16px;
       margin-right: 10px;
     }
     &:last-of-type {
       margin-bottom: 30px;
+    }
+  }
+
+  &-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 48px;
+    .info-piece {
+      flex: 1 1 calc(25% - 24px);
+      &:not(:last-child) {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  &-awards {
+    &-wrapper {
+      padding-top: 46px;
+      .alpha {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  &-award {
+    border-top: 2px solid rgba($white, 0.1);
+    padding: 10px 10px 12px 0;
+    display: flex;
+    align-items: flex-start;
+
+    .award-image {
+      min-width: 160px;
+      img {
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        -ms-interpolation-mode: nearest-neighbor;
+      }
+    }
+    .gamma {
+      margin-bottom: 7px;
+    }
+  }
+
+  &-clients {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .client {
+      flex: 1 1 25%;
+      margin-bottom: 52px;
+      opacity: 0.7;
+    }
+  }
+
+  @include media-query(palm) {
+    &-awards {
+      &-wrapper {
+        position: relative;
+        .alpha {
+          padding-right: 100px;
+        }
+        .collapsable-button {
+          position: absolute;
+          top: 43px;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  @include media-query(lap-and-up) {
+    &-awards {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    &-award {
+      flex: 1 1 calc(50% - 12px);
+      &:nth-child(odd) {
+        margin-right: 12px;
+      }
     }
   }
 }
