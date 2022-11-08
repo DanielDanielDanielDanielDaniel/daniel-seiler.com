@@ -9,6 +9,7 @@
   color: $white;
   background: $gray-4;
   border-radius: $border-radius-md;
+  z-index: 99;
 
   &-item {
     display: flex;

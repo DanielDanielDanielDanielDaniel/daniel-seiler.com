@@ -4,8 +4,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  .content {
-    animation: fade-in 1s ease-in-out;
+
+  .spacer-block {
+    padding-top: 20px;
   }
 
   .footer {
@@ -13,6 +14,8 @@
   }
 
   @include media-query(lap-and-up) {
-    padding-top: 140px;
+    .spacer-block {
+      padding-top: 140px;
+    }
   }
 }

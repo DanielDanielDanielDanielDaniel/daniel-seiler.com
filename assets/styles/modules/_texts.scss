@@ -1,13 +1,26 @@
 // TEXTS
-// Texts
 
-.beta {
+.alpha,
+.beta,
+.gamma {
   font-weight: 500;
-  font-size: 33.5px;
-  line-height: 40px;
   letter-spacing: -0.04em;
   color: $white;
-  opacity: 0.3;
+}
+
+.alpha {
+  font-size: 33.5px;
+  line-height: 40px;
+}
+
+.beta {
+  font-size: 22.5px;
+  line-height: 27px;
+}
+
+.gamma {
+  font-size: 15.5px;
+  line-height: 19px;
 }
 
 .main-text {
@@ -19,11 +32,22 @@
   opacity: 0.6;
 }
 
+.label {
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 122%;
+  letter-spacing: -0.03em;
+  color: rgba($white, 0.3);
+}
+
 // Clear page
 
 .clear-page {
   .main-text,
-  .beta {
+  .beta,
+  .alpha,
+  .gamma,
+  .label {
     color: $black;
   }
 }
