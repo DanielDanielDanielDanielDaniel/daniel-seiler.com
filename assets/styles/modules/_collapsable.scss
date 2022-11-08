@@ -1,0 +1,59 @@
+// Collapsable
+
+.collapsable-button {
+  display: none;
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 11.5px;
+  line-height: 122%;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $white;
+  opacity: 0.45;
+  cursor: pointer;
+  padding: 20px;
+
+  @include media-query(palm) {
+    display: block;
+  }
+}
+
+.collapsable-content {
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  @include media-query(palm) {
+    display: none;
+    + .collapsable-button {
+      &:before {
+        content: 'Expand';
+      }
+    }
+    &.expand {
+      display: block;
+      + .collapsable-button {
+        &:before {
+          content: 'Close';
+        }
+      }
+    }
+  }
+}
+
+.has-collapsable {
+  @include media-query(palm) {
+    position: relative;
+    padding: 10px 0 6px;
+    .jumbo {
+      padding-right: 66px;
+      margin-bottom: 10px;
+    }
+    .collapsable-button {
+      position: absolute;
+      top: 4px;
+      right: 0px;
+    }
+  }
+}

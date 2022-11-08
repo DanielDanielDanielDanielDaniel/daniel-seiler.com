@@ -1,1 +1,1 @@
-$((function(){$(".menu-mobile-button").click((function(){$(".menu").toggleClass("open-nav")}))}));
+$((function(){AOS.init({once:!0,duration:600,easing:"ease-in-out-cubic",placement:"top-bottom",offset:0}),$(".menu-mobile-button").click((function(){$(".menu").toggleClass("open-nav")})),$(".collapsable-button").click((function(){$(this).siblings(".collapsable-content").toggleClass("expand")}))}));
