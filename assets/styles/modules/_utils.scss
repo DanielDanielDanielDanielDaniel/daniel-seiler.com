@@ -1,6 +1,6 @@
 // UTILS
 
-.circle {
+.dot {
   border-radius: 50%;
   display: inline-block;
   width: 16px;
@@ -17,11 +17,11 @@
   }
 }
 
-.circle-grid {
+.dot-grid {
   display: inline-flex;
   flex-wrap: wrap;
   width: 16px;
-  .circle {
+  .dot {
     width: 5px;
     height: 5px;
     margin: 0 3px 3px 0;

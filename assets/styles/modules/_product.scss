@@ -8,7 +8,7 @@
       .jumbo {
         display: flex;
         align-items: center;
-        .circle {
+        .dot {
           margin-right: 6px;
           flex-shrink: 0;
         }
@@ -32,7 +32,7 @@
         }
       }
     }
-    .circle-grid {
+    .dot-grid {
       margin: 0 10px 2px 0;
       flex: 0 0 auto;
     }

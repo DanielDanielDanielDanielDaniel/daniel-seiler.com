@@ -3,9 +3,6 @@
     $HELPERS
     -> Extends, Functions, Mixins, Animations
 \*------------------------------------*/
-/*------------------------------------*\
-    $BASE
-\*------------------------------------*/
 /* Tipos */
 @font-face {
   font-family: "Figtree";
@@ -413,24 +410,24 @@ input[type='radio'] {
       min-width: 146px; }
       .menu-item:not(:last-child) {
         margin-right: 11px; } }
-.circle {
+.dot {
   border-radius: 50%;
   display: inline-block;
   width: 16px;
   height: 16px;
   background: #393939; }
-  .circle.cyan {
+  .dot.cyan {
     background: #12d4ff; }
-  .circle.blue {
+  .dot.blue {
     background: #3c5bff; }
-  .circle.green {
+  .dot.green {
     background: #4affa8; }
 
-.circle-grid {
+.dot-grid {
   display: inline-flex;
   flex-wrap: wrap;
   width: 16px; }
-  .circle-grid .circle {
+  .dot-grid .dot {
     width: 5px;
     height: 5px;
     margin: 0 3px 3px 0; }
@@ -580,18 +577,18 @@ input[type='radio'] {
   max-width: 480px;
   position: relative;
   margin: 0 auto 40px auto; }
-  .services-visual .circle {
+  .services-visual .dot {
     width: 156px;
     height: 156px;
     position: absolute; }
-    .services-visual .circle.green {
+    .services-visual .dot.green {
       top: 0;
       left: 50%;
       transform: translateX(-50%); }
-    .services-visual .circle.cyan {
+    .services-visual .dot.cyan {
       bottom: 0;
       left: 0; }
-    .services-visual .circle.blue {
+    .services-visual .dot.blue {
       bottom: 0;
       right: 0; }
 
@@ -602,7 +599,7 @@ input[type='radio'] {
   font-size: 38.5px;
   line-height: 46px;
   letter-spacing: -0.04em; }
-  .services-item .circle {
+  .services-item .dot {
     flex: 0 0 auto;
     width: 16px;
     height: 16px;
@@ -653,7 +650,7 @@ input[type='radio'] {
     padding: 0;
     min-height: 0;
     margin-top: 10px; }
-    .services-visual .circle {
+    .services-visual .dot {
       width: 76px;
       height: 76px; } }
 
@@ -691,7 +688,7 @@ input[type='radio'] {
   .product-list-wrapper .jumbo {
     display: flex;
     align-items: center; }
-    .product-list-wrapper .jumbo .circle {
+    .product-list-wrapper .jumbo .dot {
       margin-right: 6px;
       flex-shrink: 0; }
 
@@ -706,7 +703,7 @@ input[type='radio'] {
     display: block; }
     .product-item .beta span:first-child {
       margin-right: 6px; }
-  .product-item .circle-grid {
+  .product-item .dot-grid {
     margin: 0 10px 2px 0;
     flex: 0 0 auto; }
   .product-item .text-sm {
