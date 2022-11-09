@@ -111,23 +111,23 @@
   // Media queries
 
   @include media-query(palm) {
+    &-intro {
+      .main-text {
+        max-width: 90%;
+      }
+    }
     &-visual {
       order: -1;
       width: 230px;
       height: 210px;
       padding: 0;
       min-height: 0;
+      margin-top: 10px;
       .circle {
         width: 76px;
         height: 76px;
       }
     }
-  }
-
-  @include media-query(lap) {
-    // &-visual {
-    //   transform: scale(0.9);
-    // }
   }
 
   @include media-query(lap-and-up) {

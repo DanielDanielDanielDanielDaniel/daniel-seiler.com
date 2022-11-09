@@ -519,37 +519,45 @@ input[type='radio'] {
   flex-direction: column;
   min-height: 100vh; }
   .outer-wrapper .spacer-block {
-    padding-top: 55px; }
+    padding-top: 44px; }
   .outer-wrapper .footer {
     margin-top: auto; }
   @media only screen and (min-width: 740px) {
     .outer-wrapper .spacer-block {
       padding-top: 140px; } }
 .footer {
-  color: #ffffff;
-  padding: 20px 0; }
+  color: #ffffff; }
+  .footer .wrapper {
+    display: flex;
+    align-items: flex-start; }
   .footer-col {
-    padding: 9px 9px 9px 0;
+    padding: 6px 6px 6px 0;
     font-size: 10px;
-    opacity: 0.3; }
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin-right: 12px;
+    flex: 1 1 50%; }
+    .footer-col .footer-item {
+      opacity: 0.3;
+      font-weight: 400; }
+      .footer-col .footer-item:first-child {
+        margin-bottom: 12px; }
+    .footer-col a {
+      display: inline-block; }
+    .footer-col:last-child {
+      margin-right: 0; }
   .footer a {
-    color: #ffffff;
-    padding-left: 4px; }
+    color: #ffffff; }
   .footer .social {
     display: flex;
     align-items: flex-start; }
     .footer .social-media-icon {
       padding-right: 12px; }
   @media only screen and (min-width: 740px) {
-    .footer .wrapper {
-      display: flex;
-      align-items: flex-start; }
-    .footer-col {
-      border-top: 2px solid rgba(255, 255, 255, 0.1);
-      margin-right: 12px;
-      flex: 1 1 25%; }
-      .footer-col:last-child {
-        margin-right: 0; } }
+    .footer {
+      padding: 20px 0; }
+      .footer-col {
+        padding: 9px 9px 9px 0;
+        flex-basis: 25%; } }
 .services-intro {
   display: flex;
   align-items: center;
@@ -636,12 +644,15 @@ input[type='radio'] {
     opacity: 0.7; }
 
 @media only screen and (max-width: 739px) {
+  .services-intro .main-text {
+    max-width: 90%; }
   .services-visual {
     order: -1;
     width: 230px;
     height: 210px;
     padding: 0;
-    min-height: 0; }
+    min-height: 0;
+    margin-top: 10px; }
     .services-visual .circle {
       width: 76px;
       height: 76px; } }

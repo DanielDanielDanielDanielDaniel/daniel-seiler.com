@@ -1,15 +1,31 @@
 mixin footer(className)
   footer.footer(class=className)
-    .wrapper
-      .footer-col
-        p © 2022 – Daniel Seiler
-      .footer-col
-        a(href='') Legal & privacy Settings
-      .footer-col
-        p Coded with ❤ by
-          a(href='https://bonsaitech.io', target='_blank') Bonsai Studios
-      .footer-col.social
-        a.social-media-icon(href='#')
-          img(src="../assets/icons/icon-linkedin.svg", alt="linkedin")
-        a.social-media-icon(href='#')
-          img(src="../assets/icons/icon-circles.svg", alt="circles")
+    .show-on-mobile
+      .wrapper
+        .footer-col
+          a.footer-item(href='') Legal & privacy Settings
+          .footer-item
+            a.social-media-icon(href='#')
+              img(src="../assets/icons/icon-linkedin.svg", alt="linkedin")
+            a.social-media-icon(href='#')
+              img(src="../assets/icons/icon-circles.svg", alt="circles")
+        .footer-col
+          p.footer-item Coded with passion by &#32;
+            a.inner-link(href='https://bonsaitech.io', target='_blank') Bonsai Studios
+          p.footer-item © 2022 – Daniel Seiler
+
+    .show-on-desktop
+      .wrapper
+        .footer-col
+          p.footer-item © 2022 – Daniel Seiler
+        .footer-col
+          a.footer-item(href='') Legal & privacy Settings
+        .footer-col
+          p.footer-item Coded with passion by &#32;
+            a.inner-link(href='https://bonsaitech.io', target='_blank') Bonsai Studios
+        .footer-col
+          .footer-item.social
+            a.social-media-icon(href='#')
+              img(src="../assets/icons/icon-linkedin.svg", alt="linkedin")
+            a.social-media-icon(href='#')
+              img(src="../assets/icons/icon-circles.svg", alt="circles")
