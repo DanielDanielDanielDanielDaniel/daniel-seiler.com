@@ -20,6 +20,11 @@ $(function () {
     $(this).siblings('.collapsable-content').toggleClass('expand')
   })
 
+  // Expand/collapse button
+  $('.nucleus-icon-list .collapsable-button').click(function () {
+    $('.nucleus-icon-list').toggleClass('expand')
+  })
+
   // Tippy - Tooltips
 
   tippy('.js-tippy', {

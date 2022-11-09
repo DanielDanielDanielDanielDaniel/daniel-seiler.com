@@ -3,6 +3,8 @@
 .footer {
   color: $white;
   padding-top: 20px;
+  background: transparent;
+  z-index: 99;
 
   .wrapper {
     display: flex;
@@ -45,7 +47,6 @@
   }
 
   @include media-query(lap-and-up) {
-    padding-bottom: 20px;
     &-col {
       padding: 9px 9px 9px 0;
       flex-basis: 25%;

@@ -1,0 +1,9 @@
+extends layout/layout.pug
+block menu
+  include includes/menu.pug
+  +menu('projects')
+block content
+  include includes/projects/nucleus/nucleus-content.pug
+block footer
+  include includes/footer.pug
+  +footer

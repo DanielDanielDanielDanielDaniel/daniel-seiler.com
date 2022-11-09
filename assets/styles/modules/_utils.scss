@@ -18,6 +18,33 @@
   }
 }
 
+.op-30 {
+  opacity: 0.3;
+}
+
+// Info data
+
+.info-data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  .info-piece {
+    flex: 1 1 50%;
+    margin-bottom: 16px;
+  }
+  @include media-query(lap-and-up) {
+    margin-bottom: 48px;
+    .info-piece {
+      flex: 1 1 calc(25% - 24px);
+      margin-bottom: 0;
+      &:not(:last-child) {
+        margin-right: 12px;
+      }
+    }
+  }
+}
+
 // Info piece
 
 .info-piece {

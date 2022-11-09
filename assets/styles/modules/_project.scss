@@ -1,0 +1,51 @@
+// Project
+
+.project {
+  &-hero {
+    padding-right: 20%;
+  }
+  .hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .hero-info {
+    > .main-text {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-dot-grid {
+    margin: 36px 0;
+  }
+
+  &-tags {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .main-text {
+      flex: 0 1 50%;
+      margin-bottom: 2px;
+    }
+  }
+
+  @include media-query(lap-and-up) {
+    &-hero {
+      padding-bottom: 80px;
+      padding-right: 50%;
+    }
+    .hero-image {
+      top: 80px;
+    }
+    .hero-info {
+      max-width: 270px;
+    }
+  }
+  @include media-query(desk-wide) {
+    .hero-info {
+      padding-top: 86px;
+    }
+  }
+}

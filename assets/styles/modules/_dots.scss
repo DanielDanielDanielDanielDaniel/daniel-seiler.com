@@ -83,3 +83,17 @@
     }
   }
 }
+
+// Project dot grid
+
+.project-dot-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 138px;
+  .dot {
+    width: 13px;
+    height: 13px;
+    margin: 0 10px 10px 0;
+  }
+}

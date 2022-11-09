@@ -14,6 +14,7 @@
   opacity: 0.45;
   cursor: pointer;
   padding: 20px;
+  -webkit-tap-highlight-color: transparent;
 
   @include media-query(palm) {
     display: block;

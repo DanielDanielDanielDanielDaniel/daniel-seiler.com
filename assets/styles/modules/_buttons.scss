@@ -1,1 +1,22 @@
 // BUTTONS
+
+.button {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 11.5px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $white;
+  opacity: 0.8;
+  background: $gray-2;
+  padding: 15px 19px;
+  border-radius: $border-radius-sm;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  &:hover {
+    background-color: darken($gray-2, 5%);
+  }
+}
