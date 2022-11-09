@@ -1,0 +1,61 @@
+// Projects
+
+.projects {
+  .alpha {
+    margin-bottom: 22px;
+  }
+  &-item {
+    display: block;
+    &.disabled {
+      > * {
+        opacity: 0.2;
+      }
+    }
+  }
+  .title {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+  .label {
+    padding-left: 22px;
+  }
+  .dot-sign {
+    margin: 0 7px 5px 0;
+  }
+  @include media-query(palm) {
+    &-item {
+      width: 100%;
+      background: linear-gradient(#171717, #1b1b1b);
+      padding: 10px 0;
+    }
+  }
+  @include media-query(lap-and-up) {
+    .spacer-block {
+      margin-top: 16px;
+    }
+    .alpha {
+      margin-bottom: 57px;
+    }
+    .title {
+      .text {
+        min-height: 54px;
+      }
+    }
+    &-list {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    &-item {
+      flex: 0 0 calc(25% - 10px);
+      margin-bottom: 52px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+mixin dotSign(type, color1, color2)
+  .dot-sign(class=type)
+    if type === 'all'
+      span.dot.green
+      span.dot.cyan
+      span.dot.blue
+    if type === 'pair'
+      span.dot(class=color1)
+      span.dot(class=color2)
+    if type === 'single'
+      span.dot(class=color1)

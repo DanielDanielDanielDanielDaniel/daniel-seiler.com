@@ -1,0 +1,85 @@
+// Dots
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: $gray-2;
+  &.cyan {
+    background: $cyan;
+  }
+  &.blue {
+    background: $blue;
+  }
+  &.green {
+    background: $green;
+  }
+}
+
+// Dot grid
+
+.dot-grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 16px;
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin: 0 3px 3px 0;
+  }
+}
+
+// Dot sign
+
+.dot-sign {
+  position: relative;
+  width: 14px;
+  .dot {
+    position: absolute;
+  }
+  &.all {
+    height: 14px;
+    .dot {
+      width: 6px;
+      height: 6px;
+      &:first-child {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+      &:nth-child(2) {
+        top: 0;
+        right: 0;
+      }
+      &:last-child {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  &.pair {
+    height: 19px;
+    .dot {
+      width: 8px;
+      height: 8px;
+      &:first-child {
+        top: 0;
+        right: 0;
+      }
+      &:last-child {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  &.single {
+    height: 13px;
+    .dot {
+      width: 10px;
+      height: 10px;
+      top: 0;
+      right: 0;
+    }
+  }
+}

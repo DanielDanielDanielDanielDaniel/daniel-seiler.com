@@ -1,33 +1,5 @@
 // UTILS
 
-.dot {
-  border-radius: 50%;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: $gray-2;
-  &.cyan {
-    background: $cyan;
-  }
-  &.blue {
-    background: $blue;
-  }
-  &.green {
-    background: $green;
-  }
-}
-
-.dot-grid {
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 16px;
-  .dot {
-    width: 5px;
-    height: 5px;
-    margin: 0 3px 3px 0;
-  }
-}
-
 .is-green {
   .active {
     background: $green;

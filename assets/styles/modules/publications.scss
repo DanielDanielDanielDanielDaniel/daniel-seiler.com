@@ -48,6 +48,9 @@
     }
   }
   @include media-query(lap-and-up) {
+    .spacer-block {
+      margin-top: 16px;
+    }
     .alpha {
       margin-bottom: 67px;
     }

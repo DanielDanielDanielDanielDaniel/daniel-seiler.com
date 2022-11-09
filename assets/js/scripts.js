@@ -1,4 +1,4 @@
-/* global $, AOS */
+/* global $, AOS, tippy*/
 
 $(function () {
   // Aos
@@ -18,5 +18,14 @@ $(function () {
   // Expand/collapse button
   $('.collapsable-button').click(function () {
     $(this).siblings('.collapsable-content').toggleClass('expand')
+  })
+
+  // Tippy - Tooltips
+
+  tippy('.js-tippy', {
+    // default
+    placement: 'bottom',
+    arrow: true,
+    animation: 'fade'
   })
 })
