@@ -1,0 +1,9 @@
+extends layout/layout.pug
+block menu
+  include includes/menu.pug
+  +menu('projects', 'clear')
+block content
+  include includes/projects/aucta/aucta-content.pug
+block footer
+  include includes/footer.pug
+  +footer
