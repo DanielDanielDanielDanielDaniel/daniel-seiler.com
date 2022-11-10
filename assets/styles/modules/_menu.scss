@@ -123,7 +123,7 @@
     background: rgba($gray-4, 0.7);
     backdrop-filter: blur(2px);
     width: calc(100% - 20px);
-    &-clear {
+    &.clear {
       background: rgba($whiteish, 0.8);
     }
     &-nav {

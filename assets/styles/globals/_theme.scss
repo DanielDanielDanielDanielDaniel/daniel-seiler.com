@@ -1,0 +1,36 @@
+// Theme
+
+// Clear theme
+
+.clear-theme {
+  background: $white;
+  background: linear-gradient($white, #fafafa);
+  .main-text,
+  .text-sm,
+  .jumbo,
+  .alpha,
+  .beta,
+  .gamma,
+  .delta,
+  .label,
+  .value {
+    color: $black;
+  }
+  .button {
+    background: $gray-light;
+    color: $black;
+  }
+  .footer {
+    color: $black;
+    &-col {
+      border-top-color: rgba($black, 0.1);
+    }
+  }
+  @include media-query(lap-and-up) {
+    .info-data {
+      .info-piece {
+        border-top-color: rgba($black, 0.1);
+      }
+    }
+  }
+}

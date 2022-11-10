@@ -7,11 +7,130 @@
   .hero-image {
     width: 65%;
     top: 190px;
+
     img {
+      border-radius: 14px 0 0 14px;
       position: absolute;
       top: 0;
       right: 0;
       max-height: 1000px;
+      box-shadow: 0px 59.2661px 124.343px rgba(45, 48, 57, 0.09),
+        0px 24.7599px 51.9473px rgba(45, 48, 57, 0.0646969),
+        0px 13.2379px 27.7735px rgba(45, 48, 57, 0.0536497),
+        0px 7.42103px 15.5696px rgba(45, 48, 57, 0.045),
+        0px 3.94125px 8.2689px rgba(45, 48, 57, 0.0363503),
+        0px 1.64004px 3.44088px rgba(45, 48, 57, 0.0253031);
+    }
+  }
+  &-block {
+    .main-text {
+      margin-bottom: 20px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+
+  .card {
+    flex: 1 1 calc(50% - 24px);
+    margin-bottom: 24px;
+    &-visual {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: darken($whiteish, 0.5%);
+      border-radius: $border-radius-md;
+      padding: 0 60px;
+      height: 296px;
+      margin-bottom: 14px;
+      color: $black;
+      img {
+        max-height: 90%;
+      }
+      .subtitle {
+        font-weight: 400;
+        font-size: 13.5px;
+        line-height: 122%;
+        opacity: 0.3;
+      }
+    }
+    &:nth-child(odd) {
+      margin-right: 12px;
+    }
+    .auctare {
+      width: 253px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @include media-query(lap-and-up) {
+    .spacer-block {
+      padding-bottom: 34px;
+    }
+    .block-info {
+      margin-bottom: 46px;
+    }
+    &-block {
+      padding: 110px 0;
+      .jumbo {
+        margin-bottom: 12px;
+        max-width: 412px;
+      }
+      .main-text {
+        max-width: 334px;
+      }
+      &.inline-block {
+        padding: 51px 0;
+        display: flex;
+        align-items: center;
+        .block-visual {
+          padding-left: 85px;
+        }
+        .main-text {
+          max-width: 266px;
+        }
+      }
+    }
+    &-app {
+      padding: 110px 0;
+      display: flex;
+      align-items: center;
+      .jumbo {
+        margin-bottom: 10px;
+      }
+      .block-visual {
+        flex: 0 0 360px;
+      }
+      .block-info {
+        flex: 1 1 auto;
+        padding-left: 100px;
+      }
+      .text-grid {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .text-block {
+        flex: 0 0 50%;
+        padding-right: 30px;
+        max-width: 266px;
+        margin-bottom: 28px;
+      }
+      .beta {
+        min-height: 58px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 6px;
+      }
+    }
+    &-brand {
+      padding: 66px 0;
     }
   }
 }
