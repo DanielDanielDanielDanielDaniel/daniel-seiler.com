@@ -20,10 +20,26 @@
     background: $gray-light;
     color: $black;
   }
-  .footer {
+  .footer,
+  .footer a {
     color: $black;
     &-col {
       border-top-color: rgba($black, 0.1);
+    }
+    .dark {
+      display: block;
+    }
+    .clear {
+      display: none;
+    }
+  }
+  .dot {
+    background: $gray-light2;
+  }
+  .menu-mobile-button {
+    background: $whiteish;
+    span {
+      background: $black;
     }
   }
   @include media-query(lap-and-up) {
