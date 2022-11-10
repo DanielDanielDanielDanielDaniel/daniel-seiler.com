@@ -49,7 +49,7 @@
     }
     .iphone-image {
       position: absolute;
-      bottom: -80px;
+      bottom: -40%;
       right: 0;
       max-height: 700px;
     }
@@ -99,11 +99,10 @@
       position: relative;
       padding-top: 65%;
       .iphone-image {
-        top: -60px;
+        top: 0;
         bottom: auto;
         right: -53%;
-        width: 150%;
-
+        width: 130%;
         max-height: none;
         max-width: 900px;
       }
@@ -150,7 +149,9 @@
   @include media-query(lap) {
     &-summary {
       .iphone-image {
-        right: -25%;
+        right: -35%;
+        bottom: -5%;
+        max-height: 640px;
       }
     }
   }
@@ -169,6 +170,7 @@
     &-summary {
       .iphone-image {
         right: -15%;
+        max-height: 730px;
       }
     }
   }
@@ -177,7 +179,26 @@
   @include media-query(desk-wide) {
     &-summary {
       .iphone-image {
-        right: 0;
+        right: -10%;
+        bottom: -46%;
+        max-height: 800px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1720px) {
+    &-summary {
+      .iphone-image {
+        right: 5%;
+        bottom: -40%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1880px) {
+    &-summary {
+      .iphone-image {
+        right: 10%;
       }
     }
   }
