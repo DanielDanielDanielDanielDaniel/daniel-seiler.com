@@ -1,11 +1,7 @@
 extends layout/layout.pug
-block menu
+block content
   include includes/menu.pug
   +menu('hello')
-block content
   .spacer-block
     .wrapper
       p HELLO
-block footer
-  include includes/footer.pug
-  +footer

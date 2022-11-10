@@ -150,6 +150,136 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/aucta\/aucta-editor.png" : {
+      "ft" : 32768,
+      "iS" : 1857165,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-editor.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-imagotipo.png" : {
+      "ft" : 32768,
+      "iS" : 22061,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-imagotipo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-ipad.png" : {
+      "ft" : 32768,
+      "iS" : 667937,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-ipad.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-iphone.png" : {
+      "ft" : 32768,
+      "iS" : 491799,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-iphone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-logo.png" : {
+      "ft" : 32768,
+      "iS" : 12510,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-process.png" : {
+      "ft" : 32768,
+      "iS" : 387108,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-process.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-stages.png" : {
+      "ft" : 32768,
+      "iS" : 25606,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-stages.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-team.png" : {
+      "ft" : 32768,
+      "iS" : 2626262,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-team.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-typography.png" : {
+      "ft" : 32768,
+      "iS" : 21831,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-typography.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/auctare.png" : {
+      "ft" : 32768,
+      "iS" : 15373,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/auctare.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/awwards.png" : {
       "ft" : 32768,
       "iS" : 1337,
@@ -736,9 +866,22 @@
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/assets\/img\/nucleus\/iphone.png" : {
+    "\/assets\/img\/nucleus\/iphone-cropped.png" : {
       "ft" : 32768,
       "iS" : 971219,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/nucleus\/iphone-cropped.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/nucleus\/iphone.png" : {
+      "ft" : 32768,
+      "iS" : 1568284,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iphone.png",
       "oF" : 0,
@@ -1015,6 +1158,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_aucta.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/assets\/styles\/modules\/_aucta.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/styles\/modules\/_awards.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1265,6 +1422,16 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/aucta.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/aucta.html",
+      "oF" : 0,
+      "oS" : 0
+    },
     "\/build" : {
       "ft" : 65536,
       "oA" : 1,
@@ -1308,6 +1475,46 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/build\/includes\/menu.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/projects\/aucta\/aucta-content.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/projects\/aucta\/aucta-content.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/projects\/aucta\/aucta-data.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/projects\/aucta\/aucta-data.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/projects\/aucta\/aucta-dot-grid.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/projects\/aucta\/aucta-dot-grid.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/projects\/aucta\/aucta-hero.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/projects\/aucta\/aucta-hero.html",
       "oF" : 0,
       "oS" : 0
     },

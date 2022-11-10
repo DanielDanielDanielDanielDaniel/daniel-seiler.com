@@ -602,7 +602,8 @@ input[type='radio'] {
 .outer-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow: hidden; }
   .outer-wrapper .spacer-block {
     padding-top: 44px; }
   .outer-wrapper .footer {
@@ -610,11 +611,15 @@ input[type='radio'] {
   @media only screen and (min-width: 740px) {
     .outer-wrapper .spacer-block {
       padding-top: 140px; } }
+.clear-page {
+  background: #ffffff;
+  background: linear-gradient(#ffffff, #fafafa); }
+
 .footer {
   color: #ffffff;
   padding-top: 20px;
   background: transparent;
-  z-index: 99; }
+  z-index: 10; }
   .footer .wrapper {
     display: flex;
     align-items: flex-start; }
@@ -985,7 +990,7 @@ input[type='radio'] {
       margin-bottom: 20px; }
     .nucleus-summary .iphone-image {
       position: absolute;
-      bottom: -80px;
+      bottom: -40%;
       right: 0;
       max-height: 700px; }
     .nucleus-summary .button {
@@ -1011,10 +1016,10 @@ input[type='radio'] {
       position: relative;
       padding-top: 65%; }
       .nucleus-summary .iphone-image {
-        top: -60px;
+        top: 0;
         bottom: auto;
         right: -53%;
-        width: 150%;
+        width: 130%;
         max-height: none;
         max-width: 900px; }
       .nucleus-summary .main-text {
@@ -1038,13 +1043,36 @@ input[type='radio'] {
         content: 'Close'; } }
   @media only screen and (min-width: 740px) and (max-width: 999px) {
     .nucleus-summary .iphone-image {
-      right: -25%; } }
+      right: -35%;
+      bottom: -5%;
+      max-height: 640px; } }
   @media only screen and (min-width: 740px) {
     .nucleus-icon-list {
       grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); } }
   @media only screen and (min-width: 1000px) {
     .nucleus-summary .iphone-image {
-      right: -15%; } }
+      right: -15%;
+      max-height: 730px; } }
   @media only screen and (min-width: 1200px) {
     .nucleus-summary .iphone-image {
-      right: 0; } }
+      right: -10%;
+      bottom: -46%;
+      max-height: 800px; } }
+  @media screen and (min-width: 1720px) {
+    .nucleus-summary .iphone-image {
+      right: 5%;
+      bottom: -40%; } }
+  @media screen and (min-width: 1880px) {
+    .nucleus-summary .iphone-image {
+      right: 10%; } }
+.aucta .project-hero {
+  padding-bottom: 160px; }
+
+.aucta .hero-image {
+  width: 65%;
+  top: 190px; }
+  .aucta .hero-image img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 1000px; }

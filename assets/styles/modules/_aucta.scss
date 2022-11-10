@@ -1,0 +1,17 @@
+// Aucta
+
+.aucta {
+  .project-hero {
+    padding-bottom: 160px;
+  }
+  .hero-image {
+    width: 65%;
+    top: 190px;
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-height: 1000px;
+    }
+  }
+}

@@ -1,9 +1,7 @@
 extends layout/layout.pug
-block menu
-  include includes/menu.pug
-  +menu('projects', 'clear')
+block vars
+  - var wrapperClass = 'clear-page';
 block content
+  include includes/menu.pug
+  +menu('prpjects', 'clear')
   include includes/projects/aucta/aucta-content.pug
-block footer
-  include includes/footer.pug
-  +footer

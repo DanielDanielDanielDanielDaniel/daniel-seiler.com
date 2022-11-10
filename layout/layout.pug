@@ -1,9 +1,13 @@
-doctype html
-include ../includes/head.pug
-.outer-wrapper
-  block menu
-  .content
-    block content
-  block footer
+- var wrapperClass = '';
+block vars
 
-include ../includes/scripts.pug
+//- layout.pug
+html
+  include ../includes/head.pug
+  body
+    .outer-wrapper(class=wrapperClass)
+      block content
+      block footer
+        include ../includes/footer.pug
+        +footer
+  include ../includes/scripts.pug
