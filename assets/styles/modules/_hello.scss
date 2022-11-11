@@ -1,9 +1,6 @@
 // Hello
 
 .hello {
-  &-content {
-    margin-top: 30px;
-  }
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -18,21 +15,23 @@
     position: relative;
     .card-content {
       @include centered(absolute);
-      opacity: 0.5;
-      transition: opacity $general-change;
-      p {
-        opacity: 0.1;
-        margin-top: 20px;
-      }
-
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
+      transition: opacity $general-change;
+      img {
+        opacity: 0.3;
+      }
+      p {
+        margin-top: 20px;
+        opacity: 0.1;
+      }
     }
+
     &:hover {
       .card-content {
-        opacity: 1;
         -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
         filter: grayscale(0);
+        img,
         p {
           opacity: 1;
         }
@@ -63,7 +62,7 @@
       .portrait {
         flex: 0 1 398px;
         width: 398px;
-        margin-bottom: 238px;
+        margin-bottom: 219px;
       }
       .cards {
         padding-left: 20px;
