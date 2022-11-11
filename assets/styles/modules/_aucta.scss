@@ -1,6 +1,21 @@
 // Aucta
 
 .aucta {
+  .hero-image {
+    margin-left: 20px;
+    right: -20px;
+
+    img {
+      border-radius: 14px 0 0 14px;
+      max-height: 860px;
+      box-shadow: 0px 59.2661px 124.343px rgba(45, 48, 57, 0.09),
+        0px 24.7599px 51.9473px rgba(45, 48, 57, 0.0646969),
+        0px 13.2379px 27.7735px rgba(45, 48, 57, 0.0536497),
+        0px 7.42103px 15.5696px rgba(45, 48, 57, 0.045),
+        0px 3.94125px 8.2689px rgba(45, 48, 57, 0.0363503),
+        0px 1.64004px 3.44088px rgba(45, 48, 57, 0.0253031);
+    }
+  }
   .project {
     &-hero {
       padding-bottom: 64px;
@@ -10,22 +25,6 @@
       flex-direction: column;
       .hero-image {
         position: relative;
-      }
-    }
-
-    .hero-image {
-      margin-left: 20px;
-      right: -20px;
-
-      img {
-        border-radius: 14px 0 0 14px;
-        max-height: 860px;
-        box-shadow: 0px 59.2661px 124.343px rgba(45, 48, 57, 0.09),
-          0px 24.7599px 51.9473px rgba(45, 48, 57, 0.0646969),
-          0px 13.2379px 27.7735px rgba(45, 48, 57, 0.0536497),
-          0px 7.42103px 15.5696px rgba(45, 48, 57, 0.045),
-          0px 3.94125px 8.2689px rgba(45, 48, 57, 0.0363503),
-          0px 1.64004px 3.44088px rgba(45, 48, 57, 0.0253031);
       }
     }
 
@@ -213,6 +212,14 @@
   @include media-query(lap-and-up) {
     .spacer-block {
       padding-bottom: 34px;
+    }
+
+    .hero-image {
+      img {
+        width: 153%;
+        max-width: none;
+        max-height: 900px;
+      }
     }
 
     .block-info {
