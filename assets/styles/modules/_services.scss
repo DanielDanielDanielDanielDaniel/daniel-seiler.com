@@ -13,7 +13,6 @@
     }
     .jumbo {
       margin-bottom: 2px;
-      opacity: 0.3;
     }
   }
 
@@ -45,24 +44,6 @@
         bottom: 0;
         right: 0;
       }
-    }
-  }
-
-  &-item {
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 38.5px;
-    line-height: 46px;
-    letter-spacing: -0.04em;
-    .dot {
-      flex: 0 0 auto;
-      width: 16px;
-      height: 16px;
-      margin-right: 10px;
-    }
-    &:last-of-type {
-      margin-bottom: 30px;
     }
   }
 
