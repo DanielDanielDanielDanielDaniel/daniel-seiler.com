@@ -5,6 +5,7 @@
 .clear-theme {
   background: $white;
   background: linear-gradient($white, #fafafa);
+  color: $black;
   .main-text,
   .text-sm,
   .jumbo,
@@ -43,11 +44,39 @@
       color: $black;
     }
   }
+  .menu {
+    background: $whiteish;
+    color: rgba($black, 0.5);
+    .menu-item {
+      &:hover {
+        background-color: $gray-light;
+      }
+      &.active {
+        background-color: $gray-light;
+      }
+    }
+  }
   @include media-query(lap-and-up) {
     .info-data {
       .info-piece {
         border-top-color: rgba($black, 0.1);
       }
+    }
+  }
+}
+
+.clear-theme {
+  + .footer,
+  + .footer a {
+    color: $black;
+    .footer-col {
+      border-top-color: rgba($black, 0.1);
+    }
+    .dark {
+      display: block;
+    }
+    .clear {
+      display: none;
     }
   }
 }

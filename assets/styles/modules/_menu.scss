@@ -62,25 +62,25 @@
 
   // Clear styles
 
-  &.clear {
-    background: $whiteish;
-    color: rgba($black, 0.5);
-    #{$self}-item {
-      &:hover {
-        background-color: $gray-light;
-      }
-      &.active {
-        background-color: $gray-light;
-      }
-    }
-  }
+  // &.clear {
+  //   background: $whiteish;
+  //   color: rgba($black, 0.5);
+  //   #{$self}-item {
+  //     &:hover {
+  //       background-color: $gray-light;
+  //     }
+  //     &.active {
+  //       background-color: $gray-light;
+  //     }
+  //   }
+  // }
 
   // Media queries
 
   @include media-query(palm) {
     display: none;
     top: auto;
-    bottom: 11px;
+    bottom: 10px;
     left: 7px;
     right: 7px;
     z-index: 99;

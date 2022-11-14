@@ -1,0 +1,88 @@
+// Slides
+
+.slide {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  .bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  &.about {
+    .bg-image {
+      object-position: 28% 50%;
+    }
+  }
+  &.aucta {
+    .bg-image {
+      object-position: 60% 50%;
+    }
+  }
+  .wrapper {
+    z-index: 10;
+    position: relative;
+  }
+  &-tags {
+    padding: 7px 0;
+    .tag {
+      display: block;
+      font-weight: 400;
+      font-size: 12.5px;
+      line-height: 15px;
+      letter-spacing: -0.02em;
+    }
+  }
+  @include media-query(palm) {
+    .mobile-break {
+      display: block;
+    }
+  }
+  @include media-query(lap-and-up) {
+    &-tags {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 26px 0;
+      .tag {
+        flex: 1 1 25%;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+// Exception for mobile menu
+.slide {
+  &.clear-theme {
+    @include media-query(palm) {
+      .menu-mobile-button {
+        background: $gray-4;
+      }
+      .icon-line svg {
+        color: $white;
+      }
+      .menu {
+        color: $white;
+        background: $gray-4;
+      }
+      .menu-item {
+        &:hover {
+          background: rgba($gray-2, 0.3);
+        }
+        &.active {
+          background: rgba($gray-2, 0.3);
+        }
+      }
+    }
+  }
+}
