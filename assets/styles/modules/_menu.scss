@@ -92,6 +92,9 @@
     }
     &-item {
       padding: 22px 21px;
+      font-size: 18.0714px;
+      line-height: 122%;
+      letter-spacing: 0.04em;
       &.active {
         background: $gray-2;
       }
