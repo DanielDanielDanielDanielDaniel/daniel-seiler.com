@@ -1,4 +1,4 @@
-/* global $, AOS, tippy*/
+/* global $, AOS, tippy */
 
 $(function () {
   // Aos

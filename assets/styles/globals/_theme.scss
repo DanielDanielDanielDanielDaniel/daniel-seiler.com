@@ -2,7 +2,7 @@
 
 // Clear theme
 
-.clear-theme {
+.light-theme {
   background: $white;
   background: linear-gradient($white, #fafafa);
   color: $black;
@@ -61,22 +61,6 @@
       .info-piece {
         border-top-color: rgba($black, 0.1);
       }
-    }
-  }
-}
-
-.clear-theme {
-  + .footer,
-  + .footer a {
-    color: $black;
-    .footer-col {
-      border-top-color: rgba($black, 0.1);
-    }
-    .dark {
-      display: block;
-    }
-    .clear {
-      display: none;
     }
   }
 }
