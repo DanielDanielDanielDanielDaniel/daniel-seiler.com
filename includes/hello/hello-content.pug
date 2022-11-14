@@ -1,18 +1,21 @@
 .hello(data-aos="custom-animation")
  .wrapper
   .spacer-block
-    h1.jumbo.op-30 Daniel Seiler
-    .intro-item
-      span.dot.green
-      span Product Strategy,
-    .intro-item
-      span.dot.cyan
-      span Product Design &
-    .intro-item
-      span.dot.blue
-      span Product Branding
+    .image-wrapper.show-on-mobile
+      img.portrait(src='assets/img/daniel-portrait.png', alt='Daniel Seiler')
+    .intro
+      h1.jumbo.op-30 Daniel Seiler
+      .intro-item
+        span.dot.green
+        span Product Strategy,
+      .intro-item
+        span.dot.cyan
+        span Product Design &
+      .intro-item
+        span.dot.blue
+        span Product Branding
   .hello-content
-    img.portrait(src='assets/img/daniel-portrait.png', alt='Daniel Seiler')
+    img.portrait.show-on-desktop(src='assets/img/daniel-portrait.png', alt='Daniel Seiler')
     .cards
       a.card(href='/about.html')
         .card-content
