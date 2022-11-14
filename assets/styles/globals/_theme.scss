@@ -36,10 +36,11 @@
   .dot {
     background: $gray-light2;
   }
+
   .menu-mobile-button {
     background: $whiteish;
-    span {
-      background: $black;
+    .icon-line svg {
+      color: $black;
     }
   }
   @include media-query(lap-and-up) {

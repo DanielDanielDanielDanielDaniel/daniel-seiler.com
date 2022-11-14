@@ -23,6 +23,7 @@
     opacity: 0.8;
     padding: 0 20px;
     border-radius: $border-radius-sm;
+    -webkit-tap-highlight-color: transparent;
     transition: background-color 0.3s ease;
     &:hover {
       background: rgba($gray-2, 0.3);
@@ -47,16 +48,14 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    span {
-      width: 23px;
-      height: 2px;
-      background: $white;
-      display: block;
-      border-radius: 50%;
-      transition: transform $general-change;
-      transform-origin: 25% 0;
-      + span {
-        margin-top: 6px;
+    -webkit-tap-highlight-color: transparent;
+    &:active {
+      outline: none;
+    }
+    .icon-line {
+      transition: transform 0.2s ease-in-out;
+      &:first-child {
+        margin-bottom: 6px;
       }
     }
   }
@@ -108,7 +107,9 @@
         cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
       + .menu-mobile-button {
         background: transparent;
-        span {
+        .icon-line {
+          margin: 0;
+          position: absolute;
           &:first-child {
             transform: rotate(45deg);
           }

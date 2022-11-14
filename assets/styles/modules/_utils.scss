@@ -95,3 +95,13 @@
 .card {
   border-radius: $border-radius-sm;
 }
+
+svg {
+  path {
+    fill: currentColor;
+  }
+}
+
+svg {
+  color: $white;
+}
