@@ -18,6 +18,24 @@
 
   &-dot-grid {
     margin: 36px 0;
+    .dot {
+      transition: opacity $general-change;
+      &.cyan,
+      &.blue,
+      &.green {
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    &:hover {
+      .cyan,
+      .blue,
+      .green {
+        opacity: 0.3;
+      }
+    }
   }
 
   &-tags {
