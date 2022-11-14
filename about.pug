@@ -1,3 +1,8 @@
 extends layout/layout.pug
 block content
+  include includes/menu.pug
+  +menu('about')
   include includes/about/about-content.pug
+block footer
+block scripts
+  script(src='assets/js/about-min.js')
