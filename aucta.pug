@@ -1,4 +1,7 @@
 extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('Project: AUCTA.io', 'Case study of the enterprise software company revolutionizing the space of 3D no code tools in the industrial sector.', 'Creator tools, no code, authoring, aucta, startup, venture capital, apx, porsche, axel springer, berlin' )
 block vars
   - var wrapperClass = 'light-theme';
 block content

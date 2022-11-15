@@ -1,4 +1,7 @@
 extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('Services – D. Seiler', 'Consulting & design services around digital products.', 'Design consulting, management consulting, strategy consulting, product strategy, product design, digital branding, UI, UX, UI/UX, user experience, freelancer' )
 block content
   include includes/menu.pug
   +menu('services')

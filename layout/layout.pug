@@ -3,7 +3,9 @@ block vars
 
 //- layout.pug
 html
-  include ../includes/head.pug
+  block head
+    include ../includes/head.pug
+    +head('Daniel Seiler – Product Design', 'Freelance designer and consultant for product strategy, design and branding.', 'UI, UX, user experience, product design, product strategy, hacker, entrepreneur, freelancer, founder, chief product officer, venture capital')
   body
     .outer-wrapper(class=wrapperClass)
       block content

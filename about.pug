@@ -1,4 +1,7 @@
 extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('About me – D. Seiler', 'Curriculum vitae, academic pathway and work experience as a product designer.', 'Freelancer, consultant, founder, communications design, cv, head of design, design lead, vp design, chief product officer' )
 block content
   include includes/menu.pug
   +menu('about', 'slides-menu')

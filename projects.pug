@@ -1,4 +1,7 @@
 extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('Projects – D. Seiler', 'Case studies of ventures, digital product design and hacker initiatives.', 'Product design, portfolio, case study, project, projects' )
 block content
   include includes/menu.pug
   +menu('projects')

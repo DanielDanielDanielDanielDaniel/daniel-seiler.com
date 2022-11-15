@@ -1,4 +1,7 @@
 extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('Publications  – D. Seiler', 'Design theory, product strategy and other topics published as blog posts and keynote presentations.', 'Values of design, design theory, product strategy' )
 block content
   include includes/menu.pug
   +menu('publications')
