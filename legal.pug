@@ -1,0 +1,10 @@
+extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('Legal / Imprint / Privacy', 'Adjust your privacy preferences', 'Legal, privacy' )
+block vars
+  - var wrapperClass = 'light-theme';
+block content
+  include includes/menu.pug
+  +menu('hello')
+  P LEGAL
