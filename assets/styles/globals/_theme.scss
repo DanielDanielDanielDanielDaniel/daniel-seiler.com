@@ -16,6 +16,7 @@
   .label,
   .value {
     color: $black;
+    transition: color 3.6s ease;
   }
   .button {
     background: $gray-light;
@@ -57,6 +58,9 @@
     }
   }
   @include media-query(lap-and-up) {
+    .menu {
+      background: rgba($whiteish, 0.8);
+    }
     .info-data {
       .info-piece {
         border-top-color: rgba($black, 0.1);
