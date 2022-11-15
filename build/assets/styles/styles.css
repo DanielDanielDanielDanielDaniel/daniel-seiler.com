@@ -587,6 +587,48 @@ svg path {
 svg {
   color: #ffffff; }
 
+.wysiwyg p,
+.wysiwyg ul,
+.wysiwyg h1,
+.wysiwyg h2,
+.wysiwyg h3,
+.wysiwyg h4,
+.wysiwyg h5 {
+  margin-bottom: 16px; }
+
+.wysiwyg li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  list-style-position: inside; }
+
+.wysiwyg p,
+.wysiwyg li {
+  line-height: 1.2;
+  opacity: 0.7; }
+
+.wysiwyg a {
+  color: #3c5bff; }
+
+.wysiwyg table {
+  color: #000000;
+  opacity: 0.7;
+  border-collapse: collapse;
+  margin: 20px 0; }
+
+.wysiwyg table,
+.wysiwyg th,
+.wysiwyg td {
+  border: 1px solid #eaeaea;
+  text-align: left; }
+
+.wysiwyg th,
+.wysiwyg td {
+  padding: 10px; }
+
+.wysiwyg thead th {
+  font-weight: 700;
+  background: #f2f2f2; }
+
 .collapsable-button {
   display: none;
   background: transparent;
