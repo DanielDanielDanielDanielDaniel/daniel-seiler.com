@@ -147,6 +147,198 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/icons\/menu-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/assets\/icons\/menu-line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/assets\/img\/about\/about-daniel-sm.png" : {
+      "ft" : 32768,
+      "iS" : 265043,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/about-daniel-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/about-daniel.png" : {
+      "ft" : 32768,
+      "iS" : 1398755,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/about-daniel.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/aucta-sm.png" : {
+      "ft" : 32768,
+      "iS" : 887454,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/aucta-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/aucta.png" : {
+      "ft" : 32768,
+      "iS" : 4125594,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/aucta.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/hackerbay-sm.png" : {
+      "ft" : 32768,
+      "iS" : 506788,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/hackerbay-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/hackerbay.png" : {
+      "ft" : 32768,
+      "iS" : 2721940,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/hackerbay.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/nucleus-sm.png" : {
+      "ft" : 32768,
+      "iS" : 845330,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/nucleus-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/nucleus.png" : {
+      "ft" : 32768,
+      "iS" : 4005453,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/nucleus.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/university-sm.png" : {
+      "ft" : 32768,
+      "iS" : 776419,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/university-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/university.png" : {
+      "ft" : 32768,
+      "iS" : 4030607,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/university.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/wizart-sm.png" : {
+      "ft" : 32768,
+      "iS" : 896502,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/wizart-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/wizart.png" : {
+      "ft" : 32768,
+      "iS" : 5379750,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/wizart.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/yral-sm.png" : {
+      "ft" : 32768,
+      "iS" : 473988,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/yral-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/yral.png" : {
+      "ft" : 32768,
+      "iS" : 1779099,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/about\/yral.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/allianz.png" : {
       "ft" : 32768,
       "iS" : 2274,
@@ -170,9 +362,22 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/aucta\/aucta-editor-full.png" : {
+      "ft" : 32768,
+      "iS" : 1115865,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-editor-full.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/aucta\/aucta-editor.png" : {
       "ft" : 32768,
-      "iS" : 1857165,
+      "iS" : 836341,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-editor.png",
       "oF" : 0,
@@ -195,6 +400,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-imagotipo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-imagotipo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/assets\/img\/aucta\/aucta-ipad.png" : {
       "ft" : 32768,
@@ -234,6 +449,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/assets\/img\/aucta\/aucta-process.png" : {
       "ft" : 32768,
@@ -307,9 +532,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/aucta\/aucta-typography.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/assets\/img\/aucta\/aucta-typography.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
     "\/assets\/img\/aucta\/auctare.png" : {
       "ft" : 32768,
-      "iS" : 15373,
+      "iS" : 4988,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/auctare.png",
       "oF" : 0,
@@ -473,7 +708,7 @@
     },
     "\/assets\/img\/geekettes.png" : {
       "ft" : 32768,
-      "iS" : 3491,
+      "iS" : 4893,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/geekettes.png",
       "oF" : 0,
@@ -562,6 +797,131 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/img\/meta\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 23671,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 153885,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 12493,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/browserconfig.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/assets\/img\/meta\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 736,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1462,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/favicon.ico",
+      "oF" : 0
+    },
+    "\/assets\/img\/meta\/mstile-150x150.png" : {
+      "ft" : 32768,
+      "iS" : 12441,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/mstile-150x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/og-1200.png" : {
+      "ft" : 32768,
+      "iS" : 561002,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/og-1200.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/meta\/safari-pinned-tab.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/assets\/img\/meta\/safari-pinned-tab.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/assets\/img\/meta\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/img\/meta\/site.webmanifest",
+      "oF" : 0
     },
     "\/assets\/img\/microsoft.png" : {
       "ft" : 32768,
@@ -944,7 +1304,7 @@
     },
     "\/assets\/img\/nucleus\/iphone.png" : {
       "ft" : 32768,
-      "iS" : 1568284,
+      "iS" : 1363403,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iphone.png",
       "oF" : 0,
@@ -1181,6 +1541,17 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/js\/about.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/js\/about-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/assets\/js\/lib\/aos.js" : {
       "bF" : 0,
@@ -1532,6 +1903,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_slides.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/assets\/styles\/modules\/_slides.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/styles\/modules\/_texts.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1610,19 +1995,91 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/build" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/build\/build",
+    "\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/CNAME",
       "oF" : 0
     },
-    "\/contact.pug" : {
+    "\/includes\/about\/about-content.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/about\/about-content.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-about.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/contact.html",
+      "oAP" : "\/build\/includes\/about\/slide-about.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-aucta.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/includes\/about\/slide-aucta.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-hackerbay.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/includes\/about\/slide-hackerbay.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-nucleus.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/includes\/about\/slide-nucleus.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-university.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/includes\/about\/slide-university.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-wizart.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/includes\/about\/slide-wizart.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/about\/slide-yral.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/includes\/about\/slide-yral.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -1643,6 +2100,16 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/build\/includes\/head.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/includes\/hello\/hello-content.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/hello\/hello-content.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -1946,6 +2413,16 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/includes\/svg\/menu-line.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/includes\/svg\/menu-line.html",
+      "oF" : 0,
+      "oS" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1971,6 +2448,16 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/build\/layout\/layout.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/legal.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/legal.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -2021,16 +2508,6 @@
       "oAP" : "\/build\/services.html",
       "oF" : 0,
       "oS" : 0
-    },
-    "\/shop.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/shop.html",
-      "oF" : 0,
-      "oS" : 0
     }
   },
   "hooks" : [
@@ -2043,9 +2520,9 @@
     "creationDate" : 570394132.66159499,
     "displayValue" : "Daniel Seiler",
     "displayValueWasSetByUser" : 1,
-    "iconImageName" : "brackets_purple",
+    "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 689858010.18152595
+    "lastBuiltDate" : 690208147.60162997
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
