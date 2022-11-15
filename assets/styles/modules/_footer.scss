@@ -51,6 +51,10 @@
     }
   }
 
+  @include media-query(palm) {
+    padding-right: 40px;
+  }
+
   @include media-query(lap-and-up) {
     padding-bottom: 0;
     &-col {

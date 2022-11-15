@@ -1995,6 +1995,12 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/build" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/build\/build",
+      "oF" : 0
+    },
     "\/CNAME" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2010,76 +2016,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/build\/includes\/about\/about-content.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-about.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-about.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-aucta.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-aucta.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-hackerbay.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-hackerbay.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-nucleus.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-nucleus.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-university.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-university.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-wizart.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-wizart.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/includes\/about\/slide-yral.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/includes\/about\/slide-yral.html",
       "oF" : 0,
       "oS" : 0
     },
