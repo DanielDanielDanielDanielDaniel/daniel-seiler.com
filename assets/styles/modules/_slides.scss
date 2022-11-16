@@ -35,6 +35,7 @@
       line-height: 15px;
       letter-spacing: -0.02em;
       margin-bottom: 2px;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     }
   }
 
@@ -69,6 +70,22 @@
       will-change: transform;
     }
   }
+  .scroll-indicator {
+    text-align: center;
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: 122%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    opacity: 0.9;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+    p {
+      margin-bottom: 12px;
+    }
+  }
   @include media-query(palm) {
     .mobile-break {
       display: block;
@@ -89,6 +106,9 @@
     }
   }
   @include media-query(lap-and-up) {
+    .scroll-indicator {
+      bottom: 200px;
+    }
     .wrapper {
       padding: 140px 16px;
     }
@@ -107,6 +127,9 @@
 
 // Exception for mobile menu
 .light-theme {
+  .tag {
+    text-shadow: none;
+  }
   @include media-query(palm) {
     .slides-menu {
       color: $white;

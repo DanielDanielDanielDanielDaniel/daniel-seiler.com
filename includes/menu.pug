@@ -1,5 +1,5 @@
 mixin menu(activePage, menuClass)
-  div.menu(class=menuClass)
+  div.menu.nav-down(class=menuClass)
     nav.menu-nav
       a.menu-item(class={active: activePage === 'hello'} href="/index.html") Hello
       a.menu-item(class={active: activePage === 'about'} href="/about.html")  About me

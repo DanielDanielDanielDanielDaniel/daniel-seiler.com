@@ -1329,6 +1329,8 @@ svg {
         padding-left: 85px; }
       .aucta-block.inline-block .main-text {
         max-width: 266px; }
+  .aucta .card .main-text {
+    padding-right: 20px; }
   .aucta-app {
     padding: 110px 0;
     display: flex;
@@ -1512,7 +1514,8 @@ svg {
       font-size: 12.5px;
       line-height: 15px;
       letter-spacing: -0.02em;
-      margin-bottom: 2px; }
+      margin-bottom: 2px;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
   .slide--current {
     pointer-events: auto;
     opacity: 1; }
@@ -1538,6 +1541,20 @@ svg {
       background-position: 50% 50%;
       background-repeat: no-repeat;
       will-change: transform; }
+  .slide .scroll-indicator {
+    text-align: center;
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: 122%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    opacity: 0.9;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%); }
+    .slide .scroll-indicator p {
+      margin-bottom: 12px; }
   @media only screen and (max-width: 739px) {
     .slide .mobile-break {
       display: block; }
@@ -1546,6 +1563,8 @@ svg {
     .slide:nth-child(2) .slide__img-inner {
       background-position: 65% 50%; } }
   @media only screen and (min-width: 740px) {
+    .slide .scroll-indicator {
+      bottom: 200px; }
     .slide .wrapper {
       padding: 140px 16px; }
     .slide-tags {
@@ -1556,6 +1575,9 @@ svg {
       .slide-tags .tag {
         flex: 1 1 25%;
         padding-right: 10px; } }
+.light-theme .tag {
+  text-shadow: none; }
+
 @media only screen and (max-width: 739px) {
   .light-theme .slides-menu {
     color: #ffffff;
