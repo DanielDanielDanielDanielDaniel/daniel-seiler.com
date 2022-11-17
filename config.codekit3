@@ -159,7 +159,7 @@
     },
     "\/assets\/img\/about\/about-daniel-sm.png" : {
       "ft" : 32768,
-      "iS" : 265043,
+      "iS" : 233011,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/about-daniel-sm.png",
       "oF" : 0,
@@ -172,7 +172,7 @@
     },
     "\/assets\/img\/about\/about-daniel.png" : {
       "ft" : 32768,
-      "iS" : 1398755,
+      "iS" : 1214534,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/about-daniel.png",
       "oF" : 0,
@@ -185,7 +185,7 @@
     },
     "\/assets\/img\/about\/aucta-sm.png" : {
       "ft" : 32768,
-      "iS" : 887454,
+      "iS" : 307812,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/aucta-sm.png",
       "oF" : 0,
@@ -198,7 +198,7 @@
     },
     "\/assets\/img\/about\/aucta.png" : {
       "ft" : 32768,
-      "iS" : 4125594,
+      "iS" : 1536326,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/aucta.png",
       "oF" : 0,
@@ -211,7 +211,7 @@
     },
     "\/assets\/img\/about\/hackerbay-sm.png" : {
       "ft" : 32768,
-      "iS" : 506788,
+      "iS" : 272569,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/hackerbay-sm.png",
       "oF" : 0,
@@ -224,7 +224,7 @@
     },
     "\/assets\/img\/about\/hackerbay.png" : {
       "ft" : 32768,
-      "iS" : 2721940,
+      "iS" : 1202705,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/hackerbay.png",
       "oF" : 0,
@@ -237,7 +237,7 @@
     },
     "\/assets\/img\/about\/nucleus-sm.png" : {
       "ft" : 32768,
-      "iS" : 845330,
+      "iS" : 272743,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/nucleus-sm.png",
       "oF" : 0,
@@ -250,7 +250,7 @@
     },
     "\/assets\/img\/about\/nucleus.png" : {
       "ft" : 32768,
-      "iS" : 4005453,
+      "iS" : 1279596,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/nucleus.png",
       "oF" : 0,
@@ -263,7 +263,7 @@
     },
     "\/assets\/img\/about\/university-sm.png" : {
       "ft" : 32768,
-      "iS" : 776419,
+      "iS" : 258357,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/university-sm.png",
       "oF" : 0,
@@ -276,7 +276,7 @@
     },
     "\/assets\/img\/about\/university.png" : {
       "ft" : 32768,
-      "iS" : 4030607,
+      "iS" : 1302900,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/university.png",
       "oF" : 0,
@@ -289,7 +289,7 @@
     },
     "\/assets\/img\/about\/wizart-sm.png" : {
       "ft" : 32768,
-      "iS" : 896502,
+      "iS" : 314612,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/wizart-sm.png",
       "oF" : 0,
@@ -302,7 +302,7 @@
     },
     "\/assets\/img\/about\/wizart.png" : {
       "ft" : 32768,
-      "iS" : 5379750,
+      "iS" : 1601068,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/wizart.png",
       "oF" : 0,
@@ -315,7 +315,7 @@
     },
     "\/assets\/img\/about\/yral-sm.png" : {
       "ft" : 32768,
-      "iS" : 473988,
+      "iS" : 236737,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/yral-sm.png",
       "oF" : 0,
@@ -328,7 +328,7 @@
     },
     "\/assets\/img\/about\/yral.png" : {
       "ft" : 32768,
-      "iS" : 1779099,
+      "iS" : 971803,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/about\/yral.png",
       "oF" : 0,
@@ -364,7 +364,7 @@
     },
     "\/assets\/img\/aucta\/aucta-editor-full.png" : {
       "ft" : 32768,
-      "iS" : 1115865,
+      "iS" : 447848,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-editor-full.png",
       "oF" : 0,
@@ -377,7 +377,7 @@
     },
     "\/assets\/img\/aucta\/aucta-editor.png" : {
       "ft" : 32768,
-      "iS" : 836341,
+      "iS" : 323425,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-editor.png",
       "oF" : 0,
@@ -390,7 +390,7 @@
     },
     "\/assets\/img\/aucta\/aucta-imagotipo.png" : {
       "ft" : 32768,
-      "iS" : 22061,
+      "iS" : 9933,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-imagotipo.png",
       "oF" : 0,
@@ -413,7 +413,7 @@
     },
     "\/assets\/img\/aucta\/aucta-ipad.png" : {
       "ft" : 32768,
-      "iS" : 667937,
+      "iS" : 303010,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-ipad.png",
       "oF" : 0,
@@ -426,7 +426,7 @@
     },
     "\/assets\/img\/aucta\/aucta-iphone.png" : {
       "ft" : 32768,
-      "iS" : 491799,
+      "iS" : 182927,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-iphone.png",
       "oF" : 0,
@@ -439,7 +439,7 @@
     },
     "\/assets\/img\/aucta\/aucta-logo.png" : {
       "ft" : 32768,
-      "iS" : 12510,
+      "iS" : 7693,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-logo.png",
       "oF" : 0,
@@ -462,7 +462,7 @@
     },
     "\/assets\/img\/aucta\/aucta-process.png" : {
       "ft" : 32768,
-      "iS" : 387108,
+      "iS" : 135715,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-process.png",
       "oF" : 0,
@@ -485,7 +485,7 @@
     },
     "\/assets\/img\/aucta\/aucta-stages.png" : {
       "ft" : 32768,
-      "iS" : 25606,
+      "iS" : 11062,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-stages.png",
       "oF" : 0,
@@ -508,7 +508,7 @@
     },
     "\/assets\/img\/aucta\/aucta-team.png" : {
       "ft" : 32768,
-      "iS" : 2626262,
+      "iS" : 1084174,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-team.png",
       "oF" : 0,
@@ -521,7 +521,7 @@
     },
     "\/assets\/img\/aucta\/aucta-typography.png" : {
       "ft" : 32768,
-      "iS" : 21831,
+      "iS" : 11453,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/aucta-typography.png",
       "oF" : 0,
@@ -544,7 +544,7 @@
     },
     "\/assets\/img\/aucta\/auctare.png" : {
       "ft" : 32768,
-      "iS" : 4988,
+      "iS" : 2956,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/aucta\/auctare.png",
       "oF" : 0,
@@ -682,7 +682,7 @@
     },
     "\/assets\/img\/daniel-portrait.png" : {
       "ft" : 32768,
-      "iS" : 578549,
+      "iS" : 512254,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/daniel-portrait.png",
       "oF" : 0,
@@ -695,7 +695,7 @@
     },
     "\/assets\/img\/daniel.png" : {
       "ft" : 32768,
-      "iS" : 292145,
+      "iS" : 118941,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/daniel.png",
       "oF" : 0,
@@ -1301,7 +1301,7 @@
     },
     "\/assets\/img\/nucleus\/iphone-cropped.png" : {
       "ft" : 32768,
-      "iS" : 971219,
+      "iS" : 392661,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iphone-cropped.png",
       "oF" : 0,
@@ -1314,7 +1314,7 @@
     },
     "\/assets\/img\/nucleus\/iphone.png" : {
       "ft" : 32768,
-      "iS" : 1363403,
+      "iS" : 543801,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iphone.png",
       "oF" : 0,
@@ -1327,7 +1327,7 @@
     },
     "\/assets\/img\/nucleus\/iwatch.png" : {
       "ft" : 32768,
-      "iS" : 560638,
+      "iS" : 410392,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iwatch.png",
       "oF" : 0,
@@ -1340,7 +1340,7 @@
     },
     "\/assets\/img\/nucleus\/nebula.png" : {
       "ft" : 32768,
-      "iS" : 2147308,
+      "iS" : 1803108,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/nebula.png",
       "oF" : 0,
@@ -1353,7 +1353,7 @@
     },
     "\/assets\/img\/nucleus\/nebula2.png" : {
       "ft" : 32768,
-      "iS" : 1785630,
+      "iS" : 1314464,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/nebula2.png",
       "oF" : 0,
@@ -2474,7 +2474,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690381482.91251695
+    "lastBuiltDate" : 690382998.57662499
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
