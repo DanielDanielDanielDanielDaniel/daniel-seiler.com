@@ -29,6 +29,9 @@
   font-stretch: normal; }
 
 /* Global */
+:root {
+  --app-height: 100%; }
+
 html {
   font-size: 125%;
   width: 100%;
@@ -737,10 +740,9 @@ svg {
 .outer-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   overflow: hidden;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available; }
+  min-height: var(--app-height);
+  overflow: auto; }
   .outer-wrapper .spacer-block {
     padding-top: 44px; }
   .outer-wrapper .footer {
@@ -1630,10 +1632,36 @@ svg {
     .slide .mobile-break {
       display: block; }
     .slide:first-child .slide__img-inner {
-      background-position: 30% 50%; }
+      background-image: url("/assets/img/about/about-daniel-sm.png"); }
     .slide:nth-child(2) .slide__img-inner {
-      background-position: 65% 50%; } }
+      background-image: url("/assets/img/about/aucta-sm.png"); }
+    .slide:nth-child(2) .slide__img-inner {
+      background-position: 65% 50%; }
+    .slide:nth-child(3) .slide__img-inner {
+      background-image: url("/assets/img/about/nucleus-sm.png"); }
+    .slide:nth-child(4) .slide__img-inner {
+      background-image: url("/assets/img/about/hackerbay-sm.png"); }
+    .slide:nth-child(5) .slide__img-inner {
+      background-image: url("/assets/img/about/wizart-sm.png"); }
+    .slide:nth-child(6) .slide__img-inner {
+      background-image: url("/assets/img/about/yral-sm.png"); }
+    .slide:nth-child(7) .slide__img-inner {
+      background-image: url("/assets/img/about/university-sm.png"); } }
   @media only screen and (min-width: 740px) {
+    .slide:first-child .slide__img-inner {
+      background-image: url("/assets/img/about/about-daniel.png"); }
+    .slide:nth-child(2) .slide__img-inner {
+      background-image: url("/assets/img/about/aucta.png"); }
+    .slide:nth-child(3) .slide__img-inner {
+      background-image: url("/assets/img/about/nucleus.png"); }
+    .slide:nth-child(4) .slide__img-inner {
+      background-image: url("/assets/img/about/hackerbay.png"); }
+    .slide:nth-child(5) .slide__img-inner {
+      background-image: url("/assets/img/about/wizart.png"); }
+    .slide:nth-child(6) .slide__img-inner {
+      background-image: url("/assets/img/about/yral.png"); }
+    .slide:nth-child(7) .slide__img-inner {
+      background-image: url("/assets/img/about/university.png"); }
     .slide .scroll-indicator {
       bottom: 12.5rem; }
     .slide .wrapper {

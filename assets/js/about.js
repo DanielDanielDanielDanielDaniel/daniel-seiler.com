@@ -155,3 +155,20 @@ $(() => {
     tolerance: 10
   })
 })
+
+// disable rubber banding
+document.body.addEventListener(
+  'touchmove',
+  function (event) {
+    event.preventDefault()
+  },
+  {
+    passive: false,
+    useCapture: false
+  }
+)
+
+window.onresize = function () {
+  $(document.body).width(window.innerWidth).height(window.innerHeight)
+}
+$(() => window.onresize())
