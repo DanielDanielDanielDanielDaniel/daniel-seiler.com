@@ -1,4 +1,4 @@
-/* global $, AOS, tippy */
+/* global $, AOS, tippy, glowCookies */
 
 $(function () {
   // Aos
@@ -32,5 +32,16 @@ $(function () {
     placement: 'bottom',
     arrow: true,
     animation: 'fade'
+  })
+
+  // Cookies
+
+  glowCookies.start('en', {
+    style: 1,
+    analytics: 'UA-52418709-9',
+    policyLink: '/legal.html',
+    hideAfterClick: true,
+    acceptBtnBackground: '#171717',
+    position: 'right'
   })
 })
