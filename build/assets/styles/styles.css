@@ -675,6 +675,13 @@ svg {
   width: 3.125rem;
   animation: spin 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; }
 
+.glowCookies__banner__1 > h3 {
+  display: none; }
+
+.glowCookies__banner__1 h2 {
+  color: #171717;
+  margin-bottom: 10px; }
+
 .collapsable-button {
   display: none;
   background: transparent;

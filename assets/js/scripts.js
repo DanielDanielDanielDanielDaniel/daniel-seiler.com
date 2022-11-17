@@ -52,7 +52,8 @@ $(function () {
     policyLink: '/legal.html',
     hideAfterClick: true,
     acceptBtnBackground: '#171717',
-    position: 'right'
+    position: 'right',
+    bannerHeading: '<h2>We use Cookies</h2>'
   })
 
   // app height
