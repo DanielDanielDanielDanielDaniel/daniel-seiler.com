@@ -37,6 +37,18 @@ $general-change: 0.3s ease-in-out;
   }
 }
 
+@keyframes spin {
+  0% {
+    transform-origin: center center;
+    transform: rotate(-360deg);
+    opacity: 0.2;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
 @-webkit-keyframes slide-in-blurred-bottom {
   0% {
     -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);

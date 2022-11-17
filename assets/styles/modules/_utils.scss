@@ -150,3 +150,8 @@ svg {
     background: lighten($gray-light, 1%);
   }
 }
+
+.spinner {
+  width: 50px;
+  animation: spin 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}

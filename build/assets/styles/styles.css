@@ -175,6 +175,15 @@ input[type='radio'] {
   100% {
     transform: scale(0.5); } }
 
+@keyframes spin {
+  0% {
+    transform-origin: center center;
+    transform: rotate(-360deg);
+    opacity: 0.2; }
+  100% {
+    transform: rotate(0);
+    opacity: 1; } }
+
 @-webkit-keyframes slide-in-blurred-bottom {
   0% {
     -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
@@ -628,6 +637,10 @@ svg {
 .wysiwyg thead th {
   font-weight: 700;
   background: #f2f2f2; }
+
+.spinner {
+  width: 50px;
+  animation: spin 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; }
 
 .collapsable-button {
   display: none;
