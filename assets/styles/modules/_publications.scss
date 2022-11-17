@@ -37,10 +37,14 @@
   @include media-query(palm) {
     &-item {
       width: 100%;
-      background: linear-gradient(#171717, #1b1b1b);
       padding: 14px 0;
+      background: linear-gradient(#171717, #1b1b1b);
+
       .beta {
         margin-bottom: 8px;
+      }
+      &:last-child {
+        background: linear-gradient(#171717, $base-bg);
       }
     }
     &-featured {

@@ -6,6 +6,8 @@
   background: $white;
   background: linear-gradient($white, #fafafa);
   color: $black;
+  scrollbar-color: $gray-light2 $white;
+  scrollbar-width: thin;
   .main-text,
   .text-sm,
   .jumbo,

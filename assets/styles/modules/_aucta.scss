@@ -236,6 +236,9 @@
 
     .project-hero {
       flex-direction: row;
+      .hero-info {
+        flex: 0 0 21rem;
+      }
     }
 
     &-block {
@@ -266,16 +269,17 @@
     &-app {
       padding: 6.875rem 0;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       .jumbo {
         margin-bottom: 0.625rem;
       }
       .block-visual {
-        flex: 0 0 22.5rem;
+        flex: 0 0 33%;
+        max-width: 22.5rem;
       }
       .block-info {
         flex: 1 1 auto;
-        padding-left: 6.25rem;
+        padding-left: 1.25rem;
       }
       .text-grid {
         display: flex;
@@ -340,6 +344,12 @@
   @include media-query(desk-wide) {
     .hero-image {
       right: -5%;
+    }
+    &-app {
+      align-items: center;
+      .block-info {
+        padding-left: 6.25rem;
+      }
     }
   }
 }
