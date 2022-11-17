@@ -1,4 +1,4 @@
-/* global $, AOS, tippy, glowCookies */
+/* global $, AOS, tippy, glowCookies, dataLayer*/
 
 $(function () {
   // Aos
@@ -33,6 +33,16 @@ $(function () {
     arrow: true,
     animation: 'fade'
   })
+
+  // Google analytics
+
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+
+  gtag('config', 'UA-52418709-9')
 
   // Cookies
 
