@@ -5,14 +5,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 
     .main-text {
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
       max-width: 70%;
     }
     .jumbo {
-      margin-bottom: 2px;
+      margin-bottom: 0.125rem;
     }
   }
 
@@ -22,14 +22,14 @@
 
   &-visual {
     width: 50%;
-    min-height: 420px;
+    min-height: 26.25rem;
     padding-top: 40%;
-    max-width: 480px;
+    max-width: 30rem;
     position: relative;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 2.5rem auto;
     .dot {
-      width: 156px;
-      height: 156px;
+      width: 9.75rem;
+      height: 9.75rem;
       position: absolute;
       &.green {
         top: 0;
@@ -53,7 +53,7 @@
     flex-wrap: wrap;
     .client {
       flex: 1 1 50%;
-      margin-bottom: 52px;
+      margin-bottom: 3.25rem;
       opacity: 0.7;
     }
   }
@@ -68,14 +68,14 @@
     }
     &-visual {
       order: -1;
-      width: 230px;
-      height: 210px;
+      width: 14.375rem;
+      height: 13.125rem;
       padding: 0;
       min-height: 0;
-      margin-top: 10px;
+      margin-top: 0.625rem;
       .dot {
-        width: 76px;
-        height: 76px;
+        width: 4.75rem;
+        height: 4.75rem;
       }
     }
   }
@@ -85,7 +85,7 @@
       flex-direction: row;
       margin-bottom: 117px;
       .main-text {
-        max-width: 265px;
+        max-width: 16.5625rem;
       }
     }
 

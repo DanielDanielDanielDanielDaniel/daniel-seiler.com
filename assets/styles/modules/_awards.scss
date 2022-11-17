@@ -2,13 +2,13 @@
 
 .awards {
   .award {
-    border-top: 2px solid rgba($white, 0.1);
-    padding: 10px 10px 12px 0;
+    border-top: 0.125rem solid rgba($white, 0.1);
+    padding: 0.625rem 0.625rem 0.75rem 0;
     display: flex;
     align-items: flex-start;
 
     .award-image {
-      min-width: 130px;
+      min-width: 8.125rem;
       img {
         image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
@@ -18,7 +18,7 @@
       }
     }
     .delta {
-      margin-bottom: 7px;
+      margin-bottom: 0.4375rem;
     }
   }
 
@@ -28,18 +28,18 @@
     flex-wrap: wrap;
 
     &-wrapper {
-      padding: 46px 0 33px;
+      padding: 2.875rem 0 2.0625rem;
       .jumbo {
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
       }
     }
     .award {
-      flex: 0 1 calc(50% - 12px);
+      flex: 0 1 calc(50% - 0.75rem);
       &:nth-child(odd) {
-        margin-right: 12px;
+        margin-right: 0.75rem;
       }
       &-image {
-        min-width: 160px;
+        min-width: 10rem;
       }
     }
   }

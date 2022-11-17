@@ -28,18 +28,18 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   .info-piece {
     flex: 1 1 50%;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   @include media-query(lap-and-up) {
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
     .info-piece {
-      flex: 1 1 calc(25% - 24px);
+      flex: 1 1 calc(25% - 1.5rem);
       margin-bottom: 0;
       &:not(:last-child) {
-        margin-right: 12px;
+        margin-right: 0.75rem;
       }
     }
   }
@@ -50,12 +50,15 @@
 .info-piece {
   .value {
     font-weight: 500;
-    font-size: 57.5px;
+    font-size: 57.5008px;
     line-height: 122%;
     letter-spacing: -0.03em;
   }
   @include media-query(lap-and-up) {
-    border-top: 2px solid rgba($white, 0.1);
+    border-top: 0.125rem solid rgba($white, 0.1);
+    .value {
+      font-size: 3.5938rem;
+    }
   }
 }
 
@@ -114,10 +117,10 @@ svg {
   h3,
   h4,
   h5 {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   li {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     list-style-type: disc;
     list-style-position: inside;
   }
@@ -133,17 +136,17 @@ svg {
     color: $black;
     opacity: 0.7;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 1.25rem 0;
   }
   table,
   th,
   td {
-    border: 1px solid darken($gray-light, 2%);
+    border: 0.0625rem solid darken($gray-light, 2%);
     text-align: left;
   }
   th,
   td {
-    padding: 10px;
+    padding: 0.625rem;
   }
   thead th {
     font-weight: $bold;
@@ -152,6 +155,6 @@ svg {
 }
 
 .spinner {
-  width: 50px;
+  width: 3.125rem;
   animation: spin 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }

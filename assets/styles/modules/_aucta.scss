@@ -2,23 +2,23 @@
 
 .aucta {
   .hero-image {
-    margin-left: 20px;
-    right: -20px;
+    margin-left: 1.25rem;
+    right: -1.25rem;
 
     img {
-      border-radius: 14px 0 0 14px;
-      max-height: 860px;
-      box-shadow: 0px 59.2661px 124.343px rgba(45, 48, 57, 0.09),
-        0px 24.7599px 51.9473px rgba(45, 48, 57, 0.0646969),
-        0px 13.2379px 27.7735px rgba(45, 48, 57, 0.0536497),
-        0px 7.42103px 15.5696px rgba(45, 48, 57, 0.045),
-        0px 3.94125px 8.2689px rgba(45, 48, 57, 0.0363503),
-        0px 1.64004px 3.44088px rgba(45, 48, 57, 0.0253031);
+      border-radius: 0.875rem 0 0 0.875rem;
+      max-height: 53.75rem;
+      box-shadow: 0rem 3.7041rem 7.7714rem rgba(45, 48, 57, 0.09),
+        0rem 1.5475rem 3.2467rem rgba(45, 48, 57, 0.0646969),
+        0rem 0.8274rem 1.7358rem rgba(45, 48, 57, 0.0536497),
+        0rem 0.4638rem 0.9731rem rgba(45, 48, 57, 0.045),
+        0rem 0.2463rem 0.5168rem rgba(45, 48, 57, 0.0363503),
+        0rem 0.1025rem 0.2151rem rgba(45, 48, 57, 0.0253031);
     }
   }
   .project {
     &-hero {
-      padding-bottom: 64px;
+      padding-bottom: 4rem;
       padding-right: 0;
       display: flex;
       align-items: flex-start;
@@ -29,7 +29,7 @@
     }
 
     &-tags {
-      max-width: 400px;
+      max-width: 25rem;
       .main-text {
         opacity: 0.3;
       }
@@ -37,39 +37,42 @@
   }
 
   .block-info {
-    max-width: calc(100% - 40px);
+    max-width: calc(100% - 2.5rem);
   }
 
   &-block {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     display: flex;
     flex-direction: column;
+    img {
+      width: 100%;
+    }
     .main-text {
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
     .jumbo {
-      margin-bottom: 11px;
+      margin-bottom: 0.6875rem;
     }
   }
 
   .info-data {
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
 
   .info-piece {
     .label {
-      font-size: 16.5px;
+      font-size: 1.0313rem;
       line-height: 122%;
     }
   }
 
   .cards {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .card {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     &-visual {
       display: flex;
       flex-direction: column;
@@ -77,45 +80,45 @@
       justify-content: center;
       background: darken($whiteish, 0.5%);
       border-radius: $border-radius-md;
-      padding: 0 36px;
-      height: 193px;
-      margin-bottom: 14px;
+      padding: 0 2.25rem;
+      height: 12.0625rem;
+      margin-bottom: 0.875rem;
       color: $black;
       img {
-        max-height: calc(100% - 60px);
+        max-height: calc(100% - 3.75rem);
       }
       .subtitle {
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 0.8438rem;
         line-height: 122%;
         opacity: 0.5;
       }
     }
 
     .auctare {
-      width: 165px;
-      margin-bottom: 20px;
+      width: 10.3125rem;
+      margin-bottom: 1.25rem;
     }
   }
 
   &-app {
-    padding: 16px 0 0 0;
+    padding: 1rem 0 0 0;
     .block-visual {
-      margin-bottom: 22px;
+      margin-bottom: 1.375rem;
     }
     .jumbo {
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
     .text-block {
-      margin-bottom: 52px;
+      margin-bottom: 3.25rem;
     }
     .beta {
-      margin-bottom: 8px;
+      margin-bottom: 0.5rem;
     }
   }
 
   &-brand {
-    padding: 26px 0;
+    padding: 1.625rem 0;
   }
 
   &-values {
@@ -123,13 +126,13 @@
     align-items: flex-start;
     flex-direction: column;
     .jumbo {
-      margin-bottom: 12px;
+      margin-bottom: 0.75rem;
     }
     .text-block {
-      margin-bottom: 16px;
+      margin-bottom: 1rem;
     }
     .beta {
-      margin-bottom: 6px;
+      margin-bottom: 0.375rem;
     }
     .text-sm {
       opacity: 0.5;
@@ -143,13 +146,18 @@
   @include media-query(palm) {
     .card {
       .main-text {
-        max-width: calc(100% - 30px);
+        max-width: calc(100% - 1.875rem);
+      }
+    }
+    .info-piece {
+      .label {
+        font-size: 16.5008px;
       }
     }
 
     .mobile-top {
       order: -1;
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
       img {
         position: relative;
         max-width: none;
@@ -162,7 +170,7 @@
       }
       &:not(.left-align) {
         img {
-          width: 500px;
+          width: 31.25rem;
           left: 50%;
           transform: translateX(-50%);
         }
@@ -175,9 +183,9 @@
     .hero-image {
       order: -1;
       margin: 0;
-      width: calc(100% + 20px);
-      left: 1px;
-      top: -26px;
+      width: calc(100% + 1.25rem);
+      left: 0.0625rem;
+      top: -1.625rem;
     }
 
     .info-piece {
@@ -187,7 +195,7 @@
     }
     &-values {
       .mobile-top {
-        margin-bottom: 36px;
+        margin-bottom: 2.25rem;
         &:not(.left-align) {
           img {
             width: 100%;
@@ -203,7 +211,7 @@
 
   @include media-query(lap) {
     .value {
-      font-size: 55px;
+      font-size: 3.4375rem;
     }
   }
 
@@ -211,19 +219,19 @@
 
   @include media-query(lap-and-up) {
     .spacer-block {
-      padding-bottom: 34px;
+      padding-bottom: 2.125rem;
     }
 
     .hero-image {
       img {
         width: 153%;
         max-width: none;
-        max-height: 900px;
+        max-height: 56.25rem;
       }
     }
 
     .block-info {
-      margin-bottom: 46px;
+      margin-bottom: 2.875rem;
     }
 
     .project-hero {
@@ -231,43 +239,43 @@
     }
 
     &-block {
-      padding: 110px 0;
+      padding: 6.875rem 0;
       .jumbo {
-        margin-bottom: 12px;
-        max-width: 412px;
+        margin-bottom: 0.75rem;
+        max-width: 25.75rem;
       }
       .main-text {
-        max-width: 334px;
+        max-width: 20.875rem;
       }
       &.inline-block {
-        padding: 51px 0;
+        padding: 3.1875rem 0;
         flex-direction: row;
         .block-visual {
-          padding-left: 85px;
+          padding-left: 5.3125rem;
         }
         .main-text {
-          max-width: 266px;
+          max-width: 16.625rem;
         }
       }
     }
     .card {
       .main-text {
-        padding-right: 20px;
+        padding-right: 1.25rem;
       }
     }
     &-app {
-      padding: 110px 0;
+      padding: 6.875rem 0;
       display: flex;
       align-items: center;
       .jumbo {
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
       }
       .block-visual {
-        flex: 0 0 360px;
+        flex: 0 0 22.5rem;
       }
       .block-info {
         flex: 1 1 auto;
-        padding-left: 100px;
+        padding-left: 6.25rem;
       }
       .text-grid {
         display: flex;
@@ -276,36 +284,36 @@
       }
       .text-block {
         flex: 0 0 50%;
-        padding-right: 30px;
-        max-width: 266px;
-        margin-bottom: 28px;
+        padding-right: 1.875rem;
+        max-width: 16.625rem;
+        margin-bottom: 1.75rem;
       }
       .beta {
-        min-height: 58px;
+        min-height: 3.625rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 6px;
+        margin-bottom: 0.375rem;
       }
     }
 
     &-brand {
-      padding: 66px 0;
+      padding: 4.125rem 0;
     }
 
     &-values {
-      padding: 55px 0 20px;
+      padding: 3.4375rem 0 1.25rem;
       flex-direction: row;
       .jumbo {
-        margin-bottom: 26px;
+        margin-bottom: 1.625rem;
       }
       .block-info {
-        flex: 0 0 250px;
+        flex: 0 0 15.625rem;
         margin-bottom: 0;
       }
       .block-visual {
         flex: 1 1 auto;
-        padding-left: 36px;
+        padding-left: 2.25rem;
       }
     }
     .cards {
@@ -314,15 +322,15 @@
       flex-wrap: wrap;
     }
     .card {
-      flex: 1 1 calc(50% - 24px);
+      flex: 1 1 calc(50% - 1.5rem);
       &-visual {
-        height: 296px;
+        height: 18.5rem;
       }
       &:nth-child(odd) {
-        margin-right: 12px;
+        margin-right: 0.75rem;
       }
       .auctare {
-        width: 253px;
+        width: 15.8125rem;
       }
     }
   }

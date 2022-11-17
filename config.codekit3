@@ -1773,20 +1773,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/assets\/styles\/modules\/_forms.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/modules\/_forms.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/assets\/styles\/modules\/_hello.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1899,6 +1885,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_publications.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/assets\/styles\/modules\/_publications.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/styles\/modules\/_services.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1951,20 +1951,6 @@
       "oA" : 1,
       "oAP" : "\/build\/assets\/styles\/modules\/_utils.css",
       "oF" : 1,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/styles\/modules\/publications.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/modules\/publications.css",
-      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -2488,7 +2474,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690209170.27893698
+    "lastBuiltDate" : 690370744.44210899
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
