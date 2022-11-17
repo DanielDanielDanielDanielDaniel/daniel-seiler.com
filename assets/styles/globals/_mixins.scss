@@ -9,29 +9,27 @@
 
 // ----- em ----- //
 //EM conversor
-  //use:
-  // .element{
-  //   height: em(50, 16);
-  // }
-  @function em($target, $context: $font-base){
-    @if ($target == 0){
-      @return 0;
-    }
-    @else{
-      @return #{$target / $context}em;
-    }
+//use:
+// .element{
+//   height: em(50, 16);
+// }
+@function em($target, $context: $font-base) {
+  @if ($target == 0) {
+    @return 0;
+  } @else {
+    @return #{$target / $context}em;
   }
+}
 
 // ----- rem ----- //
 //REM conversor
-  //use:
-  //  .element {
-  //    height: rem(50);
-  //   }
-  @function rem($size){
-    @return #{$size / $font-base}rem;
-  }
-
+//use:
+//  .element {
+//    height: rem(50);
+//   }
+@function rem($size) {
+  @return #{$size / $font-base}rem;
+}
 
 // -------------------------------------
 //    remSize: Sizes in rems with fallback for pixels
@@ -41,36 +39,38 @@
 //    @include rem('border', 1 solid red);
 //    @include rem('padding', 10 20 10);
 //  }
-    @mixin remSize($property, $values) {
-      // If there is only one (numeric) value, return the property/value line for it.
-      @if type-of($values) == "number" {
-        #{$property}: $values + px;
-        #{$property}: rem($values);}
-
-      @else {
-        // Create an empty list that we can dump values into
-        $rem-values: unquote("");
-        $px-values: unquote("");
-        @each $value in $values {
-          // If the value is zero or a string or a color, return unchanged input
-          @if $value == 0 or type-of($value) == "string" or type-of($value) == "color" {
-            $px-values: append($px-values, $value);
-            $rem-values: append($rem-values, $value);
-          }
-          @else {
-            $convert-rem: rem($value);
-            $convert-px: $value + px;
-            $rem-values: append($rem-values, $convert-rem);
-            $px-values: append($px-values, $convert-px); } }
-        // Return the property and its list of converted values
-        #{$property}: $px-values;
-        #{$property}: $rem-values;
-
+@mixin remSize($property, $values) {
+  // If there is only one (numeric) value, return the property/value line for it.
+  @if type-of($values) == 'number' {
+    #{$property}: $values + px;
+    #{$property}: rem($values);
+  } @else {
+    // Create an empty list that we can dump values into
+    $rem-values: unquote('');
+    $px-values: unquote('');
+    @each $value in $values {
+      // If the value is zero or a string or a color, return unchanged input
+      @if $value ==
+        0 or
+        type-of($value) ==
+        'string' or
+        type-of($value) ==
+        'color'
+      {
+        $px-values: append($px-values, $value);
+        $rem-values: append($rem-values, $value);
+      } @else {
+        $convert-rem: rem($value);
+        $convert-px: $value + px;
+        $rem-values: append($rem-values, $convert-rem);
+        $px-values: append($px-values, $convert-px);
       }
-
     }
-
-
+    // Return the property and its list of converted values
+    #{$property}: $px-values;
+    #{$property}: $rem-values;
+  }
+}
 
 // -------------------------------------
 //   font-face
@@ -78,74 +78,110 @@
 // Usage:
 // @include font-face('Gotham', 'GothaHTFLig', 200);
 // Choose the version  based on web browser support needed for your project:
-  //COMPLETE SUPPORT VERSION
-    @mixin font-face-complete($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-      @font-face {
-        font-family: '#{$font-family}';
-        src:  url('../../assets/fonts/#{$font-filename}.eot'); /* IE9 Compat Modes */
-        src:  url('../../assets/fonts/#{$font-filename}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-              url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'), /* Super Modern Browsers */
-              url('../../assets/fonts/#{$font-filename}.woff') format('woff'), /* Pretty Modern Browsers */
-              url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'), /* Safari, Android 2.2+, iOS */
-              url('../../assets/fonts/#{$font-filename}.svg##{$font-family}') format('svg'); /* Legacy iOS */
-        font-weight: $font-weight;
-        font-style: $font-style;
-        font-stretch: $font-stretch;
-      }
-    }
-
-  //MODERN SUPPORT VERSION
-  @mixin font-face-modern($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-    @font-face {
-      font-family: '#{$font-family}';
-      src:  url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
-            url('../../assets/fonts/#{$font-filename}.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-      font-weight: $font-weight;
-      font-style: $font-style;
-      font-stretch: $font-stretch;
-    }
+//COMPLETE SUPPORT VERSION
+@mixin font-face-complete(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/#{$font-filename}.eot?#iefix')
+        format('embedded-opentype'),
+      /* IE6-IE8 */ url('../../assets/fonts/#{$font-filename}.woff2')
+        format('woff2'),
+      /* Super Modern Browsers */
+        url('../../assets/fonts/#{$font-filename}.woff') format('woff'),
+      /* Pretty Modern Browsers */
+        url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'),
+      /* Safari, Android 2.2+, iOS */
+        url('../../assets/fonts/#{$font-filename}.svg##{$font-family}')
+        format('svg'); /* Legacy iOS */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+    font-display: swap;
   }
+}
 
-  //OLD SUPPORT VERSION
-  @mixin font-face-old($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-    @font-face {
-      font-family: '#{$font-family}';
-      src:  url('../../assets/fonts/#{$font-filename}.eot'); /* IE9 Compat Modes */
-      src:  url('../../assets/fonts/#{$font-filename}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-            url('../../assets/fonts/#{$font-filename}.woff') format('woff'), /* Pretty Modern Browsers */
-            url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'), /* Safari, Android 2.2+, iOS */
-            url('../../assets/fonts/#{$font-filename}.svg##{$font-family}') format('svg'); /* Legacy iOS */
-      font-weight: $font-weight;
-      font-style: $font-style;
-      font-stretch: $font-stretch;
-    }
+//MODERN SUPPORT VERSION
+@mixin font-face-modern(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+ */
+        url('../../assets/fonts/#{$font-filename}.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
   }
+}
 
-
-  //SIMPLE VERSION
-  @mixin font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-    @font-face {
-      font-family: '#{$font-family}';
-      src:  url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
-            url('../../assets/fonts/#{$font-filename}.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+, Andorid 4.4 */
-            url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
-      font-weight: $font-weight;
-      font-style: $font-style;
-      font-stretch: $font-stretch;
-    }
+//OLD SUPPORT VERSION
+@mixin font-face-old(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/#{$font-filename}.eot?#iefix')
+        format('embedded-opentype'),
+      /* IE6-IE8 */ url('../../assets/fonts/#{$font-filename}.woff')
+        format('woff'),
+      /* Pretty Modern Browsers */
+        url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'),
+      /* Safari, Android 2.2+, iOS */
+        url('../../assets/fonts/#{$font-filename}.svg##{$font-family}')
+        format('svg'); /* Legacy iOS */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
   }
+}
 
+//SIMPLE VERSION
+@mixin font-face(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+ */
+        url('../../assets/fonts/#{$font-filename}.woff') format('woff'),
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+, Andorid 4.4 */
+        url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
 
 // -------------------------------------
 //   font-size to rems
 // -------------------------------------
 // Use:
 // @include font-size(20);
-  @mixin fontSize($sizeValue: 16 ) {
-    font-size: $sizeValue + px;
-    font-size: ($sizeValue / $font-base) + rem;
-  }
-
+@mixin fontSize($sizeValue: 16) {
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / $font-base) + rem;
+}
 
 // -------------------------------------
 //   Responsive font
@@ -190,74 +226,67 @@
   font-size: $responsive;
 }
 
-
 // -------------------------------------
 //   clearfix
 // -------------------------------------
 
-  @mixin clearfix(){
-    &:after{
-      clear: both;
-      content: '';
-      display: table;
-    }
+@mixin clearfix() {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
   }
-
+}
 
 // ------------------------------------------
 //   Accesible & seo-friendly hidden content
 // ------------------------------------------
 
-  @mixin hide-content {
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    position: absolute;
-    height: 1px;
-    width: 1px;
-  }
-
+@mixin hide-content {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
 
 // ------------------------------------------
 //   Text overflow with ellipsis
 // ------------------------------------------
 
-  @mixin text-overflow {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
+@mixin text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 // -------------------------------------
 //   vertical-align
 // -------------------------------------
 
-  @mixin vertical-align ($position: relative) {
-    position: $position;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-  @mixin centered ($position: relative) {
-    position: $position;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
+@mixin centered($position: relative) {
+  position: $position;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 // -------------------------------------
 //   inline-block
 // -------------------------------------
 
-  @mixin inline-block() {
-    display: inline-block;
-    letter-spacing: normal;
-    word-spacing: normal;
-    vertical-align: top;
-  }
-
+@mixin inline-block() {
+  display: inline-block;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+}
 
 // -------------------------------------
 //   Inline-block fix
@@ -271,17 +300,16 @@
   }
 }
 
-
 // -------------------------------------
 //   rgba
 // -------------------------------------
 
-  @mixin background-opacity($color, $opacity: 0.3) {
-      background: $color; /* fallback */
-      background: rgba($color, $opacity);
-  }
+@mixin background-opacity($color, $opacity: 0.3) {
+  background: $color; /* fallback */
+  background: rgba($color, $opacity);
+}
 
-  // -------------------------------------
+// -------------------------------------
 //   Color opacity
 // -------------------------------------
 
@@ -299,22 +327,25 @@
 // The last two arguments are optional
 // @include svg($name, $file_name, $width, $height);
 
-@mixin svg($name, $file_name, $w:null, $h:null){
-    %icon-#{$name}{
-      background-image: image_url("icons/svg/#{$file_name}.svg");
-    .no-svg &{
-      background-image: image_url("icons/png/#{$file_name}.png");
+@mixin svg($name, $file_name, $w: null, $h: null) {
+  %icon-#{$name} {
+    background-image: image_url('icons/svg/#{$file_name}.svg');
+    .no-svg & {
+      background-image: image_url('icons/png/#{$file_name}.png');
     }
-}
+  }
 
   .icon-#{$name} {
     @extend %ico-#{$name};
-    background-repeat:no-repeat;
-    @if $w{ width:$w; }
-    @if $h{ height:$h; }
+    background-repeat: no-repeat;
+    @if $w {
+      width: $w;
+    }
+    @if $h {
+      height: $h;
+    }
   }
 }
-
 
 // -------------------------------------
 //   sprite
@@ -327,19 +358,17 @@
 // See _sprite-settings.scss for all the icons;
 // Use:
 // @include cssSprite($twitter-gray);
-@mixin cssSprite( $spriteVals ) {
-  width: nth( $spriteVals, 1 );
-  height: nth( $spriteVals, 2 );
+@mixin cssSprite($spriteVals) {
+  width: nth($spriteVals, 1);
+  height: nth($spriteVals, 2);
   // background-repeat: no-repeat;
   // background-image: url( #{ nth( $spriteVals, 3 ) } );
-  background-position: nth( $spriteVals, 3 ) nth( $spriteVals, 4 );
+  background-position: nth($spriteVals, 3) nth($spriteVals, 4);
 }
-
 
 // -------------------------------------
 //   Flexbox mixins
 // -------------------------------------
-
 
 //  Flexbox
 //  -------
@@ -369,7 +398,6 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
-
 
 //  Flexbox Direction
 //  -----------------
@@ -405,8 +433,9 @@
 }
 
 // Shorter version:
-@mixin flex-dir($value: false) { @include flex-direction($value); }
-
+@mixin flex-dir($value: false) {
+  @include flex-direction($value);
+}
 
 //  Flexbox Wrap
 //  ------------
@@ -430,7 +459,6 @@
   flex-wrap: $value;
 }
 
-
 //  Flexbox Flow (shorthand)
 //  ------------------------
 
@@ -441,14 +469,17 @@
 //  Values: <flex-direction> | <flex-wrap>
 //  Default: row nowrap
 
-@mixin flex-flow($values: (row nowrap)) {
+@mixin flex-flow(
+  $values: (
+    row nowrap
+  )
+) {
   // No Webkit Box fallback.
   -webkit-flex-flow: $values;
   -moz-flex-flow: $values;
   -ms-flex-flow: $values;
   flex-flow: $values;
 }
-
 
 //  Flexbox Order
 //  -------------
@@ -466,7 +497,6 @@
   order: $int;
 }
 
-
 //  Flexbox Grow
 //  ------------
 
@@ -483,7 +513,6 @@
   flex-grow: $int;
 }
 
-
 //  Flexbox Shrink
 //  --------------
 
@@ -498,7 +527,6 @@
   -ms-flex-negative: $int;
   flex-shrink: $int;
 }
-
 
 //  Flexbox Basis
 //  -------------
@@ -515,7 +543,6 @@
   flex-basis: $value;
 }
 
-
 //  Flexbox "Flex" (shorthand)
 //  --------------------------
 
@@ -529,7 +556,6 @@
 //  Default: See individual properties (1 1 0).
 
 @mixin flex($fg: 1, $fs: null, $fb: null) {
-
   // Set a variable to be used by box-flex properties
   $fg-boxflex: $fg;
 
@@ -546,7 +572,6 @@
   -ms-flex: $fg $fs $fb;
   flex: $fg $fs $fb;
 }
-
 
 //  Flexbox Justify Content
 //  -----------------------
@@ -585,8 +610,9 @@
 }
 
 // Shorter version:
-@mixin flex-just($value: flex-start) { @include justify-content($value); }
-
+@mixin flex-just($value: flex-start) {
+  @include justify-content($value);
+}
 
 //  Flexbox Align Items
 //  -------------------
@@ -618,7 +644,6 @@
   align-items: $value;
 }
 
-
 //  Flexbox Align Self
 //  ------------------
 
@@ -638,7 +663,6 @@
   }
   align-self: $value;
 }
-
 
 //  Flexbox Align Content
 //  ---------------------
@@ -664,8 +688,6 @@
   }
   align-content: $value;
 }
-
-
 
 // -------------------------------------
 //   Media query
@@ -699,63 +721,61 @@
 // */
 
 @mixin media-query($media-query) {
-
-    @if $media-query == palm-narrow{
-
-      @media only screen and ( max-width: $palm-narrow-end) { @content; }
-
+  @if $media-query == palm-narrow {
+    @media only screen and (max-width: $palm-narrow-end) {
+      @content;
     }
-
-    @if $media-query == palm{
-
-        @media only screen and ( max-width: $palm-end) { @content; }
-
-    }
-
-    @if $media-query == lap{
-
-        @media only screen and (min-width: $lap-start) and (max-width: $lap-end) { @content; }
-
-    }
-
-    @if $media-query == palm-wide-and-up{
-
-      @media only screen and (min-width: $palm-narrow-end) { @content; }
-
   }
 
-    @if $media-query == lap-and-up{
-
-        @media only screen and (min-width: $lap-start) { @content; }
-
+  @if $media-query == palm {
+    @media only screen and (max-width: $palm-end) {
+      @content;
     }
+  }
 
-    @if $media-query == portable{
-
-        @media only screen and (max-width: $lap-end) { @content; }
-
+  @if $media-query == lap {
+    @media only screen and (min-width: $lap-start) and (max-width: $lap-end) {
+      @content;
     }
+  }
 
-    @if $media-query == desk{
-
-        @media only screen and (min-width: $desk-start) { @content; }
-
+  @if $media-query == palm-wide-and-up {
+    @media only screen and (min-width: $palm-narrow-end) {
+      @content;
     }
+  }
 
-    @if $media-query == desk-wide{
-
-        @media only screen and (min-width: $desk-wide-start) { @content; }
-
+  @if $media-query == lap-and-up {
+    @media only screen and (min-width: $lap-start) {
+      @content;
     }
+  }
 
-    @if $media-query == hi-res {
-
-        @media only screen and (min--moz-device-pixel-ratio: 1.3),
-          (-o-min-device-pixel-ratio: 2.6/2),
-          (-webkit-min-device-pixel-ratio: 1.3),
-          (min-device-pixel-ratio: 1.3),
-          (min-resolution: 1.3dppx) { @content; }
-
+  @if $media-query == portable {
+    @media only screen and (max-width: $lap-end) {
+      @content;
     }
+  }
 
+  @if $media-query == desk {
+    @media only screen and (min-width: $desk-start) {
+      @content;
+    }
+  }
+
+  @if $media-query == desk-wide {
+    @media only screen and (min-width: $desk-wide-start) {
+      @content;
+    }
+  }
+
+  @if $media-query == hi-res {
+    @media only screen and (min--moz-device-pixel-ratio: 1.3),
+      (-o-min-device-pixel-ratio: 2.6/2),
+      (-webkit-min-device-pixel-ratio: 1.3),
+      (min-device-pixel-ratio: 1.3),
+      (min-resolution: 1.3dppx) {
+      @content;
+    }
+  }
 }

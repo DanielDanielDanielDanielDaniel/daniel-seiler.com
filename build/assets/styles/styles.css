@@ -281,8 +281,8 @@ input[type='radio'] {
     .light-theme .footer .dark,
     .light-theme .footer a .dark {
       display: block; }
-    .light-theme .footer .clear,
-    .light-theme .footer a .clear {
+    .light-theme .footer .ligth,
+    .light-theme .footer a .ligth {
       display: none; }
   .light-theme .dot {
     background: #e9e9e9; }
@@ -417,7 +417,14 @@ input[type='radio'] {
     .menu-mobile-button:active {
       outline: none; }
     .menu-mobile-button .icon-line {
-      transition: transform 0.2s ease-in-out; }
+      transition: transform 0.2s ease-in-out;
+      position: relative;
+      width: 24px;
+      height: 2px; }
+      .menu-mobile-button .icon-line svg {
+        position: absolute;
+        top: 0;
+        left: 0; }
       .menu-mobile-button .icon-line:first-child {
         margin-bottom: 6px; }
   @media only screen and (max-width: 739px) {
@@ -749,7 +756,8 @@ svg {
   flex-direction: column;
   overflow: hidden;
   min-height: var(--app-height);
-  overflow: auto; }
+  overflow-x: hidden;
+  overflow-y: auto; }
   .outer-wrapper .spacer-block {
     padding-top: 44px; }
   .outer-wrapper .footer {

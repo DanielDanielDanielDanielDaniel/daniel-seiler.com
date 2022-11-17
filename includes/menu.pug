@@ -8,6 +8,6 @@ mixin menu(activePage, menuClass)
       a.menu-item(class={active: activePage === 'publications'} href="/publications.html") Publications
       a.menu-item(class={active: activePage === 'shop'} href="https://nucleusicons.com", target='_blank', rel='noopener noreferrer') Shop
       a.menu-item(class={active: activePage === 'contact'} href="mailto:daniel@daniel-seiler.com") Contact
-  button.menu-mobile-button
+  button.menu-mobile-button(role='button', aria-label='menu')
     include svg/menu-line.pug
     include svg/menu-line.pug
