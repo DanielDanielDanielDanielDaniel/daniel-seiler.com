@@ -170,6 +170,14 @@ input[type='radio'] {
   100% {
     transform: scale(0); } }
 
+@keyframes slide-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0; } }
+
 @keyframes scale-out {
   0% {
     opacity: 0; }
@@ -492,6 +500,12 @@ input[type='radio'] {
         margin-right: 0.6875rem; } }
 .slides-menu .menu-item.active {
   background: rgba(57, 57, 57, 0.7); }
+
+.menu {
+  transition: transform 0.3s ease-in-out;
+  will-change: transform; }
+  .menu.nav-up {
+    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); }
 
 .dot {
   border-radius: 50%;
