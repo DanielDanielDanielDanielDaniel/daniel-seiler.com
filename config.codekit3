@@ -33,7 +33,7 @@
       "oA" : 0,
       "oAP" : "\/build\/about.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/assets\/fonts\/Figtree-Medium.eot" : {
       "cB" : 0,
@@ -1314,7 +1314,7 @@
     },
     "\/assets\/img\/nucleus\/iphone.png" : {
       "ft" : 32768,
-      "iS" : 543801,
+      "iS" : 1363403,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iphone.png",
       "oF" : 0,
@@ -1327,7 +1327,7 @@
     },
     "\/assets\/img\/nucleus\/iwatch.png" : {
       "ft" : 32768,
-      "iS" : 410392,
+      "iS" : 560638,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/iwatch.png",
       "oF" : 0,
@@ -1340,7 +1340,7 @@
     },
     "\/assets\/img\/nucleus\/nebula.png" : {
       "ft" : 32768,
-      "iS" : 1803108,
+      "iS" : 2147308,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/nebula.png",
       "oF" : 0,
@@ -1353,7 +1353,7 @@
     },
     "\/assets\/img\/nucleus\/nebula2.png" : {
       "ft" : 32768,
-      "iS" : 1314464,
+      "iS" : 1785630,
       "oA" : 0,
       "oAP" : "\/build\/assets\/img\/nucleus\/nebula2.png",
       "oF" : 0,
@@ -1641,8 +1641,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/styles.css",
-      "oF" : 3,
+      "oAP" : "\/build\/assets\/styles\/globals\/_base.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1655,8 +1655,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/styles.css",
-      "oF" : 3,
+      "oAP" : "\/build\/assets\/styles\/globals\/_mixins.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1726,7 +1726,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/assets\/styles\/modules\/_buttons.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1767,8 +1767,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/_footer.css",
-      "oF" : 3,
+      "oAP" : "\/build\/assets\/styles\/modules\/_footer.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1810,7 +1810,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/assets\/styles\/modules\/_layout.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1824,7 +1824,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/assets\/styles\/modules\/_menu.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1936,7 +1936,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/assets\/styles\/modules\/_texts.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1950,7 +1950,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/assets\/styles\/modules\/_utils.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -2474,7 +2474,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690389739.63667297
+    "lastBuiltDate" : 690455450.68363404
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
