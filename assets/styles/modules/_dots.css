@@ -1,0 +1,99 @@
+// Dots
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: $gray-2;
+  &.cyan {
+    background: $cyan;
+  }
+  &.blue {
+    background: $blue;
+  }
+  &.green {
+    background: $green;
+  }
+}
+
+// Dot grid
+
+.dot-grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1rem;
+  .dot {
+    width: 0.3125rem;
+    height: 0.3125rem;
+    margin: 0 0.1875rem 0.1875rem 0;
+  }
+}
+
+// Dot sign
+
+.dot-sign {
+  position: relative;
+  width: 0.875rem;
+  .dot {
+    position: absolute;
+  }
+  &.all {
+    height: 0.875rem;
+    .dot {
+      width: 0.375rem;
+      height: 0.375rem;
+      &:first-child {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+      &:nth-child(2) {
+        top: 0;
+        right: 0;
+      }
+      &:last-child {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  &.pair {
+    height: 1.1875rem;
+    .dot {
+      width: 0.5rem;
+      height: 0.5rem;
+      &:first-child {
+        top: 0;
+        right: 0;
+      }
+      &:last-child {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  &.single {
+    height: 0.8125rem;
+    .dot {
+      width: 0.625rem;
+      height: 0.625rem;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+// Project dot grid
+
+.project-dot-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 8.625rem;
+  .dot {
+    width: 0.8125rem;
+    height: 0.8125rem;
+    margin: 0 0.625rem 0.625rem 0;
+  }
+}

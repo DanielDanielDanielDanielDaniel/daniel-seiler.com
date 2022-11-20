@@ -1,0 +1,88 @@
+// Publications
+
+.publications {
+  .alpha {
+    margin-bottom: 0.625rem;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  &-featured {
+    background: #1b1b1b;
+    border-radius: $border-radius-md;
+    overflow: hidden;
+    padding-bottom: 1.25rem;
+    .beta {
+      padding: 1.1875rem 0.625rem 0.5625rem 1.1875rem;
+    }
+    .text-sm {
+      padding: 0 1.1875rem;
+    }
+  }
+  &-item {
+    .beta {
+      height: 3.375rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-bottom: 0.75rem;
+      span {
+        display: block;
+      }
+    }
+  }
+  @include media-query(palm) {
+    &-item {
+      width: 100%;
+      padding: 14px 0;
+      background: linear-gradient(#171717, #1b1b1b);
+
+      .beta {
+        margin-bottom: 8px;
+      }
+      &:last-child {
+        background: linear-gradient(#171717, $base-bg);
+      }
+    }
+    &-featured {
+      width: 100%;
+    }
+  }
+  @include media-query(lap) {
+    &-item {
+      flex: 0 1 50%;
+    }
+  }
+  @include media-query(desk) {
+    &-item {
+      flex: 0 1 33.3%;
+    }
+  }
+  @include media-query(lap-and-up) {
+    .spacer-block {
+      margin-top: 1rem;
+    }
+    .alpha {
+      margin-bottom: 67px;
+    }
+    &-content {
+      display: flex;
+      align-items: flex-start;
+    }
+    &-list {
+      flex-direction: row;
+      flex: 1 1 auto;
+    }
+    &-item {
+      margin-bottom: 2.3125rem;
+      padding-right: 10px;
+    }
+    &-featured {
+      margin-top: -1.375rem;
+      flex: 0 0 16.625rem;
+    }
+  }
+}

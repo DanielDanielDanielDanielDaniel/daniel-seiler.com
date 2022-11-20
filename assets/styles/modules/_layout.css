@@ -1,0 +1,26 @@
+// LAYOUT
+
+.outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // height: 100vh;
+  min-height: var(--app-height);
+  // height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .spacer-block {
+    padding-top: 44px;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
+
+  @include media-query(lap-and-up) {
+    .spacer-block {
+      padding-top: 140px;
+    }
+  }
+}

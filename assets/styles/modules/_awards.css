@@ -1,0 +1,46 @@
+// Awards
+
+.awards {
+  .award {
+    border-top: 0.125rem solid rgba($white, 0.1);
+    padding: 0.625rem 0.625rem 0.75rem 0;
+    display: flex;
+    align-items: flex-start;
+
+    .award-image {
+      min-width: 8.125rem;
+      img {
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        -ms-interpolation-mode: nearest-neighbor;
+      }
+    }
+    .delta {
+      margin-bottom: 0.4375rem;
+    }
+  }
+
+  @include media-query(lap-and-up) {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    &-wrapper {
+      padding: 2.875rem 0 2.0625rem;
+      .jumbo {
+        margin-bottom: 3.125rem;
+      }
+    }
+    .award {
+      flex: 0 1 calc(50% - 0.75rem);
+      &:nth-child(odd) {
+        margin-right: 0.75rem;
+      }
+      &-image {
+        min-width: 10rem;
+      }
+    }
+  }
+}

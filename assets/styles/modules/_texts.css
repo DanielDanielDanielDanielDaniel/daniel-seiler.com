@@ -1,0 +1,93 @@
+// TEXTS
+
+// Headings
+
+.jumbo,
+.alpha,
+.beta,
+.gamma,
+.delta {
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  color: $white;
+}
+
+.jumbo {
+  font-size: 38.5008px;
+  line-height: 46.2px;
+  @include media-query(lap-and-up) {
+    font-size: 2.4063rem;
+    line-height: 2.8875rem;
+  }
+}
+
+.alpha {
+  font-size: 33.5008px;
+  line-height: 40px;
+  @include media-query(lap-and-up) {
+    font-size: 2.0938rem;
+    line-height: 2.5rem;
+  }
+}
+
+.beta {
+  font-size: 24.5008px;
+  line-height: 29px;
+  @include media-query(lap-and-up) {
+    font-size: 1.5313rem;
+    line-height: 1.8125rem;
+  }
+}
+
+.gamma {
+  font-size: 22.5008px;
+  line-height: 27px;
+  @include media-query(lap-and-up) {
+    font-size: 1.4063rem;
+    line-height: 1.6875rem;
+  }
+}
+
+.delta {
+  font-size: 15.5008px;
+  line-height: 19px;
+  @include media-query(lap-and-up) {
+    font-size: 0.9688rem;
+    line-height: 1.1875rem;
+  }
+}
+
+// Texts
+
+.main-text,
+.text-sm,
+.label {
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 122%;
+  color: $white;
+}
+
+.main-text {
+  font-size: 16.5008px;
+  opacity: 0.6;
+  @include media-query(lap-and-up) {
+    font-size: 1.0313rem;
+  }
+}
+
+.text-sm {
+  font-size: 14.5008px;
+  opacity: 0.3;
+  @include media-query(lap-and-up) {
+    font-size: 0.9063rem;
+  }
+}
+
+.label {
+  font-size: 13.5008px;
+  opacity: 0.3;
+  @include media-query(lap-and-up) {
+    font-size: 0.8438rem;
+  }
+}

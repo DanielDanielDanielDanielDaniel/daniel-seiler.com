@@ -1,0 +1,72 @@
+// Theme
+
+// Clear theme
+
+.light-theme {
+  background: $white;
+  background: linear-gradient($white, #fafafa);
+  color: $black;
+  scrollbar-color: $gray-light2 $white;
+  scrollbar-width: thin;
+  .main-text,
+  .text-sm,
+  .jumbo,
+  .alpha,
+  .beta,
+  .gamma,
+  .delta,
+  .label,
+  .value {
+    color: $black;
+    transition: color 3.6s ease;
+  }
+  .button {
+    background: $gray-light;
+    color: $black;
+  }
+  .footer,
+  .footer a {
+    color: $black;
+    &-col {
+      border-top-color: rgba($black, 0.1);
+    }
+    .dark {
+      display: block;
+    }
+    .ligth {
+      display: none;
+    }
+  }
+  .dot {
+    background: $gray-light2;
+  }
+
+  .menu-mobile-button {
+    background: $whiteish;
+    .icon-line svg {
+      color: $black;
+    }
+  }
+  .menu {
+    background: $whiteish;
+    color: rgba($black, 0.5);
+    .menu-item {
+      &:hover {
+        background-color: $gray-light;
+      }
+      &.active {
+        background-color: $gray-light;
+      }
+    }
+  }
+  @include media-query(lap-and-up) {
+    .menu {
+      background: rgba($whiteish, 0.8);
+    }
+    .info-data {
+      .info-piece {
+        border-top-color: rgba($black, 0.1);
+      }
+    }
+  }
+}
