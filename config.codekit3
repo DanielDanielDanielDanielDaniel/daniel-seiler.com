@@ -1647,7 +1647,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/aos-min-min.css",
       "oF" : 3,
       "pg" : 0
@@ -2295,9 +2295,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/styles-min-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/assets\/styles\/styles.css" : {
@@ -2308,7 +2308,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/styles\/styles-min.css",
+      "oAP" : "\/docs\/assets\/styles\/styles.css",
       "oF" : 3,
       "pg" : 0
     },
@@ -2320,7 +2320,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/docs\/assets\/styles.css",
+      "oAP" : "\/docs\/assets\/styles\/styles.css",
       "oF" : 3,
       "oS" : 0,
       "pg" : 0,
@@ -2838,7 +2838,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690644474.88438499
+    "lastBuiltDate" : 690644801.744982
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
