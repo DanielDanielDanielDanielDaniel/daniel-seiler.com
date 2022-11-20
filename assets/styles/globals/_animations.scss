@@ -24,6 +24,17 @@ $general-change: 0.3s ease-in-out;
   }
 }
 
+@keyframes slide-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
 @keyframes scale-out {
   0% {
     opacity: 0;
