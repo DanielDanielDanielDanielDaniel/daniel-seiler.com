@@ -25,22 +25,14 @@
       "oAP" : "\/.prettierrc",
       "oF" : 1
     },
-    "\/about.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/about.html",
-      "oF" : 0
-    },
     "\/about.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/about.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/about.html",
+      "oF" : 2,
       "oS" : 0
     },
     "\/assets\/fonts\/Figtree-Medium.eot" : {
@@ -2023,31 +2015,15 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/aucta.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/aucta.html",
-      "oF" : 0
-    },
     "\/aucta.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/aucta.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/aucta.html",
+      "oF" : 2,
       "oS" : 0
-    },
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
     },
     "\/CNAME" : {
       "cB" : 0,
@@ -2055,6 +2031,89 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/CNAME",
+      "oF" : 0
+    },
+    "\/docs\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/.gitignore",
+      "oF" : 0
+    },
+    "\/docs\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/about.html",
+      "oF" : 0
+    },
+    "\/docs\/assets\/js\/lib\/jquery-3.6.1.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/js\/lib\/jquery-3.6.1.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docs\/aucta.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/aucta.html",
+      "oF" : 0
+    },
+    "\/docs\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/index.html",
+      "oF" : 0
+    },
+    "\/docs\/legal.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/legal.html",
+      "oF" : 0
+    },
+    "\/docs\/nucleus.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/nucleus.html",
+      "oF" : 0
+    },
+    "\/docs\/projects.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/projects.html",
+      "oF" : 0
+    },
+    "\/docs\/publications.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/publications.html",
+      "oF" : 0
+    },
+    "\/docs\/services.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/services.html",
       "oF" : 0
     },
     "\/includes\/about\/about-content.pug" : {
@@ -2435,22 +2494,14 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/index.html",
-      "oF" : 0
-    },
     "\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 1,
+      "oAP" : "\/docs\/index.html",
+      "oF" : 3,
       "oS" : 1
     },
     "\/layout\/layout.pug" : {
@@ -2463,31 +2514,15 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/legal.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/legal.html",
-      "oF" : 0
-    },
     "\/legal.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/legal.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/legal.html",
+      "oF" : 2,
       "oS" : 0
-    },
-    "\/nucleus.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/nucleus.html",
-      "oF" : 0
     },
     "\/nucleus.pug" : {
       "cB" : 0,
@@ -2495,8 +2530,8 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/nucleus.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/nucleus.html",
+      "oF" : 2,
       "oS" : 0
     },
     "\/package-lock.json" : {
@@ -2507,31 +2542,15 @@
       "oO" : 0,
       "oS" : 1
     },
-    "\/projects.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/projects.html",
-      "oF" : 0
-    },
     "\/projects.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/projects.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/projects.html",
+      "oF" : 2,
       "oS" : 0
-    },
-    "\/publications.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/publications.html",
-      "oF" : 0
     },
     "\/publications.pug" : {
       "cB" : 0,
@@ -2539,8 +2558,8 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/publications.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/publications.html",
+      "oF" : 2,
       "oS" : 0
     },
     "\/README.md" : {
@@ -2562,22 +2581,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/services.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/services.html",
-      "oF" : 0
-    },
     "\/services.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/services.html",
-      "oF" : 0,
+      "oAP" : "\/docs\/services.html",
+      "oF" : 2,
       "oS" : 0
     }
   },
@@ -2593,7 +2604,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690642802.23345697
+    "lastBuiltDate" : 690643116.93725097
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
