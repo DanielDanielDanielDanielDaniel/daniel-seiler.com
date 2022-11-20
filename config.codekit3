@@ -1596,17 +1596,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/assets\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/js\/scripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/assets\/styles\/aos.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1618,20 +1607,6 @@
       "oAP" : "\/docs\/assets\/styles\/aos-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/assets\/styles\/globals\/_animations.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/assets\/styles\/globals\/_animations.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
     },
     "\/assets\/styles\/globals\/_base.scss" : {
       "aP" : 0,
@@ -1815,20 +1790,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/assets\/styles\/modules\/_menu.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/assets\/styles\/modules\/_menu.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/assets\/styles\/modules\/_nucleus.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1997,6 +1958,12 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/CNAME",
+      "oF" : 0
+    },
+    "\/docs" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/docs\/docs",
       "oF" : 0
     },
     "\/includes\/about\/about-content.pug" : {
@@ -2468,7 +2435,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690641402.42722595
+    "lastBuiltDate" : 690641836.19951904
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
