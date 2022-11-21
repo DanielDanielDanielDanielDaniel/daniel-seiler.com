@@ -101,6 +101,7 @@
         .icon-line {
           margin: 0;
           position: absolute;
+          transform-origin: 47% center;
           &:first-child {
             transform: rotate(45deg);
           }

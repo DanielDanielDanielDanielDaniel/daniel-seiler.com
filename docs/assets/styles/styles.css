@@ -475,7 +475,8 @@ input[type='radio'] {
           background: transparent; }
           .menu.open-nav + .menu-mobile-button .icon-line {
             margin: 0;
-            position: absolute; }
+            position: absolute;
+            transform-origin: 47% center; }
             .menu.open-nav + .menu-mobile-button .icon-line:first-child {
               transform: rotate(45deg); }
             .menu.open-nav + .menu-mobile-button .icon-line:last-child {
