@@ -1113,9 +1113,12 @@ svg {
 
 @media only screen and (max-width: 739px) {
   .projects-item {
-    width: 100%;
+    width: calc(100% + 20px);
+    margin-left: -10px;
     background: linear-gradient(#171717, #1b1b1b);
-    padding: 0.625rem 0; } }
+    padding: 10px 0 10px 10px; }
+    .projects-item:last-child {
+      background: #171717; } }
 
 @media only screen and (min-width: 740px) {
   .projects .spacer-block {
