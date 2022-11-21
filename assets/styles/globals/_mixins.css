@@ -1,0 +1,781 @@
+/*------------------------------------*\
+    $HELPERS
+    -> Extends, Functions, Mixins, Animations
+\*------------------------------------*/
+
+// -------------------------------------
+//   Functions
+// -------------------------------------
+
+// ----- em ----- //
+//EM conversor
+//use:
+// .element{
+//   height: em(50, 16);
+// }
+@function em($target, $context: $font-base) {
+  @if ($target == 0) {
+    @return 0;
+  } @else {
+    @return #{$target / $context}em;
+  }
+}
+
+// ----- rem ----- //
+//REM conversor
+//use:
+//  .element {
+//    height: rem(50);
+//   }
+@function rem($size) {
+  @return #{$size / $font-base}rem;
+}
+
+// -------------------------------------
+//    remSize: Sizes in rems with fallback for pixels
+// -------------------------------------
+//use:
+//  .element {
+//    @include rem('border', 1 solid red);
+//    @include rem('padding', 10 20 10);
+//  }
+@mixin remSize($property, $values) {
+  // If there is only one (numeric) value, return the property/value line for it.
+  @if type-of($values) == 'number' {
+    #{$property}: $values + px;
+    #{$property}: rem($values);
+  } @else {
+    // Create an empty list that we can dump values into
+    $rem-values: unquote('');
+    $px-values: unquote('');
+    @each $value in $values {
+      // If the value is zero or a string or a color, return unchanged input
+      @if $value ==
+        0 or
+        type-of($value) ==
+        'string' or
+        type-of($value) ==
+        'color'
+      {
+        $px-values: append($px-values, $value);
+        $rem-values: append($rem-values, $value);
+      } @else {
+        $convert-rem: rem($value);
+        $convert-px: $value + px;
+        $rem-values: append($rem-values, $convert-rem);
+        $px-values: append($px-values, $convert-px);
+      }
+    }
+    // Return the property and its list of converted values
+    #{$property}: $px-values;
+    #{$property}: $rem-values;
+  }
+}
+
+// -------------------------------------
+//   font-face
+// -------------------------------------
+// Usage:
+// @include font-face('Gotham', 'GothaHTFLig', 200);
+// Choose the version  based on web browser support needed for your project:
+//COMPLETE SUPPORT VERSION
+@mixin font-face-complete(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/#{$font-filename}.eot?#iefix')
+        format('embedded-opentype'),
+      /* IE6-IE8 */ url('../../assets/fonts/#{$font-filename}.woff2')
+        format('woff2'),
+      /* Super Modern Browsers */
+        url('../../assets/fonts/#{$font-filename}.woff') format('woff'),
+      /* Pretty Modern Browsers */
+        url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'),
+      /* Safari, Android 2.2+, iOS */
+        url('../../assets/fonts/#{$font-filename}.svg##{$font-family}')
+        format('svg'); /* Legacy iOS */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+    font-display: swap;
+  }
+}
+
+//MODERN SUPPORT VERSION
+@mixin font-face-modern(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+ */
+        url('../../assets/fonts/#{$font-filename}.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+
+//OLD SUPPORT VERSION
+@mixin font-face-old(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/#{$font-filename}.eot?#iefix')
+        format('embedded-opentype'),
+      /* IE6-IE8 */ url('../../assets/fonts/#{$font-filename}.woff')
+        format('woff'),
+      /* Pretty Modern Browsers */
+        url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'),
+      /* Safari, Android 2.2+, iOS */
+        url('../../assets/fonts/#{$font-filename}.svg##{$font-family}')
+        format('svg'); /* Legacy iOS */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+
+//SIMPLE VERSION
+@mixin font-face(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+ */
+        url('../../assets/fonts/#{$font-filename}.woff') format('woff'),
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+, Andorid 4.4 */
+        url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+
+// -------------------------------------
+//   font-size to rems
+// -------------------------------------
+// Use:
+// @include font-size(20);
+@mixin fontSize($sizeValue: 16) {
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / $font-base) + rem;
+}
+
+// -------------------------------------
+//   Responsive font
+// -------------------------------------
+
+/// Viewport sized typography with minimum and maximum values
+///
+/// @author Eduardo Boucas (@eduardoboucas)
+///
+/// @param {Number}   $responsive  - Viewport-based size
+/// @param {Number}   $min         - Minimum font size (px)
+/// @param {Number}   $max         - Maximum font size (px)
+///                                  (optional)
+/// @param {Number}   $fallback    - Fallback for viewport-
+///                                  based units (optional)
+///
+/// @example scss - 5vw font size (with 50px fallback),
+///                 minumum of 35px and maximum of 150px
+///  @include responsive-font(5vw, 35px, 150px, 50px);
+///
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+  $min-breakpoint: $min / $responsive-unitless * 100;
+
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+
+  @if $fallback {
+    font-size: $fallback;
+  }
+
+  font-size: $responsive;
+}
+
+// -------------------------------------
+//   clearfix
+// -------------------------------------
+
+@mixin clearfix() {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+// ------------------------------------------
+//   Accesible & seo-friendly hidden content
+// ------------------------------------------
+
+@mixin hide-content {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
+
+// ------------------------------------------
+//   Text overflow with ellipsis
+// ------------------------------------------
+
+@mixin text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// -------------------------------------
+//   vertical-align
+// -------------------------------------
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin centered($position: relative) {
+  position: $position;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// -------------------------------------
+//   inline-block
+// -------------------------------------
+
+@mixin inline-block() {
+  display: inline-block;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+}
+
+// -------------------------------------
+//   Inline-block fix
+// -------------------------------------
+// Solution to avoid those annoying white spaces between inline-block elements, mainly cols
+
+@mixin inline-block-fix {
+  font-size: 0;
+  > * {
+    @include fontSize($font-base);
+  }
+}
+
+// -------------------------------------
+//   rgba
+// -------------------------------------
+
+@mixin background-opacity($color, $opacity: 0.3) {
+  background: $color; /* fallback */
+  background: rgba($color, $opacity);
+}
+
+// -------------------------------------
+//   Color opacity
+// -------------------------------------
+
+@mixin color-opacity($color, $opacity: 0.3) {
+  color: $color; /* fallback */
+  color: rgba($color, $opacity);
+}
+
+// -------------------------------------
+//   SVG
+// -------------------------------------
+
+// The SVG mixin creates a placeholder and a class with the supplied $name.
+// The placeholder expects images to be under images/icons/svg and images/icons/png
+// The last two arguments are optional
+// @include svg($name, $file_name, $width, $height);
+
+@mixin svg($name, $file_name, $w: null, $h: null) {
+  %icon-#{$name} {
+    background-image: image_url('icons/svg/#{$file_name}.svg');
+    .no-svg & {
+      background-image: image_url('icons/png/#{$file_name}.png');
+    }
+  }
+
+  .icon-#{$name} {
+    @extend %ico-#{$name};
+    background-repeat: no-repeat;
+    @if $w {
+      width: $w;
+    }
+    @if $h {
+      height: $h;
+    }
+  }
+}
+
+// -------------------------------------
+//   sprite
+// -------------------------------------
+//Sketch CSS Sprite Mixin: https://github.com/littlebusters/sketch-css-sprite-mixin
+// Generate a code of mixin for scss, less and stylus in Sketch 3. Code is copied to the clipboard when run the plugin.
+// Sprites name are group layer name of top-level, and the Sprite image name is an Artboard name.
+//
+// $twitter-gray: 64px 64px '../img/sprite.png' -110px 0px;
+// See _sprite-settings.scss for all the icons;
+// Use:
+// @include cssSprite($twitter-gray);
+@mixin cssSprite($spriteVals) {
+  width: nth($spriteVals, 1);
+  height: nth($spriteVals, 2);
+  // background-repeat: no-repeat;
+  // background-image: url( #{ nth( $spriteVals, 3 ) } );
+  background-position: nth($spriteVals, 3) nth($spriteVals, 4);
+}
+
+// -------------------------------------
+//   Flexbox mixins
+// -------------------------------------
+
+//  Flexbox
+//  -------
+
+//  Flexbox Containers
+
+//  The 'flex' value causes an element to generate a block-level flex
+//  container box.
+
+//  The 'inline-flex' value causes an element to generate a inline-level
+//  flex container box.
+
+//  display: flex | inline-flex
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin inline-flex {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+//  Flexbox Direction
+//  -----------------
+
+//  The 'flex-direction' property specifies how flex items are placed in
+//  the flex container, by setting the direction of the flex container's
+//  main axis. This determines the direction that flex items are laid out in.
+
+//  The 'inline-flex' value causes an element to generate a inline-level
+//  flex container box.
+
+//  Values: row | row-reverse | column | column-reverse
+//  Default: row
+
+@mixin flex-direction($value: row) {
+  @if $value == row-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+  } @else if $value == column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+  } @else if $value == column-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: vertical;
+  } @else {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+  }
+  -webkit-flex-direction: $value;
+  -moz-flex-direction: $value;
+  -ms-flex-direction: $value;
+  flex-direction: $value;
+}
+
+// Shorter version:
+@mixin flex-dir($value: false) {
+  @include flex-direction($value);
+}
+
+//  Flexbox Wrap
+//  ------------
+
+//  The 'flex-wrap' property controls whether the flex container is single-line
+//  or multi-line, and the direction of the cross-axis, which determines
+//  the direction new lines are stacked in.
+
+//  Values: nowrap | wrap | wrap-reverse
+//  Default: nowrap
+
+@mixin flex-wrap($value: nowrap) {
+  // No Webkit Box fallback.
+  -webkit-flex-wrap: $value;
+  -moz-flex-wrap: $value;
+  @if $value == nowrap {
+    -ms-flex-wrap: none;
+  } @else {
+    -ms-flex-wrap: $value;
+  }
+  flex-wrap: $value;
+}
+
+//  Flexbox Flow (shorthand)
+//  ------------------------
+
+//  The 'flex-flow' property is a shorthand for setting the 'flex-direction'
+//  and 'flex-wrap' properties, which together define the flex container's
+//  main and cross axes.
+
+//  Values: <flex-direction> | <flex-wrap>
+//  Default: row nowrap
+
+@mixin flex-flow(
+  $values: (
+    row nowrap
+  )
+) {
+  // No Webkit Box fallback.
+  -webkit-flex-flow: $values;
+  -moz-flex-flow: $values;
+  -ms-flex-flow: $values;
+  flex-flow: $values;
+}
+
+//  Flexbox Order
+//  -------------
+
+//  The 'order' property controls the order in which flex items appear within
+//  their flex container, by assigning them to ordinal groups.
+
+//  Default: 0
+
+@mixin order($int: 0) {
+  -webkit-box-ordinal-group: $int + 1;
+  -webkit-order: $int;
+  -moz-order: $int;
+  -ms-flex-order: $int;
+  order: $int;
+}
+
+//  Flexbox Grow
+//  ------------
+
+//  The 'flex-grow' property sets the flex grow factor. Negative numbers
+//  are invalid.
+
+//  Default: 0
+
+@mixin flex-grow($int: 0) {
+  -webkit-box-flex: $int;
+  -webkit-flex-grow: $int;
+  -moz-flex-grow: $int;
+  -ms-flex-positive: $int;
+  flex-grow: $int;
+}
+
+//  Flexbox Shrink
+//  --------------
+
+//  The 'flex-shrink' property sets the flex shrink factor. Negative numbers
+//  are invalid.
+
+//  Default: 1
+
+@mixin flex-shrink($int: 1) {
+  -webkit-flex-shrink: $int;
+  -moz-flex-shrink: $int;
+  -ms-flex-negative: $int;
+  flex-shrink: $int;
+}
+
+//  Flexbox Basis
+//  -------------
+
+//  The 'flex-basis' property sets the flex basis. Negative lengths are invalid.
+
+//  Values: Like "width"
+//  Default: auto
+
+@mixin flex-basis($value: auto) {
+  -webkit-flex-basis: $value;
+  -moz-flex-basis: $value;
+  -ms-flex-preferred-size: $value;
+  flex-basis: $value;
+}
+
+//  Flexbox "Flex" (shorthand)
+//  --------------------------
+
+//  The 'flex' property specifies the components of a flexible length: the
+//  flex grow factor and flex shrink factor, and the flex basis. When an
+//  element is a flex item, 'flex' is consulted instead of the main size
+//  property to determine the main size of the element. If an element is
+//  not a flex item, 'flex' has no effect.
+
+//  Values: none | <flex-grow> <flex-shrink> || <flex-basis>
+//  Default: See individual properties (1 1 0).
+
+@mixin flex($fg: 1, $fs: null, $fb: null) {
+  // Set a variable to be used by box-flex properties
+  $fg-boxflex: $fg;
+
+  // Box-Flex only supports a flex-grow value so let's grab the
+  // first item in the list and just return that.
+  @if type-of($fg) == 'list' {
+    $fg-boxflex: nth($fg, 1);
+  }
+
+  -webkit-box-flex: $fg-boxflex;
+  -webkit-flex: $fg $fs $fb;
+  -moz-box-flex: $fg-boxflex;
+  -moz-flex: $fg $fs $fb;
+  -ms-flex: $fg $fs $fb;
+  flex: $fg $fs $fb;
+}
+
+//  Flexbox Justify Content
+//  -----------------------
+
+//  The 'justify-content' property aligns flex items along the main axis
+//  of the current line of the flex container. This is done after any flexible
+//  lengths and any auto margins have been resolved. Typically it helps distribute
+//  extra free space leftover when either all the flex items on a line are
+//  inflexible, or are flexible but have reached their maximum size. It also
+//  exerts some control over the alignment of items when they overflow the line.
+
+//  Note: 'space-*' values not supported in older syntaxes.
+
+//  Values: flex-start | flex-end | center | space-between | space-around
+//  Default: flex-start
+
+@mixin justify-content($value: flex-start) {
+  @if $value == flex-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+  } @else if $value == flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+  } @else if $value == space-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+  } @else if $value == space-around {
+    -ms-flex-pack: distribute;
+  } @else {
+    -webkit-box-pack: $value;
+    -ms-flex-pack: $value;
+  }
+  -webkit-justify-content: $value;
+  -moz-justify-content: $value;
+  justify-content: $value;
+}
+
+// Shorter version:
+@mixin flex-just($value: flex-start) {
+  @include justify-content($value);
+}
+
+//  Flexbox Align Items
+//  -------------------
+
+//  Flex items can be aligned in the cross axis of the current line of the
+//  flex container, similar to 'justify-content' but in the perpendicular
+//  direction. 'align-items' sets the default alignment for all of the flex
+//  container's items, including anonymous flex items. 'align-self' allows
+//  this default alignment to be overridden for individual flex items. (For
+//  anonymous flex items, 'align-self' always matches the value of 'align-items'
+//  on their associated flex container.)
+
+//  Values: flex-start | flex-end | center | baseline | stretch
+//  Default: stretch
+
+@mixin align-items($value: stretch) {
+  @if $value == flex-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+  } @else if $value == flex-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+  } @else {
+    -webkit-box-align: $value;
+    -ms-flex-align: $value;
+  }
+  -webkit-align-items: $value;
+  -moz-align-items: $value;
+  align-items: $value;
+}
+
+//  Flexbox Align Self
+//  ------------------
+
+//  Values: auto | flex-start | flex-end | center | baseline | stretch
+//  Default: auto
+
+@mixin align-self($value: auto) {
+  // No Webkit Box Fallback.
+  -webkit-align-self: $value;
+  -moz-align-self: $value;
+  @if $value == flex-start {
+    -ms-flex-item-align: start;
+  } @else if $value == flex-end {
+    -ms-flex-item-align: end;
+  } @else {
+    -ms-flex-item-align: $value;
+  }
+  align-self: $value;
+}
+
+//  Flexbox Align Content
+//  ---------------------
+
+//  The 'align-content' property aligns a flex container's lines within the
+//  flex container when there is extra space in the cross-axis, similar to
+//  how 'justify-content' aligns individual items within the main-axis. Note,
+//  this property has no effect when the flexbox has only a single line.
+
+//  Values: flex-start | flex-end | center | space-between | space-around | stretch
+//  Default: stretch
+
+@mixin align-content($value: stretch) {
+  // No Webkit Box Fallback.
+  -webkit-align-content: $value;
+  -moz-align-content: $value;
+  @if $value == flex-start {
+    -ms-flex-line-pack: start;
+  } @else if $value == flex-end {
+    -ms-flex-line-pack: end;
+  } @else {
+    -ms-flex-line-pack: $value;
+  }
+  align-content: $value;
+}
+
+// -------------------------------------
+//   Media query
+// -------------------------------------
+
+//**
+// * Media query mixin. - inuitcss.com -- @inuitcss -- @csswizardry
+// *
+// * It’s not great practice to define solid breakpoints up-front, preferring to
+// * modify your design when it needs it, rather than assuming you’ll want a
+// * change at ‘mobile’. However, as inuit.css is required to take a hands off
+// * approach to design decisions, this is the closest we can get to baked-in
+// * responsiveness. It’s flexible enough to allow you to set your own breakpoints
+// * but solid enough to be frameworkified.
+// *
+// * We define some broad breakpoints in our vars file that are picked up here
+// * for use in a simple media query mixin. Our options are:
+// *
+// * palm
+// * lap
+// * lap-and-up
+// * portable
+// * desk
+// * desk-wide
+// *
+// * Not using a media query will, naturally, serve styles to all devices.
+// *
+// * `@include media-query(palm){ [styles here] }`
+// *
+// * We work out your end points for you:
+// */
+
+@mixin media-query($media-query) {
+  @if $media-query == palm-narrow {
+    @media only screen and (max-width: $palm-narrow-end) {
+      @content;
+    }
+  }
+
+  @if $media-query == palm {
+    @media only screen and (max-width: $palm-end) {
+      @content;
+    }
+  }
+
+  @if $media-query == lap {
+    @media only screen and (min-width: $lap-start) and (max-width: $lap-end) {
+      @content;
+    }
+  }
+
+  @if $media-query == palm-wide-and-up {
+    @media only screen and (min-width: $palm-narrow-end) {
+      @content;
+    }
+  }
+
+  @if $media-query == lap-and-up {
+    @media only screen and (min-width: $lap-start) {
+      @content;
+    }
+  }
+
+  @if $media-query == portable {
+    @media only screen and (max-width: $lap-end) {
+      @content;
+    }
+  }
+
+  @if $media-query == desk {
+    @media only screen and (min-width: $desk-start) {
+      @content;
+    }
+  }
+
+  @if $media-query == desk-wide {
+    @media only screen and (min-width: $desk-wide-start) {
+      @content;
+    }
+  }
+
+  @if $media-query == hi-res {
+    @media only screen and (min--moz-device-pixel-ratio: 1.3),
+      (-o-min-device-pixel-ratio: 2.6/2),
+      (-webkit-min-device-pixel-ratio: 1.3),
+      (min-device-pixel-ratio: 1.3),
+      (min-resolution: 1.3dppx) {
+      @content;
+    }
+  }
+}

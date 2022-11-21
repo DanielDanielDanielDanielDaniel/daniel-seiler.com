@@ -342,10 +342,10 @@
     "\/assets\/img\/allianz.png" : {
       "ft" : 32768,
       "iS" : 2274,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/allianz.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -378,10 +378,10 @@
     "\/assets\/img\/aucta\/aucta-editor.png" : {
       "ft" : 32768,
       "iS" : 323425,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -440,10 +440,10 @@
     "\/assets\/img\/aucta\/aucta-logo.png" : {
       "ft" : 32768,
       "iS" : 7693,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -486,10 +486,10 @@
     "\/assets\/img\/aucta\/aucta-stages.png" : {
       "ft" : 32768,
       "iS" : 11062,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-stages.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -522,10 +522,10 @@
     "\/assets\/img\/aucta\/aucta-typography.png" : {
       "ft" : 32768,
       "iS" : 11453,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-typography.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -545,10 +545,10 @@
     "\/assets\/img\/aucta\/auctare.png" : {
       "ft" : 32768,
       "iS" : 2956,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/auctare.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -568,10 +568,10 @@
     "\/assets\/img\/awwards.png" : {
       "ft" : 32768,
       "iS" : 1337,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/awwards.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -591,10 +591,10 @@
     "\/assets\/img\/axel-springer.png" : {
       "ft" : 32768,
       "iS" : 1455,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/axel-springer.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -614,10 +614,10 @@
     "\/assets\/img\/bd-bahn.png" : {
       "ft" : 32768,
       "iS" : 2344,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/bd-bahn.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -637,10 +637,10 @@
     "\/assets\/img\/berkeley.png" : {
       "ft" : 32768,
       "iS" : 2307,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/berkeley.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -660,10 +660,10 @@
     "\/assets\/img\/bverfg.png" : {
       "ft" : 32768,
       "iS" : 9760,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/bverfg.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -709,10 +709,10 @@
     "\/assets\/img\/geekettes.png" : {
       "ft" : 32768,
       "iS" : 4893,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/geekettes.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -742,10 +742,10 @@
     "\/assets\/img\/hubert-burda-media.png" : {
       "ft" : 32768,
       "iS" : 1606,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hubert-burda-media.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -765,10 +765,10 @@
     "\/assets\/img\/hugo-boss.png" : {
       "ft" : 32768,
       "iS" : 2246,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hugo-boss.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -811,10 +811,10 @@
     "\/assets\/img\/meta\/android-chrome-192x192.png" : {
       "ft" : 32768,
       "iS" : 23671,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/android-chrome-192x192.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -892,10 +892,10 @@
     "\/assets\/img\/meta\/mstile-150x150.png" : {
       "ft" : 32768,
       "iS" : 12441,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/mstile-150x150.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -905,10 +905,10 @@
     "\/assets\/img\/meta\/og-1200.png" : {
       "ft" : 32768,
       "iS" : 561002,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/og-1200.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -936,10 +936,10 @@
     "\/assets\/img\/microsoft.png" : {
       "ft" : 32768,
       "iS" : 2184,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/microsoft.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -959,10 +959,10 @@
     "\/assets\/img\/nasa.png" : {
       "ft" : 32768,
       "iS" : 4036,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nasa.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1367,10 +1367,10 @@
     "\/assets\/img\/patreon.png" : {
       "ft" : 32768,
       "iS" : 3352,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/patreon.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1390,10 +1390,10 @@
     "\/assets\/img\/pattern1.png" : {
       "ft" : 32768,
       "iS" : 3325,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern1.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1463,10 +1463,10 @@
     "\/assets\/img\/siemens.png" : {
       "ft" : 32768,
       "iS" : 1440,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/siemens.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1486,10 +1486,10 @@
     "\/assets\/img\/ui-8.png" : {
       "ft" : 32768,
       "iS" : 2460,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/ui-8.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1509,10 +1509,10 @@
     "\/assets\/img\/vodafone.png" : {
       "ft" : 32768,
       "iS" : 4621,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/vodafone.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1532,10 +1532,10 @@
     "\/assets\/img\/zurich.png" : {
       "ft" : 32768,
       "iS" : 1378,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/zurich.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1552,6 +1552,17 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/js\/about-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/js\/about-min-min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/js\/about.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1560,6 +1571,17 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/about-min.js",
       "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/js\/lib\/aos-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/js\/lib\/aos-min-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -1585,14 +1607,36 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/assets\/js\/scripts-min.js" : {
+    "\/assets\/js\/scripts-libs.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/docs\/assets\/js\/scripts-min-min.js",
+      "oAP" : "\/docs\/assets\/js\/scripts-libs-min.js",
       "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/js\/scripts-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/js\/scripts-min-min-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/js\/scripts-min-min.js",
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -1603,9 +1647,21 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/scripts-min.js",
-      "oF" : 0,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/assets\/styles\/aos-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/aos-min-min.css",
+      "oF" : 3,
+      "pg" : 0
     },
     "\/assets\/styles\/aos.css" : {
       "aP" : 1,
@@ -1617,6 +1673,18 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/aos-min.css",
       "oF" : 3,
+      "pg" : 0
+    },
+    "\/assets\/styles\/globals\/_animations.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/globals\/_animations-min.css",
+      "oF" : 1,
       "pg" : 0
     },
     "\/assets\/styles\/globals\/_animations.scss" : {
@@ -1633,6 +1701,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/styles\/globals\/_base.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/globals\/_base-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/globals\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1646,6 +1726,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/globals\/_mixins.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/globals\/_mixins-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/globals\/_mixins.scss" : {
       "aP" : 0,
@@ -1661,6 +1753,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/globals\/_settings.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/globals\/_settings-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/globals\/_settings.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1674,6 +1778,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/globals\/_theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/globals\/_theme-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/globals\/_theme.scss" : {
       "aP" : 0,
@@ -1689,6 +1805,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_aucta.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_aucta-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_aucta.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1702,6 +1830,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_awards.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_awards-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_awards.scss" : {
       "aP" : 0,
@@ -1717,6 +1857,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_buttons.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_buttons-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1730,6 +1882,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_collapsable.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_collapsable-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_collapsable.scss" : {
       "aP" : 0,
@@ -1745,6 +1909,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_dots.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_dots-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_dots.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1758,6 +1934,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_footer.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_footer-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_footer.scss" : {
       "aP" : 0,
@@ -1773,6 +1961,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_hello.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_hello-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_hello.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1786,6 +1986,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_intro.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_intro-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_intro.scss" : {
       "aP" : 0,
@@ -1801,6 +2013,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_layout.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_layout-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_layout.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1814,6 +2038,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_menu.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_menu-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_menu.scss" : {
       "aP" : 0,
@@ -1829,6 +2065,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/styles\/modules\/_nucleus.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_nucleus-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_nucleus.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1842,6 +2090,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_product.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_product-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_product.scss" : {
       "aP" : 0,
@@ -1857,6 +2117,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_project.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_project-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_project.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1870,6 +2142,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_projects.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_projects-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_projects.scss" : {
       "aP" : 0,
@@ -1885,6 +2169,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_publications.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_publications-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_publications.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1898,6 +2194,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_services.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_services-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_services.scss" : {
       "aP" : 0,
@@ -1913,6 +2221,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_slides.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_slides-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_slides.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1926,6 +2246,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_texts.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_texts-min.css",
+      "oF" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/modules\/_texts.scss" : {
       "aP" : 0,
@@ -1941,6 +2273,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_utils.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_utils-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/modules\/_utils.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1955,6 +2299,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/styles-min-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/assets\/styles\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1962,9 +2318,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/styles\/styles-min.css",
-      "oF" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/assets\/styles\/styles.css",
+      "oF" : 3,
       "pg" : 0
     },
     "\/assets\/styles\/styles.scss" : {
@@ -2253,7 +2609,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/scripts.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/services\/awards.pug" : {
       "cB" : 0,
@@ -2355,6 +2711,14 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/includes\/spinner.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/spinner.html",
+      "oF" : 0
+    },
     "\/includes\/spinner.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -2374,14 +2738,6 @@
       "oAP" : "\/docs\/includes\/svg\/menu-line.html",
       "oF" : 0,
       "oS" : 0
-    },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/index.html",
-      "oF" : 0
     },
     "\/index.pug" : {
       "cB" : 0,

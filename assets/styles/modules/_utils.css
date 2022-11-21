@@ -1,0 +1,170 @@
+// UTILS
+
+.is-green {
+  .active {
+    background: $green;
+  }
+}
+
+.is-blue {
+  .active {
+    background: $blue;
+  }
+}
+
+.is-cyan {
+  .active {
+    background: $cyan;
+  }
+}
+
+.op-30 {
+  opacity: 0.3;
+}
+
+// Info data
+
+.info-data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  .info-piece {
+    flex: 1 1 50%;
+    margin-bottom: 1rem;
+  }
+  @include media-query(lap-and-up) {
+    margin-bottom: 3rem;
+    .info-piece {
+      flex: 1 1 calc(25% - 1.5rem);
+      margin-bottom: 0;
+      &:not(:last-child) {
+        margin-right: 0.75rem;
+      }
+    }
+  }
+}
+
+// Info piece
+
+.info-piece {
+  .value {
+    font-weight: 500;
+    font-size: 57.5008px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+  }
+  @include media-query(lap-and-up) {
+    border-top: 0.125rem solid rgba($white, 0.1);
+    .value {
+      font-size: 3.5938rem;
+    }
+  }
+}
+
+// Logo b/w
+
+.logo-bw {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+// Background
+
+.has-dark-gradient {
+  background: rgb(23, 23, 23);
+  background: linear-gradient(#171717, #1b1b1b);
+}
+
+.has-clear-gradient {
+  background: $white;
+  background: linear-gradient($white, #fafafa);
+}
+
+.show-on-mobile {
+  display: block;
+  @include media-query(lap-and-up) {
+    display: none;
+  }
+}
+
+.show-on-desktop {
+  display: none;
+  @include media-query(lap-and-up) {
+    display: block;
+  }
+}
+
+.card {
+  border-radius: $border-radius-sm;
+}
+
+svg {
+  path {
+    fill: currentColor;
+  }
+}
+
+svg {
+  color: $white;
+}
+
+.wysiwyg {
+  p,
+  ul,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-bottom: 1rem;
+  }
+  li {
+    margin-bottom: 0.625rem;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  p,
+  li {
+    line-height: 1.2;
+    opacity: 0.7;
+  }
+  a {
+    color: $blue;
+  }
+  table {
+    color: $black;
+    opacity: 0.7;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+  }
+  table,
+  th,
+  td {
+    border: 0.0625rem solid darken($gray-light, 2%);
+    text-align: left;
+  }
+  th,
+  td {
+    padding: 0.625rem;
+  }
+  thead th {
+    font-weight: $bold;
+    background: lighten($gray-light, 1%);
+  }
+}
+
+.spinner {
+  width: 3.125rem;
+  animation: spin 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+.glowCookies__banner__1 {
+  & > h3 {
+    display: none;
+  }
+  h2 {
+    color: $base-bg;
+    margin-bottom: 10px;
+  }
+}

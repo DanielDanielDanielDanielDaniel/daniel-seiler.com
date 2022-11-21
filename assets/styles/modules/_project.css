@@ -1,0 +1,69 @@
+// Project
+
+.project {
+  &-hero {
+    padding-right: 20%;
+  }
+  .hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .hero-info {
+    > .main-text {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &-dot-grid {
+    margin: 2.25rem 0;
+    .dot {
+      transition: opacity $general-change;
+      &.cyan,
+      &.blue,
+      &.green {
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    &:hover {
+      .cyan,
+      .blue,
+      .green {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  &-tags {
+    margin-top: 1.3125rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .main-text {
+      flex: 0 1 50%;
+      margin-bottom: 0.125rem;
+    }
+  }
+
+  @include media-query(lap-and-up) {
+    &-hero {
+      padding-bottom: 5rem;
+      padding-right: 50%;
+    }
+    .hero-image {
+      top: 5rem;
+    }
+    .hero-info {
+      max-width: 16.875rem;
+    }
+  }
+  @include media-query(desk-wide) {
+    .hero-info {
+      padding-top: 86px;
+    }
+  }
+}
