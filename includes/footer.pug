@@ -2,8 +2,11 @@ mixin footer(className)
   footer.footer(class=className)
     .show-on-mobile
       .wrapper
-        .footer-col
+        .footer-block
           a.footer-item(href='/legal.html') Legal & privacy Settings
+          p.footer-item Coded with passion by &#32;
+            a.inner-link(href='https://bonsaitech.io', target='_blank') Bonsai Studios
+        .footer-block
           .footer-item
             a.social-media-icon(href='https://de.linkedin.com/in/daniel-seiler-9a889981')
               img.ligth(src="../assets/icons/icon-linkedin.svg", alt="linkedin", width='11px' height='10px')
@@ -11,21 +14,18 @@ mixin footer(className)
             a.social-media-icon(href='https://danielseiler.medium.com/',target='_blank', rel='noopener noreferrer')
               img.ligth(src="../assets/icons/icon-medium.svg", alt="medium", width='20px', height='11px')
               img.dark(src="../assets/icons/icon-medium-dark.svg", alt="medium", width='20px', height='11px')
-        .footer-col
-          p.footer-item Coded with passion by &#32;
-            a.inner-link(href='https://bonsaitech.io', target='_blank') Bonsai Studios
           p.footer-item © 2022 – Daniel Seiler
 
     .show-on-desktop
       .wrapper
-        .footer-col
+        .footer-block
           p.footer-item © 2022 – Daniel Seiler
-        .footer-col
+        .footer-block
           a.footer-item(href='/legal.html') Legal & privacy Settings
-        .footer-col
+        .footer-block
           p.footer-item Coded with passion by &#32;
             a.inner-link(href='https://bonsaitech.io', target='_blank') Bonsai Studios
-        .footer-col
+        .footer-block
           .footer-item.social
             a.social-media-icon(href='https://de.linkedin.com/in/daniel-seiler-9a889981',target='_blank', rel='noopener noreferrer')
               img.ligth(src="../assets/icons/icon-linkedin.svg", alt="linkedin", width='11px' height='10px')
