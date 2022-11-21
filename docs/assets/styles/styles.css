@@ -1398,8 +1398,8 @@ svg {
       position: relative;
       max-width: none; }
     .aucta .mobile-top.left-align img {
-      left: -15%;
-      width: 115%; }
+      left: -50%;
+      width: 150%; }
     .aucta .mobile-top:not(.left-align) img {
       width: 31.25rem;
       left: 50%;
