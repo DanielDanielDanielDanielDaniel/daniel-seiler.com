@@ -144,6 +144,9 @@ input[type='radio'] {
   max-width: $l-maxWidth;
   margin: 0 auto;
   padding: 0 10px;
+  @include media-query(desk) {
+    padding: 0 20px;
+  }
 }
 
 .hidden {

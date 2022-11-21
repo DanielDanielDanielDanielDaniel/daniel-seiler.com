@@ -151,7 +151,9 @@ input[type='radio'] {
   max-width: 71.75rem;
   margin: 0 auto;
   padding: 0 10px; }
-
+  @media only screen and (min-width: 1000px) {
+    .wrapper {
+      padding: 0 20px; } }
 .hidden {
   display: none; }
 
@@ -1418,7 +1420,7 @@ svg {
     .aucta .project-hero .hero-info {
       flex: 0 0 21rem; }
   .aucta-block {
-    padding: 6.875rem 0; }
+    padding: 3.75rem 0; }
     .aucta-block .jumbo {
       margin-bottom: 0.75rem;
       max-width: 25.75rem; }
@@ -1428,7 +1430,7 @@ svg {
       padding: 3.1875rem 0;
       flex-direction: row; }
       .aucta-block.inline-block .block-visual {
-        padding-left: 5.3125rem; }
+        padding-left: 2.5rem; }
       .aucta-block.inline-block .main-text {
         max-width: 16.625rem; }
   .aucta .card .main-text {
@@ -1486,6 +1488,12 @@ svg {
     .aucta .card .auctare {
       width: 15.8125rem; } }
 
+@media only screen and (min-width: 740px) and (min-width: 1000px) {
+  .aucta-block {
+    padding: 6.875rem 0; }
+    .aucta-block.inline-block .block-visual {
+      padding-left: 5.3125rem; } }
+
 @media only screen and (min-width: 1200px) {
   .aucta .hero-image {
     right: -5%; }
@@ -1493,6 +1501,16 @@ svg {
     align-items: center; }
     .aucta-app .block-info {
       padding-left: 6.25rem; } }
+
+@media only screen and (min-width: 1000px) {
+  .aucta-organization .aucta-block img {
+    max-width: none;
+    width: auto;
+    height: 85%; } }
+
+@media only screen and (min-width: 1200px) {
+  .aucta-organization .aucta-block img {
+    height: calc(100% - 2.875rem); } }
 
 .hello .card {
   display: block;
