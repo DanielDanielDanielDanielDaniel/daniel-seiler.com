@@ -1092,9 +1092,12 @@ svg {
   margin-bottom: 1.375rem; }
 
 .projects-item {
-  display: block; }
+  display: block;
+  transition: opacity 0.3s ease-in-out; }
   .projects-item.disabled > * {
     opacity: 0.2; }
+  .projects-item:not(.disabled):hover {
+    opacity: 0.6; }
 
 .projects .title {
   display: flex;
@@ -1704,10 +1707,25 @@ svg {
     opacity: 0.9;
     position: absolute;
     left: 50%;
-    bottom: 3.75rem;
+    bottom: 50px;
     transform: translateX(-50%); }
+    .slide .scroll-indicator:after {
+      content: '';
+      width: 20px;
+      height: 0;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 1px 1px 16px 30px rgba(255, 255, 255, 0.3);
+      z-index: 1; }
     .slide .scroll-indicator p {
-      margin-bottom: 0.75rem; }
+      margin-bottom: 0.75rem;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); }
+    .slide .scroll-indicator img,
+    .slide .scroll-indicator p {
+      z-index: 10;
+      position: relative; }
   @media only screen and (max-width: 739px) {
     .slide .mobile-break {
       display: block; }

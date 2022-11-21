@@ -6,9 +6,16 @@
   }
   &-item {
     display: block;
+    transition: opacity $general-change;
     &.disabled {
       > * {
         opacity: 0.2;
+      }
+    }
+
+    &:not(.disabled) {
+      &:hover {
+        opacity: 0.6;
       }
     }
   }
