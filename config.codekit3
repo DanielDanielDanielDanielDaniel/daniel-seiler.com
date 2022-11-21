@@ -32,87 +32,87 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/about.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     },
     "\/assets\/fonts\/Figtree-Medium.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-Medium.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-Medium.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-Medium.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-Medium.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-Medium.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-Regular.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-Regular.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-Regular.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-Regular.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-Regular.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-Regular.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-SemiBold.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-SemiBold.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-SemiBold.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-SemiBold.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/fonts\/Figtree-SemiBold.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/fonts\/Figtree-SemiBold.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/icons\/icon-linkedin-dark.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/icons\/icon-linkedin-dark.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -122,7 +122,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/icons\/icon-linkedin.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -132,7 +132,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/icons\/icon-medium-dark.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -142,7 +142,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/icons\/icon-medium.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -152,7 +152,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/icons\/menu-line.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -160,10 +160,10 @@
     "\/assets\/img\/about\/about-daniel-sm.png" : {
       "ft" : 32768,
       "iS" : 233011,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -173,10 +173,10 @@
     "\/assets\/img\/about\/about-daniel.png" : {
       "ft" : 32768,
       "iS" : 1214534,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -186,10 +186,10 @@
     "\/assets\/img\/about\/aucta-sm.png" : {
       "ft" : 32768,
       "iS" : 307812,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -199,10 +199,10 @@
     "\/assets\/img\/about\/aucta.png" : {
       "ft" : 32768,
       "iS" : 1536326,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/aucta.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -212,10 +212,10 @@
     "\/assets\/img\/about\/hackerbay-sm.png" : {
       "ft" : 32768,
       "iS" : 272569,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -225,10 +225,10 @@
     "\/assets\/img\/about\/hackerbay.png" : {
       "ft" : 32768,
       "iS" : 1202705,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -238,10 +238,10 @@
     "\/assets\/img\/about\/nucleus-sm.png" : {
       "ft" : 32768,
       "iS" : 272743,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/nucleus-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -251,10 +251,10 @@
     "\/assets\/img\/about\/nucleus.png" : {
       "ft" : 32768,
       "iS" : 1279596,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/nucleus.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -264,10 +264,10 @@
     "\/assets\/img\/about\/university-sm.png" : {
       "ft" : 32768,
       "iS" : 258357,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/university-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -277,10 +277,10 @@
     "\/assets\/img\/about\/university.png" : {
       "ft" : 32768,
       "iS" : 1302900,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/university.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -290,10 +290,10 @@
     "\/assets\/img\/about\/wizart-sm.png" : {
       "ft" : 32768,
       "iS" : 314612,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -303,10 +303,10 @@
     "\/assets\/img\/about\/wizart.png" : {
       "ft" : 32768,
       "iS" : 1601068,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/wizart.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -316,10 +316,10 @@
     "\/assets\/img\/about\/yral-sm.png" : {
       "ft" : 32768,
       "iS" : 236737,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/yral-sm.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -329,10 +329,10 @@
     "\/assets\/img\/about\/yral.png" : {
       "ft" : 32768,
       "iS" : 971803,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/about\/yral.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -357,7 +357,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/allianz.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -365,10 +365,10 @@
     "\/assets\/img\/aucta\/aucta-editor-full.png" : {
       "ft" : 32768,
       "iS" : 447848,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor-full.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -391,10 +391,10 @@
     "\/assets\/img\/aucta\/aucta-imagotipo.png" : {
       "ft" : 32768,
       "iS" : 9933,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-imagotipo.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -406,7 +406,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-imagotipo.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -414,10 +414,10 @@
     "\/assets\/img\/aucta\/aucta-ipad.png" : {
       "ft" : 32768,
       "iS" : 303010,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-ipad.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -427,10 +427,10 @@
     "\/assets\/img\/aucta\/aucta-iphone.png" : {
       "ft" : 32768,
       "iS" : 182927,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-iphone.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -455,7 +455,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-logo.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -463,10 +463,10 @@
     "\/assets\/img\/aucta\/aucta-process.png" : {
       "ft" : 32768,
       "iS" : 135715,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-process.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -478,7 +478,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-process.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -501,7 +501,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-stages.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -509,10 +509,10 @@
     "\/assets\/img\/aucta\/aucta-team.png" : {
       "ft" : 32768,
       "iS" : 1084174,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-team.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -537,7 +537,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-typography.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -560,7 +560,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/auctare.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -583,7 +583,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/awwards.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -606,7 +606,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/axel-springer.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -629,7 +629,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/bd-bahn.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -652,7 +652,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/berkeley.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -675,7 +675,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/bverfg.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -683,10 +683,10 @@
     "\/assets\/img\/daniel-portrait.png" : {
       "ft" : 32768,
       "iS" : 512254,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/daniel-portrait.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -696,10 +696,10 @@
     "\/assets\/img\/daniel.png" : {
       "ft" : 32768,
       "iS" : 118941,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/daniel.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -724,7 +724,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/geekettes.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -734,7 +734,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hand.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -757,7 +757,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hubert-burda-media.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -780,7 +780,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hugo-boss.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -788,10 +788,10 @@
     "\/assets\/img\/iconjar.png" : {
       "ft" : 32768,
       "iS" : 1399,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/iconjar.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -803,7 +803,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/iconjar.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -824,10 +824,10 @@
     "\/assets\/img\/meta\/android-chrome-512x512.png" : {
       "ft" : 32768,
       "iS" : 153885,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/android-chrome-512x512.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -837,10 +837,10 @@
     "\/assets\/img\/meta\/apple-touch-icon.png" : {
       "ft" : 32768,
       "iS" : 12493,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/apple-touch-icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -851,17 +851,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/browserconfig.xml",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/img\/meta\/favicon-16x16.png" : {
       "ft" : 32768,
       "iS" : 736,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -871,10 +871,10 @@
     "\/assets\/img\/meta\/favicon-32x32.png" : {
       "ft" : 32768,
       "iS" : 1462,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -885,9 +885,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/favicon.ico",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/img\/meta\/mstile-150x150.png" : {
       "ft" : 32768,
@@ -920,7 +920,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/safari-pinned-tab.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -929,9 +929,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/site.webmanifest",
-      "oF" : 0
+      "oF" : 1
     },
     "\/assets\/img\/microsoft.png" : {
       "ft" : 32768,
@@ -951,7 +951,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/microsoft.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -974,7 +974,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nasa.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -984,7 +984,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/analogue-prototyping.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -994,7 +994,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/ar-overlay.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1004,7 +1004,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/area-of-responsibility.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1014,7 +1014,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/bundling-ideas.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1024,7 +1024,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/camera-surveillance.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1034,7 +1034,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/connecting-sustainably.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1044,7 +1044,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/conversation-starter.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1054,7 +1054,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/conversational-ai.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1064,7 +1064,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/credit-card.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1074,7 +1074,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/flight-controller-ui.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1084,7 +1084,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/forcasting-model.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1094,7 +1094,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/hardware-psu.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1104,7 +1104,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/head-rotation-hololens.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1114,7 +1114,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/inspect-obejct.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1124,7 +1124,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/interactive-interface.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1134,7 +1134,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/latency.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1144,7 +1144,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/marker-wall.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1154,7 +1154,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/mobile-one-hand-left.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1164,7 +1164,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/motion-tracking-hand.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1174,7 +1174,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/pinch-object-two-hands.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1184,7 +1184,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/pipe.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1194,7 +1194,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/project-planning.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1204,7 +1204,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/radar-services-and-procedures.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1214,7 +1214,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/recycling-food-scraps.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1224,7 +1224,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/speed.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1234,7 +1234,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/sustainable-gpu.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1244,7 +1244,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/tablet-horizontal-double-tap.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1254,7 +1254,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/thematic-networks.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1264,7 +1264,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/thunderbolt.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1274,7 +1274,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/touchpad-right-click-finger.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1284,7 +1284,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/unstructured-data.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1294,7 +1294,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/icons\/wind-power-plant-rotation.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1302,10 +1302,10 @@
     "\/assets\/img\/nucleus\/iphone-cropped.png" : {
       "ft" : 32768,
       "iS" : 392661,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/iphone-cropped.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1315,10 +1315,10 @@
     "\/assets\/img\/nucleus\/iphone.png" : {
       "ft" : 32768,
       "iS" : 1363403,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/iphone.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1328,10 +1328,10 @@
     "\/assets\/img\/nucleus\/iwatch.png" : {
       "ft" : 32768,
       "iS" : 560638,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/iwatch.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1341,10 +1341,10 @@
     "\/assets\/img\/nucleus\/nebula.png" : {
       "ft" : 32768,
       "iS" : 2147308,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/nebula.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1354,10 +1354,10 @@
     "\/assets\/img\/nucleus\/nebula2.png" : {
       "ft" : 32768,
       "iS" : 1785630,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nucleus\/nebula2.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oF" : 1,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1382,7 +1382,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/patreon.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1405,7 +1405,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern1.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1415,7 +1415,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern2.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1425,7 +1425,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern3.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1435,7 +1435,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern4.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1445,7 +1445,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern5.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1455,7 +1455,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern6.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1478,7 +1478,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/siemens.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1501,7 +1501,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/ui-8.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1524,7 +1524,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/vodafone.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1547,7 +1547,7 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/zurich.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
@@ -1559,7 +1559,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/about-min.js",
-      "oF" : 0,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -1570,7 +1570,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/lib\/aos-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -1590,9 +1590,9 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/scripts-min-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -1616,7 +1616,7 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/aos-min.css",
-      "oF" : 0,
+      "oF" : 3,
       "pg" : 0
     },
     "\/assets\/styles\/globals\/_animations.scss" : {
@@ -1628,10 +1628,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_animations.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/globals\/_base.scss" : {
       "aP" : 0,
@@ -1642,7 +1642,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_base.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1656,7 +1656,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_mixins.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1670,7 +1670,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_settings.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1684,7 +1684,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_theme.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1698,7 +1698,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_aucta.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1712,7 +1712,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_awards.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1726,7 +1726,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_buttons.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1740,7 +1740,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_collapsable.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1754,7 +1754,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_dots.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1768,7 +1768,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_footer.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1782,7 +1782,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_hello.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1796,7 +1796,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_intro.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1810,7 +1810,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_layout.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1824,10 +1824,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_menu.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_nucleus.scss" : {
       "aP" : 0,
@@ -1838,7 +1838,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_nucleus.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1852,7 +1852,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_product.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1866,7 +1866,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_project.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1880,7 +1880,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_projects.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1894,7 +1894,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_publications.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1908,7 +1908,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_services.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1922,7 +1922,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_slides.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1936,7 +1936,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_texts.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1950,7 +1950,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_utils.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1962,9 +1962,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/styles-min.css",
-      "oF" : 1,
+      "oF" : 0,
       "pg" : 0
     },
     "\/assets\/styles\/styles.scss" : {
@@ -1974,9 +1974,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/styles.css",
-      "oF" : 0,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -1988,7 +1988,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/aucta.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     },
     "\/CNAME" : {
@@ -2253,7 +2253,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/scripts.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/services\/awards.pug" : {
       "cB" : 0,
@@ -2379,7 +2379,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/docs\/index.html",
       "oF" : 0
     },
@@ -2390,7 +2390,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/index.html",
-      "oF" : 1,
+      "oF" : 3,
       "oS" : 1
     },
     "\/layout\/layout.pug" : {
@@ -2410,7 +2410,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/legal.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     },
     "\/nucleus.pug" : {
@@ -2420,7 +2420,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/nucleus.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     },
     "\/package-lock.json" : {
@@ -2438,7 +2438,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/projects.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     },
     "\/publications.pug" : {
@@ -2448,7 +2448,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/publications.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     },
     "\/README.md" : {
@@ -2460,9 +2460,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/README.html",
-      "oF" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/README.md",
+      "oF" : 1,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,
@@ -2477,7 +2477,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/services.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0
     }
   },
@@ -2493,7 +2493,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690641836.19951904
+    "lastBuiltDate" : 690724349.97285903
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -2940,7 +2940,7 @@
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
-        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false}"
+        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
       },
       "array-bracket-newline" : {
         "active" : 0,
@@ -2987,7 +2987,7 @@
       },
       "camelcase" : {
         "active" : 0,
-        "optionString" : "{'properties': 'always', 'ignoreDestructuring': false}"
+        "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
       },
       "capitalized-comments" : {
         "active" : 0,
@@ -3015,7 +3015,7 @@
       },
       "computed-property-spacing" : {
         "active" : 0,
-        "optionString" : "'never'"
+        "optionString" : "'never', {'enforceForClassMembers': true}"
       },
       "consistent-return" : {
         "active" : 0,
@@ -3112,7 +3112,7 @@
       },
       "id-match" : {
         "active" : 0,
-        "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+        "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
       },
       "implicit-arrow-linebreak" : {
         "active" : 0,
@@ -3204,7 +3204,7 @@
       },
       "new-parens" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "'always'"
       },
       "newline-per-chained-call" : {
         "active" : 0,
@@ -3247,7 +3247,7 @@
       },
       "no-confusing-arrow" : {
         "active" : 0,
-        "optionString" : "{'allowParens': false}"
+        "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
         "active" : 1,
@@ -3336,7 +3336,7 @@
       },
       "no-extra-parens" : {
         "active" : 0,
-        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
       },
       "no-extra-semi" : {
         "active" : 1
@@ -3380,7 +3380,7 @@
       },
       "no-invalid-this" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'capIsConstructor': true}"
       },
       "no-irregular-whitespace" : {
         "active" : 1,
@@ -3410,7 +3410,7 @@
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
         "active" : 0
@@ -3572,7 +3572,7 @@
       },
       "no-tabs" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{allowIndentationTabs: false}"
       },
       "no-template-curly-in-string" : {
         "active" : 0
@@ -3602,7 +3602,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'allowFunctionParams': true}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -3626,7 +3626,7 @@
       },
       "no-unsafe-negation" : {
         "active" : 1,
-        "optionString" : ""
+        "optionString" : "{'enforceForOrderingRelations': false}"
       },
       "no-unsafe-optional-chaining" : {
         "active" : 0,
@@ -3634,7 +3634,7 @@
       },
       "no-unused-expressions" : {
         "active" : 0,
-        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
       },
       "no-unused-labels" : {
         "active" : 1
@@ -3658,7 +3658,7 @@
       },
       "no-useless-computed-key" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'enforceForClassMembers': false}"
       },
       "no-useless-concat" : {
         "active" : 0
@@ -3681,7 +3681,7 @@
       },
       "no-void" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowAsStatement': false}"
       },
       "no-warning-comments" : {
         "active" : 0,
@@ -3822,11 +3822,11 @@
       },
       "sort-imports" : {
         "active" : 0,
-        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
       },
       "sort-keys" : {
         "active" : 0,
-        "optionString" : "'asc', {'caseSensitive': true, 'natural': false}"
+        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
       },
       "sort-vars" : {
         "active" : 0,
@@ -3881,7 +3881,7 @@
       },
       "use-isnan" : {
         "active" : 1,
-        "optionString" : ""
+        "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
       },
       "valid-jsdoc" : {
         "active" : 0,
@@ -4270,7 +4270,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 1,
+      "minifierStyle" : 0,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
       "syntaxCheckerStyle" : 1,
@@ -4348,7 +4348,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "orderOutput" : 0,
+      "orderOutput" : 1,
       "outputStyle" : 1
     },
     "languageDefaultsKIT" : {
@@ -4377,7 +4377,7 @@
       "rewriteURLStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 1,
+      "sourceMapStyle" : 0,
       "strictImports" : 0,
       "strictUnits" : 0
     },
@@ -4433,7 +4433,7 @@
       "autoOutputPathStyle" : 0,
       "compileDebug" : 1,
       "htmlMinifierStyle" : 0,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsSASS" : {
@@ -4443,7 +4443,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 1,
+      "compilerType" : 0,
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
       "emitCharset" : 1,
@@ -4492,7 +4492,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "pluginMask" : 3758088159
+      "pluginMask" : 52780316221407
     },
     "languageDefaultsTS" : {
       "autoOutputAction" : 0,
@@ -4850,7 +4850,7 @@
         "flagValue" : -1
       },
       "unused" : {
-        "active" : 0,
+        "active" : 1,
         "flagValue" : -1
       },
       "warnings" : {
