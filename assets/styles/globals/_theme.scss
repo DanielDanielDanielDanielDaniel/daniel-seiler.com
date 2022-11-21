@@ -23,6 +23,9 @@
   .button {
     background: $gray-light;
     color: $black;
+    &:hover {
+      background-color: darken($gray-light, 5%);
+    }
   }
   .footer,
   .footer a {
