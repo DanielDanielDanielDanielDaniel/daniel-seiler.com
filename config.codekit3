@@ -1647,7 +1647,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/aos-min.css",
       "oF" : 3,
       "pg" : 0
@@ -2528,7 +2528,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690726241.02099895
+    "lastBuiltDate" : 690813194.59960794
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
