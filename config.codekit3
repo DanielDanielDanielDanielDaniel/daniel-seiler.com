@@ -1523,6 +1523,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/nucleus\/iphone.webp" : {
+      "ft" : 8388608,
+      "iS" : 350522,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/nucleus\/iphone.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/nucleus\/iwatch.png" : {
       "ft" : 32768,
       "iS" : 560638,
@@ -1534,6 +1545,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/nucleus\/iwatch.webp" : {
+      "ft" : 8388608,
+      "iS" : 41960,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/nucleus\/iwatch.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/nucleus\/nebula.png" : {
