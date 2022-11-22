@@ -529,6 +529,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/aucta\/aucta-editor-full.webp" : {
+      "ft" : 8388608,
+      "iS" : 45394,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor-full.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/aucta\/aucta-editor.png" : {
       "ft" : 32768,
       "iS" : 322423,
@@ -578,6 +589,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/aucta\/aucta-ipad.webp" : {
+      "ft" : 8388608,
+      "iS" : 42772,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-ipad.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/aucta\/aucta-iphone.png" : {
       "ft" : 32768,
       "iS" : 182927,
@@ -589,6 +611,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-iphone.webp" : {
+      "ft" : 8388608,
+      "iS" : 40488,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-iphone.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-logo.png" : {
@@ -671,6 +704,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-team.webp" : {
+      "ft" : 8388608,
+      "iS" : 193460,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-team.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-typography.png" : {
@@ -2670,7 +2714,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690816466.12746894
+    "lastBuiltDate" : 690819786.53392506
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
