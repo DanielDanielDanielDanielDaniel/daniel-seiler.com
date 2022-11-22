@@ -314,6 +314,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/nucleus-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 50784,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/nucleus-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/nucleus.png" : {
       "ft" : 32768,
       "iS" : 1279596,
@@ -325,6 +336,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/nucleus.webp" : {
+      "ft" : 8388608,
+      "iS" : 203398,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/nucleus.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/university-sm.png" : {
@@ -340,6 +362,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/university-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 66934,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/university-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/university.png" : {
       "ft" : 32768,
       "iS" : 1302900,
@@ -351,6 +384,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/university.webp" : {
+      "ft" : 8388608,
+      "iS" : 243626,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/university.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/wizart-sm.png" : {
@@ -366,6 +410,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/wizart-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 71000,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/wizart.png" : {
       "ft" : 32768,
       "iS" : 1601068,
@@ -377,6 +432,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/wizart.webp" : {
+      "ft" : 8388608,
+      "iS" : 296432,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/wizart.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/yral-sm.png" : {
@@ -392,6 +458,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/yral-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 20996,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/yral-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/yral.png" : {
       "ft" : 32768,
       "iS" : 971803,
@@ -403,6 +480,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/yral.webp" : {
+      "ft" : 8388608,
+      "iS" : 66242,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/yral.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/allianz.png" : {
@@ -2582,7 +2670,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690815494.98533201
+    "lastBuiltDate" : 690816466.12746894
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

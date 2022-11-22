@@ -1752,30 +1752,30 @@ svg {
     .slide:nth-child(2) .slide__img-inner {
       background-position: 65% 50%; }
     .slide:nth-child(3) .slide__img-inner {
-      background-image: url("/assets/img/about/nucleus-sm.png"); }
+      background-image: url("/assets/img/about/nucleus-sm.webp"); }
     .slide:nth-child(4) .slide__img-inner {
-      background-image: url("/assets/img/about/hackerbay-sm.png"); }
+      background-image: url("/assets/img/about/hackerbay-sm.webp"); }
     .slide:nth-child(5) .slide__img-inner {
-      background-image: url("/assets/img/about/wizart-sm.png"); }
+      background-image: url("/assets/img/about/wizart-sm.webp"); }
     .slide:nth-child(6) .slide__img-inner {
-      background-image: url("/assets/img/about/yral-sm.png"); }
+      background-image: url("/assets/img/about/yral-sm.webp"); }
     .slide:nth-child(7) .slide__img-inner {
-      background-image: url("/assets/img/about/university-sm.png"); } }
+      background-image: url("/assets/img/about/university-sm.webp"); } }
   @media only screen and (min-width: 740px) {
     .slide:first-child .slide__img-inner {
       background-image: url("/assets/img/about/about-daniel.webp"); }
     .slide:nth-child(2) .slide__img-inner {
-      background-image: url("/assets/img/about/aucta.png"); }
+      background-image: url("/assets/img/about/aucta.webp"); }
     .slide:nth-child(3) .slide__img-inner {
-      background-image: url("/assets/img/about/nucleus.png"); }
+      background-image: url("/assets/img/about/nucleus.webp"); }
     .slide:nth-child(4) .slide__img-inner {
-      background-image: url("/assets/img/about/hackerbay.png"); }
+      background-image: url("/assets/img/about/hackerbay.webp"); }
     .slide:nth-child(5) .slide__img-inner {
-      background-image: url("/assets/img/about/wizart.png"); }
+      background-image: url("/assets/img/about/wizart.webp"); }
     .slide:nth-child(6) .slide__img-inner {
-      background-image: url("/assets/img/about/yral.png"); }
+      background-image: url("/assets/img/about/yral.webp"); }
     .slide:nth-child(7) .slide__img-inner {
-      background-image: url("/assets/img/about/university.png"); }
+      background-image: url("/assets/img/about/university.webp"); }
     .slide .wrapper {
       padding: 8.75rem 1rem; }
     .slide-tags {
