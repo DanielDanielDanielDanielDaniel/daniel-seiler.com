@@ -77,10 +77,49 @@
   }
 }
 
-.product-item {
-  .dot-grid {
-    .active {
-      animation: pulse 2.8s ease infinite;
+// Blinking dots
+
+.product-list {
+  .product-item {
+    .dot-grid {
+      .active {
+        animation: pulse 2.8s ease infinite;
+      }
+    }
+    &:first-child {
+      .dot-grid {
+        .active {
+          animation-delay: 0.2s;
+        }
+      }
+    }
+    &:nth-child(2) {
+      .dot-grid {
+        .active {
+          animation-delay: 0.6s;
+        }
+      }
+    }
+    &:nth-child(3) {
+      .dot-grid {
+        .active {
+          animation-delay: 0.8s;
+        }
+      }
+    }
+    &:nth-child(4) {
+      .dot-grid {
+        .active {
+          animation-delay: 1s;
+        }
+      }
+    }
+    &:nth-child(5) {
+      .dot-grid {
+        .active {
+          animation-delay: 1.3s;
+        }
+      }
     }
   }
 }

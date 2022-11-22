@@ -1064,8 +1064,23 @@ svg {
   .product-item {
     flex-basis: 25%; } }
 
-.product-item .dot-grid .active {
+.product-list .product-item .dot-grid .active {
   animation: pulse 2.8s ease infinite; }
+
+.product-list .product-item:first-child .dot-grid .active {
+  animation-delay: 0.2s; }
+
+.product-list .product-item:nth-child(2) .dot-grid .active {
+  animation-delay: 0.6s; }
+
+.product-list .product-item:nth-child(3) .dot-grid .active {
+  animation-delay: 0.8s; }
+
+.product-list .product-item:nth-child(4) .dot-grid .active {
+  animation-delay: 1s; }
+
+.product-list .product-item:nth-child(5) .dot-grid .active {
+  animation-delay: 1.3s; }
 
 .publications .alpha {
   margin-bottom: 0.625rem; }
