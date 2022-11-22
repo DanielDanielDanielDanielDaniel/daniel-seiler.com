@@ -341,7 +341,7 @@
     },
     "\/assets\/img\/allianz.png" : {
       "ft" : 32768,
-      "iS" : 2274,
+      "iS" : 1272,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/allianz.png",
       "oF" : 1,
@@ -377,7 +377,7 @@
     },
     "\/assets\/img\/aucta\/aucta-editor.png" : {
       "ft" : 32768,
-      "iS" : 323425,
+      "iS" : 322423,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor.png",
       "oF" : 1,
@@ -439,7 +439,7 @@
     },
     "\/assets\/img\/aucta\/aucta-logo.png" : {
       "ft" : 32768,
-      "iS" : 7693,
+      "iS" : 7672,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-logo.png",
       "oF" : 1,
@@ -485,7 +485,7 @@
     },
     "\/assets\/img\/aucta\/aucta-stages.png" : {
       "ft" : 32768,
-      "iS" : 11062,
+      "iS" : 10560,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-stages.png",
       "oF" : 1,
@@ -521,7 +521,7 @@
     },
     "\/assets\/img\/aucta\/aucta-typography.png" : {
       "ft" : 32768,
-      "iS" : 11453,
+      "iS" : 11310,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-typography.png",
       "oF" : 1,
@@ -544,7 +544,7 @@
     },
     "\/assets\/img\/aucta\/auctare.png" : {
       "ft" : 32768,
-      "iS" : 2956,
+      "iS" : 2935,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/aucta\/auctare.png",
       "oF" : 1,
@@ -567,7 +567,7 @@
     },
     "\/assets\/img\/awwards.png" : {
       "ft" : 32768,
-      "iS" : 1337,
+      "iS" : 922,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/awwards.png",
       "oF" : 1,
@@ -590,7 +590,7 @@
     },
     "\/assets\/img\/axel-springer.png" : {
       "ft" : 32768,
-      "iS" : 1455,
+      "iS" : 900,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/axel-springer.png",
       "oF" : 1,
@@ -613,7 +613,7 @@
     },
     "\/assets\/img\/bd-bahn.png" : {
       "ft" : 32768,
-      "iS" : 2344,
+      "iS" : 1382,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/bd-bahn.png",
       "oF" : 1,
@@ -636,7 +636,7 @@
     },
     "\/assets\/img\/berkeley.png" : {
       "ft" : 32768,
-      "iS" : 2307,
+      "iS" : 1369,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/berkeley.png",
       "oF" : 1,
@@ -659,7 +659,7 @@
     },
     "\/assets\/img\/bverfg.png" : {
       "ft" : 32768,
-      "iS" : 9760,
+      "iS" : 5297,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/bverfg.png",
       "oF" : 1,
@@ -708,7 +708,7 @@
     },
     "\/assets\/img\/geekettes.png" : {
       "ft" : 32768,
-      "iS" : 4893,
+      "iS" : 2019,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/geekettes.png",
       "oF" : 1,
@@ -741,7 +741,7 @@
     },
     "\/assets\/img\/hubert-burda-media.png" : {
       "ft" : 32768,
-      "iS" : 1606,
+      "iS" : 980,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hubert-burda-media.png",
       "oF" : 1,
@@ -764,7 +764,7 @@
     },
     "\/assets\/img\/hugo-boss.png" : {
       "ft" : 32768,
-      "iS" : 2246,
+      "iS" : 1166,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/hugo-boss.png",
       "oF" : 1,
@@ -810,7 +810,7 @@
     },
     "\/assets\/img\/meta\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 23671,
+      "iS" : 22432,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/android-chrome-192x192.png",
       "oF" : 1,
@@ -891,7 +891,7 @@
     },
     "\/assets\/img\/meta\/mstile-150x150.png" : {
       "ft" : 32768,
-      "iS" : 12441,
+      "iS" : 11142,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/mstile-150x150.png",
       "oF" : 1,
@@ -904,7 +904,7 @@
     },
     "\/assets\/img\/meta\/og-1200.png" : {
       "ft" : 32768,
-      "iS" : 561002,
+      "iS" : 490334,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/meta\/og-1200.png",
       "oF" : 1,
@@ -935,7 +935,7 @@
     },
     "\/assets\/img\/microsoft.png" : {
       "ft" : 32768,
-      "iS" : 2184,
+      "iS" : 1227,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/microsoft.png",
       "oF" : 1,
@@ -958,7 +958,7 @@
     },
     "\/assets\/img\/nasa.png" : {
       "ft" : 32768,
-      "iS" : 4036,
+      "iS" : 2114,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/nasa.png",
       "oF" : 1,
@@ -1366,7 +1366,7 @@
     },
     "\/assets\/img\/patreon.png" : {
       "ft" : 32768,
-      "iS" : 3352,
+      "iS" : 1715,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/patreon.png",
       "oF" : 1,
@@ -1389,7 +1389,7 @@
     },
     "\/assets\/img\/pattern1.png" : {
       "ft" : 32768,
-      "iS" : 3325,
+      "iS" : 1577,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/pattern1.png",
       "oF" : 1,
@@ -1462,7 +1462,7 @@
     },
     "\/assets\/img\/siemens.png" : {
       "ft" : 32768,
-      "iS" : 1440,
+      "iS" : 876,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/siemens.png",
       "oF" : 1,
@@ -1485,7 +1485,7 @@
     },
     "\/assets\/img\/ui-8.png" : {
       "ft" : 32768,
-      "iS" : 2460,
+      "iS" : 1855,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/ui-8.png",
       "oF" : 1,
@@ -1508,7 +1508,7 @@
     },
     "\/assets\/img\/vodafone.png" : {
       "ft" : 32768,
-      "iS" : 4621,
+      "iS" : 3155,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/vodafone.png",
       "oF" : 1,
@@ -1531,7 +1531,7 @@
     },
     "\/assets\/img\/zurich.png" : {
       "ft" : 32768,
-      "iS" : 1378,
+      "iS" : 887,
       "oA" : 2,
       "oAP" : "\/docs\/assets\/img\/zurich.png",
       "oF" : 1,
