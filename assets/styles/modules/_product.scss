@@ -76,3 +76,11 @@
     }
   }
 }
+
+.product-item {
+  .dot-grid {
+    .active {
+      animation: pulse 2.8s ease infinite;
+    }
+  }
+}

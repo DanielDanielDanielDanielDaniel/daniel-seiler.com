@@ -264,6 +264,20 @@ input[type='radio'] {
     transform: translateY(0);
     opacity: 1; } }
 
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.6); }
+  50% {
+    opacity: 1;
+    transform: scale(1); }
+  75% {
+    opacity: 1;
+    transform: scale(1); }
+  100% {
+    opacity: 0.6;
+    transform: scale(0.6); } }
+
 [data-aos='custom-animation'] {
   opacity: 0;
   transition-property: transform, opacity;
@@ -1049,6 +1063,9 @@ svg {
 @media only screen and (min-width: 1000px) {
   .product-item {
     flex-basis: 25%; } }
+
+.product-item .dot-grid .active {
+  animation: pulse 2.8s ease infinite; }
 
 .publications .alpha {
   margin-bottom: 0.625rem; }

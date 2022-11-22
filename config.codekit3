@@ -1640,18 +1640,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/assets\/styles\/aos.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 1,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/assets\/styles\/aos-min.css",
-      "oF" : 3,
-      "pg" : 0
-    },
     "\/assets\/styles\/globals\/_animations.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2528,7 +2516,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690813194.59960794
+    "lastBuiltDate" : 690815494.98533201
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

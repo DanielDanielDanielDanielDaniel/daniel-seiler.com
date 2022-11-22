@@ -137,6 +137,26 @@ $general-change: 0.3s ease-in-out;
   }
 }
 
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.6);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(0.6);
+  }
+}
+
 // Aos animation
 
 [data-aos='custom-animation'] {
