@@ -1615,7 +1615,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/scripts-libs-min.js",
       "oF" : 0,
-      "sC" : 0,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/scripts-min.js" : {
@@ -1643,13 +1643,13 @@
     "\/assets\/styles\/aos.css" : {
       "aP" : 1,
       "bl" : 0,
-      "ci" : 1,
+      "ci" : 0,
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/aos-min.css",
-      "oF" : 3,
+      "oF" : 0,
       "pg" : 0
     },
     "\/assets\/styles\/globals\/_animations.scss" : {
@@ -1661,7 +1661,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_animations.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1857,7 +1857,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_menu.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1885,10 +1885,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_product.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_project.scss" : {
       "aP" : 0,
@@ -1955,10 +1955,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_slides.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_texts.scss" : {
       "aP" : 0,
@@ -1997,10 +1997,10 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/styles.css",
-      "oF" : 3,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/aucta.pug" : {
       "cB" : 0,
@@ -2034,7 +2034,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/about\/about-content.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/footer.pug" : {
       "cB" : 0,
@@ -2094,7 +2094,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-app.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/projects\/aucta\/aucta-brand.pug" : {
       "cB" : 0,
@@ -2144,7 +2144,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-hero.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/projects\/aucta\/aucta-organization-design.pug" : {
       "cB" : 0,
@@ -2164,7 +2164,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-product.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/projects\/aucta\/aucta-values.pug" : {
       "cB" : 0,
@@ -2174,7 +2174,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-values.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/projects\/nucleus\/nucleus-awards.pug" : {
       "cB" : 0,
@@ -2224,7 +2224,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/nucleus\/nucleus-hero.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/projects\/nucleus\/nucleus-icon-list.pug" : {
       "cB" : 0,
@@ -2481,9 +2481,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/docs\/README.md",
-      "oF" : 1,
+      "oA" : 0,
+      "oAP" : "\/docs\/README.html",
+      "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,
@@ -2514,7 +2514,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690726241.02099895
+    "lastBuiltDate" : 690819786.53392506
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
