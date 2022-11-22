@@ -71,22 +71,7 @@
       will-change: transform;
     }
   }
-  .scroll-indicator {
-    text-align: center;
-    font-weight: 500;
-    font-size: 0.7188rem;
-    line-height: 122%;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    opacity: 0.9;
-    position: absolute;
-    left: 50%;
-    bottom: 3.75rem;
-    transform: translateX(-50%);
-    p {
-      margin-bottom: 0.75rem;
-    }
-  }
+
   @include media-query(palm) {
     .mobile-break {
       display: block;
@@ -198,9 +183,7 @@
         }
       }
     }
-    .scroll-indicator {
-      bottom: 12.5rem;
-    }
+
     .wrapper {
       padding: 8.75rem 1rem;
     }
@@ -248,5 +231,45 @@
   transition: all 2s ease-out;
   .menu-item {
     transition: background-color 1.6s ease-out;
+  }
+}
+
+// Scroll indicator
+
+.scroll-indicator {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.7188rem;
+  line-height: 122%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.9;
+  position: fixed;
+  left: 50%;
+  bottom: 120px;
+  transform: translateX(-50%);
+  animation: fade-in 2s ease;
+  &:after {
+    content: '';
+    width: 20px;
+    height: 0;
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 80px 52px rgba($white, 0.3);
+    z-index: 1;
+    border-radius: 50%;
+  }
+  p {
+    margin-bottom: 0.75rem;
+  }
+  img,
+  p {
+    z-index: 10;
+    position: relative;
+  }
+  @include media-query(lap-and-up) {
+    bottom: 200px;
   }
 }

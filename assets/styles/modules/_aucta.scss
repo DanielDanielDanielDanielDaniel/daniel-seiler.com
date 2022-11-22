@@ -164,8 +164,8 @@
       }
       &.left-align {
         img {
-          left: -15%;
-          width: 115%;
+          left: -50%;
+          width: 150%;
         }
       }
       &:not(.left-align) {
@@ -242,7 +242,7 @@
     }
 
     &-block {
-      padding: 6.875rem 0;
+      padding: 3.75rem 0;
       .jumbo {
         margin-bottom: 0.75rem;
         max-width: 25.75rem;
@@ -254,7 +254,7 @@
         padding: 3.1875rem 0;
         flex-direction: row;
         .block-visual {
-          padding-left: 5.3125rem;
+          padding-left: 2.5rem;
         }
         .main-text {
           max-width: 16.625rem;
@@ -337,6 +337,16 @@
         width: 15.8125rem;
       }
     }
+    @include media-query(desk) {
+      &-block {
+        padding: 6.875rem 0;
+        &.inline-block {
+          .block-visual {
+            padding-left: 5.3125rem;
+          }
+        }
+      }
+    }
   }
 
   // Desk wide
@@ -349,6 +359,27 @@
       align-items: center;
       .block-info {
         padding-left: 6.25rem;
+      }
+    }
+  }
+}
+
+// Aucta organization
+
+.aucta-organization {
+  @include media-query(desk) {
+    .aucta-block {
+      img {
+        max-width: none;
+        width: auto;
+        height: 85%;
+      }
+    }
+  }
+  @include media-query(desk-wide) {
+    .aucta-block {
+      img {
+        height: calc(100% - 2.875rem);
       }
     }
   }
