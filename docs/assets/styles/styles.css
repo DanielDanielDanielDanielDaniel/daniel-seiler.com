@@ -2362,6 +2362,6 @@ svg {
 }
 @supports (-webkit-touch-callout: none) {
   .scroll-indicator {
-    bottom: 160px;
+    bottom: 18%;
   }
 }
