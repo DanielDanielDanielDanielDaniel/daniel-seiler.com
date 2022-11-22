@@ -39,6 +39,7 @@ html {
   box-sizing: border-box;
   font-family: "Figtree", sans-serif;
   height: -webkit-fill-available;
+  overflow-x: hidden;
 }
 
 body {
@@ -1570,6 +1571,9 @@ svg {
 .nucleus {
   background-color: #171717;
 }
+.nucleus .spacer-block {
+  position: relative;
+}
 .nucleus .nebula {
   mix-blend-mode: lighten;
   position: absolute;
@@ -1628,7 +1632,7 @@ svg {
     order: -1;
   }
   .nucleus .nebula {
-    width: 135%;
+    width: 100%;
     max-width: none;
   }
   .nucleus .hero-image {

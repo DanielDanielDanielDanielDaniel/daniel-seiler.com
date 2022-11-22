@@ -2,6 +2,11 @@
 
 .nucleus {
   background-color: $base-bg;
+
+  .spacer-block {
+    position: relative;
+  }
+
   .nebula {
     mix-blend-mode: lighten;
     position: absolute;
@@ -77,7 +82,7 @@
     }
 
     .nebula {
-      width: 135%;
+      width: 100%;
       max-width: none;
     }
 
