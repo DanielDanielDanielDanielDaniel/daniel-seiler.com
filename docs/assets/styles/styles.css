@@ -1746,9 +1746,9 @@ svg {
     .slide .mobile-break {
       display: block; }
     .slide:first-child .slide__img-inner {
-      background-image: url("/assets/img/about/about-daniel-sm.png"); }
+      background-image: url("/assets/img/about/about-daniel-sm.webp"); }
     .slide:nth-child(2) .slide__img-inner {
-      background-image: url("/assets/img/about/aucta-sm.png"); }
+      background-image: url("/assets/img/about/aucta-sm.webp"); }
     .slide:nth-child(2) .slide__img-inner {
       background-position: 65% 50%; }
     .slide:nth-child(3) .slide__img-inner {
@@ -1763,7 +1763,7 @@ svg {
       background-image: url("/assets/img/about/university-sm.png"); } }
   @media only screen and (min-width: 740px) {
     .slide:first-child .slide__img-inner {
-      background-image: url("/assets/img/about/about-daniel.png"); }
+      background-image: url("/assets/img/about/about-daniel.webp"); }
     .slide:nth-child(2) .slide__img-inner {
       background-image: url("/assets/img/about/aucta.png"); }
     .slide:nth-child(3) .slide__img-inner {

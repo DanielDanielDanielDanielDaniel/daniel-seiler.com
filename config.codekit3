@@ -170,6 +170,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/about-daniel-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 18054,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/about-daniel.png" : {
       "ft" : 32768,
       "iS" : 1214534,
@@ -181,6 +192,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/about-daniel.webp" : {
+      "ft" : 8388608,
+      "iS" : 126694,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/about-daniel.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/aucta-sm.png" : {
@@ -196,6 +218,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/aucta-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 83552,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/aucta.png" : {
       "ft" : 32768,
       "iS" : 1536326,
@@ -207,6 +240,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/aucta.webp" : {
+      "ft" : 8388608,
+      "iS" : 276212,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/aucta.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/hackerbay-sm.png" : {
@@ -222,6 +266,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/hackerbay-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 21140,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/hackerbay.png" : {
       "ft" : 32768,
       "iS" : 1202705,
@@ -233,6 +288,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/hackerbay.webp" : {
+      "ft" : 8388608,
+      "iS" : 91362,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/hackerbay.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/nucleus-sm.png" : {
