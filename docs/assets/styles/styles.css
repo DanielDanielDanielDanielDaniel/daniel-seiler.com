@@ -551,7 +551,7 @@ input[type='radio'] {
         margin-right: 0.6875rem; } }
   @media only screen and (min-width: 1200px) {
     .menu-item {
-      min-width: 9.125rem; }
+      min-width: 146px; }
       .menu-item:not(:last-child) {
         margin-right: 0.6875rem; } }
 .slides-menu .menu-item.active {

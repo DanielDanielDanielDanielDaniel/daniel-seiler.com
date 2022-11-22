@@ -150,7 +150,7 @@
 
   @include media-query(desk-wide) {
     &-item {
-      min-width: 9.125rem;
+      min-width: 146px;
       &:not(:last-child) {
         margin-right: 0.6875rem;
       }
