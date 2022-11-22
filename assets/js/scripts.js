@@ -16,6 +16,15 @@ $(function () {
     $('.nucleus-icon-list').toggleClass('expand')
   })
 
+  // hover cursor
+  $('a, button').on('mouseenter', function () {
+    $('#cursor .cursor--inner').addClass('is-hovered')
+  })
+
+  $('a, button').on('mouseleave', function () {
+    $('#cursor .cursor--inner').removeClass('is-hovered')
+  })
+
   // app height
 
   const appHeight = () => {

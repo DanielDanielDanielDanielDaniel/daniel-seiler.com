@@ -170,6 +170,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/about-daniel-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 18054,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/about-daniel.png" : {
       "ft" : 32768,
       "iS" : 1214534,
@@ -181,6 +192,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/about-daniel.webp" : {
+      "ft" : 8388608,
+      "iS" : 126694,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/about-daniel.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/aucta-sm.png" : {
@@ -196,6 +218,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/aucta-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 83552,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/aucta.png" : {
       "ft" : 32768,
       "iS" : 1536326,
@@ -207,6 +240,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/aucta.webp" : {
+      "ft" : 8388608,
+      "iS" : 276212,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/aucta.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/hackerbay-sm.png" : {
@@ -222,6 +266,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/hackerbay-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 21140,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/hackerbay.png" : {
       "ft" : 32768,
       "iS" : 1202705,
@@ -233,6 +288,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/hackerbay.webp" : {
+      "ft" : 8388608,
+      "iS" : 91362,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/hackerbay.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/nucleus-sm.png" : {
@@ -248,6 +314,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/nucleus-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 50784,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/nucleus-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/nucleus.png" : {
       "ft" : 32768,
       "iS" : 1279596,
@@ -259,6 +336,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/nucleus.webp" : {
+      "ft" : 8388608,
+      "iS" : 203398,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/nucleus.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/university-sm.png" : {
@@ -274,6 +362,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/university-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 66934,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/university-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/university.png" : {
       "ft" : 32768,
       "iS" : 1302900,
@@ -285,6 +384,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/university.webp" : {
+      "ft" : 8388608,
+      "iS" : 243626,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/university.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/wizart-sm.png" : {
@@ -300,6 +410,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/wizart-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 71000,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/wizart.png" : {
       "ft" : 32768,
       "iS" : 1601068,
@@ -311,6 +432,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/wizart.webp" : {
+      "ft" : 8388608,
+      "iS" : 296432,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/wizart.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/about\/yral-sm.png" : {
@@ -326,6 +458,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/about\/yral-sm.webp" : {
+      "ft" : 8388608,
+      "iS" : 20996,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/yral-sm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/about\/yral.png" : {
       "ft" : 32768,
       "iS" : 971803,
@@ -337,6 +480,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/about\/yral.webp" : {
+      "ft" : 8388608,
+      "iS" : 66242,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/about\/yral.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/allianz.png" : {
@@ -373,6 +527,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-editor-full.webp" : {
+      "ft" : 8388608,
+      "iS" : 45394,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor-full.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-editor.png" : {
@@ -424,6 +589,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/aucta\/aucta-ipad.webp" : {
+      "ft" : 8388608,
+      "iS" : 42772,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-ipad.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/aucta\/aucta-iphone.png" : {
       "ft" : 32768,
       "iS" : 182927,
@@ -435,6 +611,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-iphone.webp" : {
+      "ft" : 8388608,
+      "iS" : 40488,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-iphone.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-logo.png" : {
@@ -517,6 +704,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/aucta\/aucta-team.webp" : {
+      "ft" : 8388608,
+      "iS" : 193460,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/aucta\/aucta-team.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-typography.png" : {
@@ -1325,6 +1523,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/nucleus\/iphone.webp" : {
+      "ft" : 8388608,
+      "iS" : 350522,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/nucleus\/iphone.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/nucleus\/iwatch.png" : {
       "ft" : 32768,
       "iS" : 560638,
@@ -1336,6 +1545,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/nucleus\/iwatch.webp" : {
+      "ft" : 8388608,
+      "iS" : 41960,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/nucleus\/iwatch.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/nucleus\/nebula.png" : {
@@ -1615,7 +1835,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/js\/scripts-libs-min.js",
       "oF" : 0,
-      "sC" : 3,
+      "sC" : 0,
       "tS" : 0
     },
     "\/assets\/js\/scripts-min.js" : {
@@ -1640,18 +1860,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/assets\/styles\/aos.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/styles\/aos-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/assets\/styles\/globals\/_animations.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1661,7 +1869,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_animations.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1778,6 +1986,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_cursor.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_cursor.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/styles\/modules\/_dots.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1857,7 +2079,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_menu.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1885,10 +2107,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_product.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
     },
     "\/assets\/styles\/modules\/_project.scss" : {
       "aP" : 0,
@@ -1955,10 +2177,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_slides.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
     },
     "\/assets\/styles\/modules\/_texts.scss" : {
       "aP" : 0,
@@ -1997,10 +2219,10 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/styles.css",
-      "oF" : 0,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
     },
     "\/aucta.pug" : {
       "cB" : 0,
@@ -2034,7 +2256,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/about\/about-content.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/footer.pug" : {
       "cB" : 0,
@@ -2094,7 +2316,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-app.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/projects\/aucta\/aucta-brand.pug" : {
       "cB" : 0,
@@ -2144,7 +2366,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-hero.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/projects\/aucta\/aucta-organization-design.pug" : {
       "cB" : 0,
@@ -2164,7 +2386,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-product.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/projects\/aucta\/aucta-values.pug" : {
       "cB" : 0,
@@ -2174,7 +2396,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-values.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/projects\/nucleus\/nucleus-awards.pug" : {
       "cB" : 0,
@@ -2224,7 +2446,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/nucleus\/nucleus-hero.html",
       "oF" : 0,
-      "oS" : 1
+      "oS" : 0
     },
     "\/includes\/projects\/nucleus\/nucleus-icon-list.pug" : {
       "cB" : 0,
@@ -2481,9 +2703,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/README.html",
-      "oF" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/README.md",
+      "oF" : 1,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,

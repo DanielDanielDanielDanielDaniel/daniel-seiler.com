@@ -10,4 +10,4 @@ Styles should be added in `assets/styles`
 
 Scripts are in `assets/js/scripts.js`
 
-The content should be edit in `.pug` files (index.pug, projects.pug, etc). These files will be compiled in the `build` (index.html, projects.html)
+The content should be edit in `.pug` files (index.pug, projects.pug, etc). These files will be compiled in `docs` folder (index.html, projects.html)
