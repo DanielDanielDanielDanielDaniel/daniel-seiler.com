@@ -1527,6 +1527,63 @@ svg {
   }
 }
 
+.project.project-simple .title {
+  font-weight: 500;
+  font-size: 38.5px;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+}
+.project.project-simple .hero-info {
+  padding-top: 40px;
+}
+.project.project-simple .bg-pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+.project.project-simple .wrapper {
+  z-index: 11;
+  position: relative;
+}
+.project.project-simple .text-grid {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.project.project-simple .text-block {
+  padding-bottom: 20px;
+}
+.project.project-simple .project-dot-grid {
+  margin: 20px 0;
+}
+@media only screen and (max-width: 739px) {
+  .project.project-simple .project-hero {
+    padding-right: 106px;
+    overflow: hidden;
+  }
+  .project.project-simple .hero-image {
+    width: 265px;
+    right: -137px;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+  .project.project-simple .text-block {
+    flex: 1 1 50%;
+    padding-right: 20px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .project.project-simple .text-block {
+    flex: 1 1 25%;
+  }
+  .project.project-simple .text-block:not(:last-child) {
+    padding-right: 38px;
+  }
+}
+
 .project-hero {
   padding-right: 20%;
 }
@@ -2455,63 +2512,52 @@ svg {
   }
 }
 
-.skype .title {
-  font-weight: 500;
-  font-size: 38.5px;
-  line-height: 46px;
-  letter-spacing: -0.04em;
-}
 .skype .hero-image {
   width: calc(100% - 400px);
 }
 .skype .bg-pattern {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  width: 100%;
   max-width: 1800px;
   min-width: 1080px;
-}
-.skype .wrapper {
-  z-index: 11;
-  position: relative;
-}
-.skype .text-grid {
-  display: flex;
-  align-items: flex-start;
-  padding-bottom: 20px;
-  flex-wrap: wrap;
-}
-.skype .text-block {
-  padding-bottom: 20px;
-}
-@media only screen and (max-width: 739px) {
-  .skype .project-hero {
-    padding-right: 106px;
-    overflow: hidden;
-  }
-  .skype .hero-image {
-    width: 265px;
-    right: -137px;
-  }
-}
-@media only screen and (min-width: 740px) and (max-width: 999px) {
-  .skype .text-block {
-    flex: 1 1 50%;
-    padding-right: 20px;
-  }
 }
 @media only screen and (min-width: 1000px) {
   .skype .hero-image {
     right: 100px;
     width: 499px;
   }
-  .skype .text-block {
-    flex: 1 1 25%;
+}
+
+.allianz .project-hero {
+  background: url("/assets/img/allianz/allianz-pattern.png");
+  position: relative;
+}
+.allianz .project-hero:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -14px 200px 200px rgba(255, 255, 255, 0.5);
+}
+.allianz .hero-image {
+  width: calc(100% - 360px);
+}
+@media only screen and (max-width: 739px) {
+  .allianz .spacer-block {
+    padding-top: 0;
   }
-  .skype .text-block:not(:last-child) {
-    padding-right: 38px;
+  .allianz .project-hero {
+    padding-top: 360px;
+  }
+  .allianz .hero-image {
+    top: 20px;
+    left: 4px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .allianz .hero-image {
+    text-align: center;
   }
 }
 

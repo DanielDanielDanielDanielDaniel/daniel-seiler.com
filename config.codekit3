@@ -35,6 +35,16 @@
       "oF" : 2,
       "oS" : 0
     },
+    "\/allianz.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/allianz.html",
+      "oF" : 0,
+      "oS" : 1
+    },
     "\/assets\/fonts\/Figtree-Medium.eot" : {
       "cB" : 0,
       "ft" : 8192,
@@ -528,6 +538,58 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/img\/allianz\/ipad.png" : {
+      "ft" : 32768,
+      "iS" : 189207,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/ipad.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/allianz\/slide1.png" : {
+      "ft" : 32768,
+      "iS" : 456729,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/slide1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/allianz\/slide2.png" : {
+      "ft" : 32768,
+      "iS" : 402354,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/slide2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/allianz\/slide3.png" : {
+      "ft" : 32768,
+      "iS" : 397748,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/slide3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-editor-full.png" : {
       "ft" : 32768,
@@ -2160,6 +2222,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_allianz.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_allianz.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/styles\/modules\/_aucta.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2579,6 +2655,56 @@
       "oAP" : "\/docs\/includes\/menu.html",
       "oF" : 0,
       "oS" : 0
+    },
+    "\/includes\/projects\/allianz\/allianz-carousel.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/allianz\/allianz-carousel.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/allianz\/allianz-content.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/allianz\/allianz-content.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/allianz\/allianz-dot-grid.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/allianz\/allianz-dot-grid.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/allianz\/allianz-hero.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/allianz\/allianz-hero.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/allianz\/allianz-info.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/allianz\/allianz-info.html",
+      "oF" : 0,
+      "oS" : 1
     },
     "\/includes\/projects\/aucta\/aucta-app.pug" : {
       "cB" : 0,
@@ -3078,7 +3204,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693154320.32837999
+    "lastBuiltDate" : 693161415.51028597
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

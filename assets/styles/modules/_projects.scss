@@ -70,3 +70,70 @@
     }
   }
 }
+
+// Project simple
+
+.project {
+  &.project-simple {
+    .title {
+      font-weight: 500;
+      font-size: 38.5px;
+      line-height: 46px;
+      letter-spacing: -0.04em;
+    }
+    .hero-info {
+      padding-top: 40px;
+    }
+    .bg-pattern {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      width: 100%;
+    }
+    .wrapper {
+      z-index: 11;
+      position: relative;
+    }
+    .text-grid {
+      display: flex;
+      align-items: flex-start;
+      padding-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .text-block {
+      padding-bottom: 20px;
+    }
+
+    .project-dot-grid {
+      margin: 20px 0;
+    }
+
+    @include media-query(palm) {
+      .project-hero {
+        padding-right: 106px;
+        overflow: hidden;
+      }
+      .hero-image {
+        width: 265px;
+        right: -137px;
+      }
+    }
+
+    @include media-query(lap) {
+      .text-block {
+        flex: 1 1 50%;
+        padding-right: 20px;
+      }
+    }
+
+    @include media-query(desk) {
+      .text-block {
+        flex: 1 1 25%;
+        &:not(:last-child) {
+          padding-right: 38px;
+        }
+      }
+    }
+  }
+}
