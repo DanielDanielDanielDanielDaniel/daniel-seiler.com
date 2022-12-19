@@ -957,6 +957,21 @@ svg {
   margin-bottom: 10px;
 }
 
+.text-block .text-title {
+  font-weight: 500;
+  font-size: 24.5px;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  margin-bottom: 10px;
+}
+.text-block .text {
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 122%;
+  letter-spacing: -0.02em;
+  opacity: 0.5;
+}
+
 .collapsable-button {
   display: none;
   background: transparent;
@@ -2462,6 +2477,15 @@ svg {
   z-index: 11;
   position: relative;
 }
+.skype .text-grid {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.skype .text-block {
+  padding-bottom: 20px;
+}
 @media only screen and (max-width: 739px) {
   .skype .project-hero {
     padding-right: 106px;
@@ -2472,10 +2496,22 @@ svg {
     right: -137px;
   }
 }
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+  .skype .text-block {
+    flex: 1 1 50%;
+    padding-right: 20px;
+  }
+}
 @media only screen and (min-width: 1000px) {
   .skype .hero-image {
     right: 100px;
     width: 499px;
+  }
+  .skype .text-block {
+    flex: 1 1 25%;
+  }
+  .skype .text-block:not(:last-child) {
+    padding-right: 38px;
   }
 }
 

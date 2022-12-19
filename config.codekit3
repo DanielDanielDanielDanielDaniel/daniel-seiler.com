@@ -2790,6 +2790,16 @@
       "oF" : 0,
       "oS" : 1
     },
+    "\/includes\/projects\/skype\/skype-info.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/skype\/skype-info.html",
+      "oF" : 0,
+      "oS" : 1
+    },
     "\/includes\/publications\/publications-content.pug" : {
       "cB" : 0,
       "cOD" : 1,
