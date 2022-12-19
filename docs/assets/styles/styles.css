@@ -2365,3 +2365,77 @@ svg {
     bottom: 18%;
   }
 }
+
+.quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.quote-extra {
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 122%;
+  opacity: 0.3;
+}
+.quote .logo {
+  margin: 0 auto;
+}
+.quote-text {
+  font-weight: 500;
+  font-size: 24.5px;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  opacity: 0.8;
+  margin-bottom: 18px;
+}
+@media only screen and (max-width: 739px) {
+  .quote-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote .logo {
+    order: -1;
+    margin-bottom: 25px;
+  }
+  .quote .author {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 21px;
+  }
+  .quote-text {
+    display: none;
+  }
+  .quote-extra {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 740px) {
+  .quote {
+    flex-direction: row;
+  }
+  .quote-img {
+    flex: 0 0 auto;
+  }
+  .quote-img .author {
+    display: block;
+    width: 134px;
+    height: 134px;
+    margin-bottom: 23px;
+  }
+  .quote-img .logo {
+    display: block;
+    max-width: 134px;
+  }
+  .quote-info {
+    padding-left: 80px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .quote-info {
+    padding-left: 114px;
+  }
+}

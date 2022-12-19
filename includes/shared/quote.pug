@@ -1,0 +1,9 @@
+mixin quote(author, authorName, company, companyName, text, position, logoWidth, logoHeight)
+  .quote
+    .quote-img
+      img.author(src=author, alt=authorName)
+      img.logo(src=company, alt=companyName, width=logoWidth, height=logoHeight)
+    .quote-info
+      p.quote-text #{text}
+      p.quote-extra #{authorName}
+      p.quote-extra #{position}

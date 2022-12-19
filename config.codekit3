@@ -177,7 +177,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -225,7 +225,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -273,7 +273,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -369,7 +369,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/university-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -417,7 +417,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -491,6 +491,19 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/adscanner.png" : {
+      "ft" : 32768,
+      "iS" : 2262,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/adscanner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/img\/allianz.png" : {
@@ -620,7 +633,7 @@
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-iphone.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -809,6 +822,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/baier.png" : {
+      "ft" : 32768,
+      "iS" : 5292,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/baier.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/bd-bahn.png" : {
       "ft" : 32768,
       "iS" : 1382,
@@ -927,6 +953,16 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/hackerbay.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/assets\/img\/hackerbay.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/img\/hand.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1005,6 +1041,32 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/img\/jan.png" : {
+      "ft" : 32768,
+      "iS" : 25706,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/jan.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/melanie.png" : {
+      "ft" : 32768,
+      "iS" : 47542,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/melanie.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/img\/meta\/android-chrome-192x192.png" : {
       "ft" : 32768,
@@ -1680,6 +1742,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/pierre.png" : {
+      "ft" : 32768,
+      "iS" : 22721,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/pierre.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/siemens.png" : {
       "ft" : 32768,
       "iS" : 876,
@@ -1702,6 +1777,32 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/img\/tobias.png" : {
+      "ft" : 32768,
+      "iS" : 46230,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/tobias.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/transparent.png" : {
+      "ft" : 32768,
+      "iS" : 3184,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/transparent.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/img\/ui-8.png" : {
       "ft" : 32768,
@@ -2154,6 +2255,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_quote.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_quote.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/styles\/modules\/_services.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2598,6 +2713,16 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/includes\/shared\/quote.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/shared\/quote.html",
+      "oF" : 0,
+      "oS" : 1
+    },
     "\/includes\/spinner.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2736,7 +2861,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690819786.53392506
+    "lastBuiltDate" : 693145925.36490202
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
