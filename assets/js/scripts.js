@@ -1,6 +1,15 @@
 /* global $ */
 
 $(function () {
+  $('.custom-carousel').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    centerMode: true,
+    centerPadding: '20%'
+  })
   // Menu button
   $('.menu-mobile-button').click(function () {
     $('.menu').toggleClass('open-nav')

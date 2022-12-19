@@ -2439,3 +2439,46 @@ svg {
     padding-left: 114px;
   }
 }
+
+.skype .title {
+  font-weight: 500;
+  font-size: 38.5px;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+}
+.skype .hero-image {
+  width: calc(100% - 400px);
+}
+.skype .bg-pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  max-width: 1800px;
+  min-width: 1080px;
+}
+.skype .wrapper {
+  z-index: 11;
+  position: relative;
+}
+@media only screen and (max-width: 739px) {
+  .skype .project-hero {
+    padding-right: 106px;
+    overflow: hidden;
+  }
+  .skype .hero-image {
+    width: 265px;
+    right: -137px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .skype .hero-image {
+    right: 100px;
+    width: 499px;
+  }
+}
+
+.block-carousel {
+  padding-top: 40px;
+}

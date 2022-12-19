@@ -1,5 +1,5 @@
 mixin quote(author, authorName, company, companyName, text, position, logoWidth, logoHeight)
-  .quote
+  .quote(data-aos="custom-animation")
     .quote-img
       img.author(src=author, alt=authorName)
       img.logo(src=company, alt=companyName, width=logoWidth, height=logoHeight)

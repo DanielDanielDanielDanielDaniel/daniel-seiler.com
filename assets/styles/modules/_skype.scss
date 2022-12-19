@@ -1,0 +1,46 @@
+// SKYPE
+
+.skype {
+  .title {
+    font-weight: 500;
+    font-size: 38.5px;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+  }
+  .hero-image {
+    width: calc(100% - 400px);
+  }
+
+  .bg-pattern {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    max-width: 1800px;
+    min-width: 1080px;
+  }
+
+  .wrapper {
+    z-index: 11;
+    position: relative;
+  }
+
+  @include media-query(palm) {
+    .project-hero {
+      padding-right: 106px;
+      overflow: hidden;
+    }
+    .hero-image {
+      width: 265px;
+      right: -137px;
+    }
+  }
+
+  @include media-query(desk) {
+    .hero-image {
+      right: 100px;
+      width: 499px;
+    }
+  }
+}

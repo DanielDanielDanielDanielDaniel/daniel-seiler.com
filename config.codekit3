@@ -1778,6 +1778,135 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/skype\/iphone.png" : {
+      "ft" : 32768,
+      "iS" : 102971,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/iphone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/iphone.webp" : {
+      "ft" : 8388608,
+      "iS" : 108730,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/iphone.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/pattern.png" : {
+      "ft" : 32768,
+      "iS" : 140612,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/pattern.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/pattern.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/assets\/img\/skype\/pattern.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/img\/skype\/pattern2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/assets\/img\/skype\/pattern2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/img\/skype\/slide1.png" : {
+      "ft" : 32768,
+      "iS" : 206269,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/slide1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/slide1.webp" : {
+      "ft" : 8388608,
+      "iS" : 102718,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/slide1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/slide2.png" : {
+      "ft" : 32768,
+      "iS" : 48992,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/slide2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/slide2.webp" : {
+      "ft" : 8388608,
+      "iS" : 102450,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/slide2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/slide3.png" : {
+      "ft" : 32768,
+      "iS" : 45678,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/slide3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/skype\/slide3.webp" : {
+      "ft" : 8388608,
+      "iS" : 93758,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/skype\/slide3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/tobias.png" : {
       "ft" : 32768,
       "iS" : 46230,
@@ -2073,6 +2202,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_carousel.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_carousel.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/styles\/modules\/_collapsable.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2282,6 +2425,20 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_skype.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_skype.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_slides.scss" : {
       "aP" : 0,
@@ -2593,6 +2750,46 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/includes\/projects\/skype\/skype-carousel.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/skype\/skype-carousel.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/skype\/skype-content.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/skype\/skype-content.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/skype\/skype-dot-grid.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/skype\/skype-dot-grid.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/skype\/skype-hero.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/skype\/skype-hero.html",
+      "oF" : 0,
+      "oS" : 1
+    },
     "\/includes\/publications\/publications-content.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -2847,6 +3044,16 @@
       "oAP" : "\/docs\/services.html",
       "oF" : 2,
       "oS" : 0
+    },
+    "\/skype.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/skype.html",
+      "oF" : 0,
+      "oS" : 1
     }
   },
   "hooks" : [
@@ -2861,7 +3068,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693145925.36490202
+    "lastBuiltDate" : 693154320.32837999
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
