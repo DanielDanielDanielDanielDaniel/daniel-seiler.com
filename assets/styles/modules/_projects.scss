@@ -82,7 +82,7 @@
       letter-spacing: -0.04em;
     }
     .hero-info {
-      padding-top: 40px;
+      padding-top: 0;
     }
     .bg-pattern {
       position: absolute;
@@ -107,6 +107,10 @@
 
     .project-dot-grid {
       margin: 20px 0;
+    }
+
+    .hero-image {
+      top: 20px;
     }
 
     @include media-query(palm) {
