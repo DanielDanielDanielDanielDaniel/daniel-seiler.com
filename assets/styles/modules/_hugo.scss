@@ -1,0 +1,49 @@
+// HUGO
+
+.hugo {
+  .custom-carousel {
+    padding: 0 0 50px;
+  }
+  &-app {
+    &-block {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      background: $gray-light3;
+      padding: 40px 0;
+      img {
+        width: 490px;
+      }
+    }
+  }
+  &-flow {
+    .beta {
+      margin-bottom: 12px;
+    }
+  }
+  @include media-query(lap-and-up) {
+    &-app {
+      &-block {
+        padding: 72px 0;
+        img {
+          &:first-child {
+            margin-left: 100px;
+          }
+        }
+      }
+    }
+
+    &-flow {
+      padding: 100px 0;
+      display: flex;
+      align-items: center;
+      .image {
+        flex: 1 1 auto;
+        padding-right: 70px;
+      }
+      .text-block {
+        flex: 0 0 33%;
+      }
+    }
+  }
+}

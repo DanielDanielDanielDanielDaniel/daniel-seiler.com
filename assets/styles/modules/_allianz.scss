@@ -1,7 +1,7 @@
 // Allianz
 
 .allianz {
-  .project-hero {
+  &-hero {
     background: url('/assets/img/allianz/allianz-pattern.png');
     position: relative;
     &:after {
@@ -11,7 +11,7 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      box-shadow: 0 -14px 200px 200px rgba(white, 0.5);
+      box-shadow: 0 -14px 400px 400px rgba(white, 0.6);
     }
   }
   .hero-image {
