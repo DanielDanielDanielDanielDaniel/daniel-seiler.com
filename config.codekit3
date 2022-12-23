@@ -992,6 +992,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/davide.png" : {
+      "ft" : 32768,
+      "iS" : 31443,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/davide.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/geekettes.png" : {
       "ft" : 32768,
       "iS" : 2019,
@@ -1058,6 +1071,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/assets\/img\/hugo-boss.jpg" : {
+      "ft" : 16384,
+      "iS" : 10065,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo-boss.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/hugo-boss.png" : {
       "ft" : 32768,
       "iS" : 1166,
@@ -1080,6 +1106,141 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/img\/hugo\/hugo-workflow.png" : {
+      "ft" : 32768,
+      "iS" : 238669,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/hugo-workflow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/hugo-workflow.webp" : {
+      "ft" : 8388608,
+      "iS" : 53932,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/hugo-workflow.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/iphone1.png" : {
+      "ft" : 32768,
+      "iS" : 262387,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/iphone1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/iphone1.webp" : {
+      "ft" : 8388608,
+      "iS" : 127702,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/iphone1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/iphone2.png" : {
+      "ft" : 32768,
+      "iS" : 280250,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/iphone2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/iphone2.webp" : {
+      "ft" : 8388608,
+      "iS" : 96796,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/iphone2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/slide1.png" : {
+      "ft" : 32768,
+      "iS" : 251218,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/slide1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/slide1.webp" : {
+      "ft" : 8388608,
+      "iS" : 60516,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/slide1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/slide2.png" : {
+      "ft" : 32768,
+      "iS" : 488936,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/slide2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/slide3.png" : {
+      "ft" : 32768,
+      "iS" : 585253,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/slide3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/hugo\/slide4.png" : {
+      "ft" : 32768,
+      "iS" : 488668,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/hugo\/slide4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/img\/iconjar.png" : {
       "ft" : 32768,
@@ -2362,6 +2523,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/styles\/modules\/_hugo.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_hugo.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/styles\/modules\/_intro.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2596,6 +2771,16 @@
       "oAP" : "\/docs\/docs",
       "oF" : 0
     },
+    "\/hugo.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/hugo.html",
+      "oF" : 0,
+      "oS" : 1
+    },
     "\/includes\/about\/about-content.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -2793,6 +2978,86 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/aucta\/aucta-values.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-app.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-app.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-carousel.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-carousel.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-content.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-content.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-dot-grid.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-dot-grid.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-flow.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-flow.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-hero.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-hero.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-info.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-info.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/includes\/projects\/hugo\/hugo-quote.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-quote.html",
       "oF" : 0,
       "oS" : 1
     },
@@ -3204,7 +3469,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693161415.51028597
+    "lastBuiltDate" : 693494323.79142404
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
