@@ -1,0 +1,10 @@
+// holtzbrinck
+
+.holtzbrinck {
+  .hero-info {
+    max-width: none;
+  }
+  &-info {
+    background: red;
+  }
+}
