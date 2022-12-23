@@ -1,0 +1,17 @@
+// skype
+
+.skype {
+  .hero-image {
+    width: calc(100% - 400px);
+  }
+  .bg-pattern {
+    max-width: 1800px;
+    min-width: 1080px;
+  }
+  @include media-query(desk) {
+    .hero-image {
+      right: 100px;
+      width: 499px;
+    }
+  }
+}

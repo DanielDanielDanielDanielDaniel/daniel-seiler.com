@@ -1,0 +1,113 @@
+// HUGO
+
+.hugo {
+  .custom-carousel {
+    padding: 0 0 50px;
+  }
+  &-app {
+    &-block {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      background: $gray-light3;
+      padding: 40px 0;
+      img {
+        width: 490px;
+      }
+    }
+  }
+  .hero-image {
+    width: calc(100% - 360px);
+  }
+  .hero-ipad {
+    position: relative;
+    max-width: 665px;
+    border-radius: 20px;
+    &:after {
+      content: '';
+      width: 95%;
+      height: 95%;
+      border-radius: 30px;
+      background: #121515;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @include centered(absolute);
+    }
+    img {
+      width: 100%;
+      position: relative;
+      z-index: 99;
+    }
+    video {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      border-radius: 11px;
+      width: 90%;
+      z-index: 10;
+    }
+  }
+  &-flow {
+    .beta {
+      margin-bottom: 12px;
+    }
+  }
+  @include media-query(palm) {
+    &.project-simple {
+      .project-hero {
+        padding-right: 0;
+      }
+    }
+    .project-hero {
+      display: flex;
+      flex-direction: column;
+      .hero-image {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        order: -1;
+        padding: 20px 0;
+      }
+    }
+    .spacer-block {
+      padding-top: 0;
+    }
+  }
+  @include media-query(lap-and-up) {
+    &-app {
+      &-block {
+        padding: 72px 0;
+        img {
+          &:first-child {
+            margin-left: 100px;
+          }
+        }
+      }
+    }
+
+    &-flow {
+      padding: 100px 0;
+      display: flex;
+      align-items: center;
+      .image {
+        flex: 1 1 auto;
+        padding-right: 70px;
+      }
+      .text-block {
+        flex: 0 0 33%;
+      }
+    }
+  }
+  @include media-query(desk) {
+    .hero-ipad {
+      margin: 0 auto;
+      video {
+        top: 40px;
+        left: 40px;
+        width: calc(100% - 80px);
+      }
+    }
+  }
+}

@@ -272,4 +272,8 @@
   @include media-query(lap-and-up) {
     bottom: 200px;
   }
+
+  @supports (-webkit-touch-callout: none) {
+    bottom: 18%;
+  }
 }

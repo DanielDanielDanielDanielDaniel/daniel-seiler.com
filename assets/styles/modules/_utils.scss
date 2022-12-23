@@ -168,3 +168,20 @@ svg {
     margin-bottom: 10px;
   }
 }
+
+.text-block {
+  .text-title {
+    font-weight: $medium;
+    font-size: 24.5px;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    margin-bottom: 10px;
+  }
+  .text {
+    font-weight: $regular;
+    font-size: 16.5px;
+    line-height: 122%;
+    letter-spacing: -0.02em;
+    opacity: 0.5;
+  }
+}

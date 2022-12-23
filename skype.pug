@@ -1,0 +1,11 @@
+extends layout/layout.pug
+block head
+  include includes/head.pug
+  +head('Project: Skype Developer Platform', '' )
+block vars
+  - var wrapperClass = 'light-theme';
+  - var htmlClass = 'light-theme';
+block content
+  include includes/menu.pug
+  +menu('projects')
+  include includes/projects/skype/skype-content.pug
