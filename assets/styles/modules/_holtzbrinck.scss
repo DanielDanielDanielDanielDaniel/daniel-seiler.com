@@ -5,6 +5,29 @@
     max-width: none;
   }
   &-info {
-    background: red;
+    margin-top: 60px;
+    .hero-info {
+      margin-top: -56px;
+    }
+  }
+
+  .text-grid {
+    margin-top: -40px;
+  }
+
+  .browser-video {
+    position: relative;
+    .video {
+      top: 122px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(97% - 136px);
+      position: absolute;
+      border-radius: 10px;
+      z-index: 10;
+    }
+    .image {
+      position: relative;
+    }
   }
 }
