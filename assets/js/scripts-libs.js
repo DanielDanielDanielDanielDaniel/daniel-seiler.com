@@ -1,4 +1,4 @@
-/* global $, AOS, tippy, glowCookies, dataLayer */
+/* global $, AOS, tippy, glowCookies, dataLayer*/
 
 $(function () {
   // Hotjar
@@ -46,6 +46,22 @@ $(function () {
     easing: 'ease-in-out-cubic',
     placement: 'top-bottom',
     offset: 0
+  })
+
+  // Slick carousel
+
+  $('.custom-carousel').on('init', () => {
+    AOS.refreshHard()
+  })
+  $('.custom-carousel').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    arrows: false,
+    centerMode: true,
+    centerPadding: '20%'
   })
 
   // Tippy - Tooltips
