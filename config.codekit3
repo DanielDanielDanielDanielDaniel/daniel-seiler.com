@@ -3598,7 +3598,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/index.html",
+      "oAP" : "\/index.html",
       "oF" : 3,
       "oS" : 1
     },
@@ -3711,8 +3711,8 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/skype.html",
-      "oF" : 0,
+      "oAP" : "\/skype.html",
+      "oF" : 2,
       "oS" : 1
     }
   },
@@ -3728,7 +3728,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693935908.44189596
+    "lastBuiltDate" : 693936015.37167501
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
