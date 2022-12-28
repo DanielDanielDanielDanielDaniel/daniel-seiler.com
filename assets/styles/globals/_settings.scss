@@ -39,7 +39,7 @@ $font-base: 16;
 
 $border-radius-sm: 11px;
 $border-radius-md: 16px;
-$document-font-size: ($font-base / 16) * 125%;
+$document-font-size: calc($font-base / 16) * 125%;
 
 // Layout
 

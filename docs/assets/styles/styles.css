@@ -6,24 +6,21 @@
 /* Tipos */
 @font-face {
   font-family: "Figtree";
-  src: url("../../assets/fonts/Figtree-Regular.woff2") format("woff2"), url("../../assets/fonts/Figtree-Regular.woff") format("woff"), url("../../assets/fonts/Figtree-Regular.ttf") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+  src: url("../../assets/fonts/Figtree-Regular.woff2") format("woff2"), url("../../assets/fonts/Figtree-Regular.woff") format("woff"), url("../../assets/fonts/Figtree-Regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("../../assets/fonts/Figtree-Medium.woff2") format("woff2"), url("../../assets/fonts/Figtree-Medium.woff") format("woff"), url("../../assets/fonts/Figtree-Medium.ttf") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+  src: url("../../assets/fonts/Figtree-Medium.woff2") format("woff2"), url("../../assets/fonts/Figtree-Medium.woff") format("woff"), url("../../assets/fonts/Figtree-Medium.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("../../assets/fonts/Figtree-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Figtree-SemiBold.woff") format("woff"), url("../../assets/fonts/Figtree-SemiBold.ttf") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+  src: url("../../assets/fonts/Figtree-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Figtree-SemiBold.woff") format("woff"), url("../../assets/fonts/Figtree-SemiBold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -228,13 +225,11 @@ input[type=radio] {
 }
 @keyframes filterColor {
   0% {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
   }
   100% {
-    -webkit-filter: grayscale(0);
-    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
     filter: grayscale(0);
   }
 }
@@ -417,7 +412,6 @@ input[type=radio] {
 *::after {
     cursor: none;
   }
-
   #cursor {
     z-index: 999;
     position: fixed;
@@ -856,13 +850,12 @@ input[type=radio] {
 }
 
 .logo-bw {
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
 .has-dark-gradient {
-  background: #171717;
+  background: rgb(23, 23, 23);
   background: linear-gradient(#171717, #1b1b1b);
 }
 
@@ -2200,8 +2193,7 @@ svg {
     margin-bottom: 22%;
   }
   .hello-content .card .card-content {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
   }
   .hello-content .card .card-content img {
@@ -2673,12 +2665,6 @@ svg {
 .holtzbrinck .hero-info {
   max-width: none;
 }
-.holtzbrinck-info {
-  margin-top: 60px;
-}
-.holtzbrinck-info .hero-info {
-  margin-top: -56px;
-}
 .holtzbrinck .text-grid {
   margin-top: -40px;
 }
@@ -2686,14 +2672,29 @@ svg {
   position: relative;
 }
 .holtzbrinck .browser-video .video {
-  top: 122px;
+  bottom: 18%;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(97% - 136px);
+  width: 87%;
   position: absolute;
   border-radius: 10px;
   z-index: 10;
 }
 .holtzbrinck .browser-video .image {
   position: relative;
+}
+@media only screen and (min-width: 740px) {
+  .holtzbrinck-info {
+    margin-top: 60px;
+  }
+  .holtzbrinck-info .hero-info {
+    margin-top: -56px;
+  }
+  .holtzbrinck .browser-video {
+    position: relative;
+  }
+  .holtzbrinck .browser-video .video {
+    width: 89%;
+    bottom: 17%;
+  }
 }

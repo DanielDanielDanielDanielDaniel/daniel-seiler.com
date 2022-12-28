@@ -4,12 +4,6 @@
   .hero-info {
     max-width: none;
   }
-  &-info {
-    margin-top: 60px;
-    .hero-info {
-      margin-top: -56px;
-    }
-  }
 
   .text-grid {
     margin-top: -40px;
@@ -18,16 +12,31 @@
   .browser-video {
     position: relative;
     .video {
-      top: 122px;
+      bottom: 18%;
       left: 50%;
       transform: translateX(-50%);
-      width: calc(97% - 136px);
+      width: 87%;
       position: absolute;
       border-radius: 10px;
       z-index: 10;
     }
     .image {
       position: relative;
+    }
+  }
+  @include media-query(lap-and-up) {
+    &-info {
+      margin-top: 60px;
+      .hero-info {
+        margin-top: -56px;
+      }
+    }
+    .browser-video {
+      position: relative;
+      .video {
+        width: 89%;
+        bottom: 17%;
+      }
     }
   }
 }
