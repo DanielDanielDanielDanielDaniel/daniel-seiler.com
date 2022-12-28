@@ -2888,7 +2888,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/styles-min.css",
       "oF" : 0,
       "pg" : 0
@@ -3592,13 +3592,21 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/index.html",
+      "oF" : 0
+    },
     "\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/index.html",
+      "oAP" : "\/docs\/index.html",
       "oF" : 3,
       "oS" : 1
     },
@@ -3660,14 +3668,6 @@
       "oF" : 2,
       "oS" : 0
     },
-    "\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/README.html",
-      "oF" : 0
-    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3677,9 +3677,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/README.html",
-      "oF" : 0,
+      "oF" : 1,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,
@@ -3711,7 +3711,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/skype.html",
+      "oAP" : "\/docs\/skype.html",
       "oF" : 2,
       "oS" : 1
     }
@@ -3728,7 +3728,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693936015.37167501
+    "lastBuiltDate" : 693936758.19359696
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
