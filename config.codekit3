@@ -2355,7 +2355,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 2,
-      "oAP" : "\/docs\/build\/docs\/assets\/js\/lib\/jquery-3.6.1.min.js",
+      "oAP" : "\/docs\/assets\/js\/lib\/jquery-3.6.1.min.js",
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
@@ -3728,7 +3728,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693935819.83178496
+    "lastBuiltDate" : 693935908.44189596
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
