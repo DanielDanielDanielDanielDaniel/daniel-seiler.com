@@ -7,7 +7,7 @@
       "uuidString" : "3500876E-5342-473A-B4AF-EED06B5829C4"
     }
   ],
-  "creatorBuild" : "34127",
+  "creatorBuild" : "34434",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -187,7 +187,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -235,7 +235,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -283,7 +283,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -379,7 +379,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/university-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -427,7 +427,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -475,7 +475,7 @@
       "oAP" : "\/docs\/assets\/img\/about\/yral-sm.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -522,7 +522,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -621,7 +621,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -695,7 +695,7 @@
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-iphone.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -705,7 +705,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-logo.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -751,7 +751,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-stages.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -798,7 +798,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-typography.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -821,7 +821,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/auctare.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -844,7 +844,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/awwards.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -867,7 +867,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/axel-springer.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -890,7 +890,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/baier.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -903,7 +903,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/bd-bahn.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -926,7 +926,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/berkeley.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -949,7 +949,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/bverfg.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -998,7 +998,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/davide.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1011,7 +1011,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/geekettes.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1054,7 +1054,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hubert-burda-media.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1090,7 +1090,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo-boss.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1113,7 +1113,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/hugo-workflow.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1126,7 +1126,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/hugo-workflow.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -1137,7 +1137,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/iphone1.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1150,7 +1150,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/iphone1.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -1161,7 +1161,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/iphone2.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1174,18 +1174,18 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/iphone2.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/hugo\/slide1.png" : {
       "ft" : 32768,
-      "iS" : 251218,
+      "iS" : 431376,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/slide1.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1198,18 +1198,18 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/slide1.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/hugo\/slide2.png" : {
       "ft" : 32768,
-      "iS" : 488936,
+      "iS" : 761491,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/slide2.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1218,11 +1218,11 @@
     },
     "\/assets\/img\/hugo\/slide3.png" : {
       "ft" : 32768,
-      "iS" : 585253,
+      "iS" : 585732,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/slide3.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1231,11 +1231,11 @@
     },
     "\/assets\/img\/hugo\/slide4.png" : {
       "ft" : 32768,
-      "iS" : 488668,
+      "iS" : 488142,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/hugo\/slide4.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1271,7 +1271,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/ipad.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1284,7 +1284,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/jan.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1297,7 +1297,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/melanie.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1310,7 +1310,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/meta\/android-chrome-192x192.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1391,7 +1391,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/meta\/mstile-150x150.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1404,7 +1404,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/meta\/og-1200.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1435,7 +1435,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/microsoft.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1458,7 +1458,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/nasa.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1827,7 +1827,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/nucleus\/iphone.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -1851,7 +1851,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/nucleus\/iwatch.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -1888,7 +1888,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/patreon.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1911,7 +1911,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/pattern1.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1984,7 +1984,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/pierre.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1997,7 +1997,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/siemens.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2020,7 +2020,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/iphone.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2033,7 +2033,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/iphone.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -2044,7 +2044,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/pattern.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2073,11 +2073,11 @@
     },
     "\/assets\/img\/skype\/slide1.png" : {
       "ft" : 32768,
-      "iS" : 206269,
+      "iS" : 466876,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide1.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2090,18 +2090,18 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide1.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/skype\/slide2.png" : {
       "ft" : 32768,
-      "iS" : 48992,
+      "iS" : 477303,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide2.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2114,18 +2114,18 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide2.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/skype\/slide3.png" : {
       "ft" : 32768,
-      "iS" : 45678,
+      "iS" : 451375,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide3.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2138,7 +2138,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide3.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -2149,7 +2149,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/tobias.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2162,7 +2162,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/transparent.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2175,7 +2175,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/ui-8.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2198,7 +2198,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/vodafone.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2221,7 +2221,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/zurich.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -2265,7 +2265,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/js\/lib\/aos-min-min.js",
       "oF" : 0,
       "sC" : 0,
@@ -2329,6 +2329,7 @@
     "\/assets\/styles\/globals\/_animations.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2343,20 +2344,22 @@
     "\/assets\/styles\/globals\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_base.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/globals\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2371,34 +2374,37 @@
     "\/assets\/styles\/globals\/_settings.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_settings.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/globals\/_theme.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/globals\/_theme.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_allianz.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2413,6 +2419,7 @@
     "\/assets\/styles\/modules\/_aucta.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2427,6 +2434,7 @@
     "\/assets\/styles\/modules\/_awards.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2441,6 +2449,7 @@
     "\/assets\/styles\/modules\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2455,6 +2464,7 @@
     "\/assets\/styles\/modules\/_carousel.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2469,6 +2479,7 @@
     "\/assets\/styles\/modules\/_collapsable.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2483,6 +2494,7 @@
     "\/assets\/styles\/modules\/_cursor.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2497,6 +2509,7 @@
     "\/assets\/styles\/modules\/_dots.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2511,6 +2524,7 @@
     "\/assets\/styles\/modules\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2525,6 +2539,7 @@
     "\/assets\/styles\/modules\/_hello.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2539,6 +2554,7 @@
     "\/assets\/styles\/modules\/_hugo.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2553,6 +2569,7 @@
     "\/assets\/styles\/modules\/_intro.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2567,6 +2584,7 @@
     "\/assets\/styles\/modules\/_layout.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2581,6 +2599,7 @@
     "\/assets\/styles\/modules\/_menu.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2595,20 +2614,22 @@
     "\/assets\/styles\/modules\/_nucleus.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_nucleus.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_product.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2623,6 +2644,7 @@
     "\/assets\/styles\/modules\/_project.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2637,20 +2659,22 @@
     "\/assets\/styles\/modules\/_projects.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_projects.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_publications.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2665,6 +2689,7 @@
     "\/assets\/styles\/modules\/_quote.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2679,6 +2704,7 @@
     "\/assets\/styles\/modules\/_services.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2693,6 +2719,7 @@
     "\/assets\/styles\/modules\/_skype.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2707,6 +2734,7 @@
     "\/assets\/styles\/modules\/_slides.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2721,6 +2749,7 @@
     "\/assets\/styles\/modules\/_texts.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2735,27 +2764,29 @@
     "\/assets\/styles\/modules\/_utils.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_utils.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/styles\/styles.css",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -2777,6 +2808,14 @@
       "oAP" : "\/docs\/aucta.html",
       "oF" : 2,
       "oS" : 0
+    },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/build\/.gitignore",
+      "oF" : 0
     },
     "\/CNAME" : {
       "cB" : 0,
@@ -2830,7 +2869,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/head.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/hello\/hello-content.pug" : {
       "cB" : 0,
@@ -3160,7 +3199,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/projects\/projects-content.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/projects\/skype\/skype-carousel.pug" : {
       "cB" : 0,
@@ -3310,7 +3349,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/services\/services-content.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/shared\/dot-grid.pug" : {
       "cB" : 0,
@@ -3346,7 +3385,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/includes\/spinner.html",
       "oF" : 0
     },
@@ -3490,7 +3529,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693494323.79142404
+    "lastBuiltDate" : 693929414.07856202
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -3788,144 +3827,6 @@
     "buildFolderActive" : 1,
     "buildFolderName" : "docs",
     "cleanBuild" : 1,
-    "coffeeLintFlags2" : {
-      "arrow_spacing" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camel_case_classes" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "colon_assignment_spacing" : {
-        "active" : 0,
-        "flagValue" : 1
-      },
-      "cyclomatic_complexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "duplicate_key" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "ensure_comprehensions" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "indentation" : {
-        "active" : 1,
-        "flagValue" : 2
-      },
-      "line_endings" : {
-        "active" : 0,
-        "flagValue" : 0
-      },
-      "max_line_length" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "missing_fat_arrows" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newlines_after_classes" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "no_backticks" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_debugger" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_empty_functions" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_empty_param_list" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_implicit_braces" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_implicit_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_interpolation_in_single_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_nested_string_interpolation" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_private_function_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_stand_alone_at" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_tabs" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_throwing_strings" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_semicolons" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_whitespace" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_unnecessary_double_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_unnecessary_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "non_empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prefer_english_operator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "space_operators" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "spacing_after_comma" : {
-        "active" : 1,
-        "flagValue" : -1
-      }
-    },
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
@@ -3977,10 +3878,6 @@
       "brace-style" : {
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
-      },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
       },
       "camelcase" : {
         "active" : 0,
@@ -4073,6 +3970,10 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
+      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -4085,9 +3986,6 @@
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
       },
-      "global-require" : {
-        "active" : 0
-      },
       "grouped-accessor-pairs" : {
         "active" : 0,
         "optionString" : "'anyOrder'"
@@ -4095,11 +3993,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -4223,9 +4117,6 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
-      "no-buffer-constructor" : {
-        "active" : 0
-      },
       "no-caller" : {
         "active" : 0
       },
@@ -4252,6 +4143,9 @@
       },
       "no-const-assign" : {
         "active" : 1
+      },
+      "no-constant-binary-expression" : {
+        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -4285,6 +4179,9 @@
         "active" : 1
       },
       "no-dupe-keys" : {
+        "active" : 1
+      },
+      "no-duplicate-case" : {
         "active" : 1
       },
       "no-duplicate-imports" : {
@@ -4328,7 +4225,7 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
@@ -4339,7 +4236,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -4416,16 +4314,13 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
         "optionString" : ""
       },
       "no-multi-assign" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'ignoreNonDeclaration': false}"
       },
       "no-multi-spaces" : {
         "active" : 0,
@@ -4453,9 +4348,6 @@
       "no-new-object" : {
         "active" : 0
       },
-      "no-new-require" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -4478,18 +4370,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -4516,9 +4399,6 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
-      },
-      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -4548,7 +4428,8 @@
         "active" : 0
       },
       "no-sequences" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowInParentheses': true}"
       },
       "no-setter-return" : {
         "active" : 1
@@ -4562,10 +4443,6 @@
       },
       "no-sparse-arrays" : {
         "active" : 1
-      },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : "{'allowAtRootLevel': false}"
       },
       "no-tabs" : {
         "active" : 0,
@@ -4635,6 +4512,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
@@ -4754,6 +4634,9 @@
       "prefer-numeric-literals" : {
         "active" : 0
       },
+      "prefer-object-has-own" : {
+        "active" : 0
+      },
       "prefer-object-spread" : {
         "active" : 0
       },
@@ -4786,14 +4669,11 @@
         "optionString" : "'always'"
       },
       "require-atomic-updates" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowProperties': false}"
       },
       "require-await" : {
         "active" : 0
-      },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
       },
       "require-unicode-regexp" : {
         "active" : 0
@@ -4880,10 +4760,6 @@
         "active" : 1,
         "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
       },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
-      },
       "valid-typeof" : {
         "active" : 1,
         "optionString" : "{'requireStringLiterals': true}"
@@ -4909,357 +4785,9 @@
     },
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
-    "gitIgnoreBuildFolder" : 0,
+    "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
-    "jsHintFlags2" : {
-      "asi" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "bitwise" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "boss" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "browserify" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camelcase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "curly" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "debug" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "dojo" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "elision" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqeqeq" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqnull" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es3" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "esnext" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "evil" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "expr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "forin" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "freeze" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "funcscope" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "futurehostile" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "globalstrict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "immed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "indent" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "iterator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jasmine" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jquery" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "lastsemic" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "latedef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "laxbreak" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "laxcomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "loopfunc" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxcomplexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "maxdepth" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "maxparams" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxstatements" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "mocha" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "mootools" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "moz" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "multistr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newcap" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noarg" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nocomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "noempty" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonbsp" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonew" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nonstandard" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "notypeof" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noyield" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "onecase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "phantom" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "proto" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prototypejs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "qunit" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "regexp" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "rhino" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "scripturl" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shadow" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shelljs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "singleGroups" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "strict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "sub" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "supernew" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "typed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "undef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "unused" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "varstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "withstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "worker" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "wsh" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "yui" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
-    "jsLintFlags2" : {
-      "bitwise" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es6" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "eval" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "for" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "white" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
@@ -5270,7 +4798,6 @@
       "minifierStyle" : 0,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
-      "syntaxCheckerStyle" : 1,
       "transpilerStyle" : 1
     },
     "languageDefaultsCSS" : {
@@ -5501,6 +5028,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -5568,6 +5096,7 @@
     "tsEmitBOM" : 0,
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
+    "tsExactOptionalPropertyTypes" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
@@ -5576,6 +5105,7 @@
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
+    "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
@@ -5596,6 +5126,7 @@
     "tsStripInternal" : 0,
     "tsSuppressExcessPropertyErrors" : 0,
     "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseUnknownInCatchVariables" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
@@ -5730,6 +5261,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -5753,6 +5288,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -5856,6 +5395,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {
