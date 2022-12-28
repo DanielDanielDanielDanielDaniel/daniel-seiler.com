@@ -35,14 +35,6 @@
       "oF" : 2,
       "oS" : 0
     },
-    "\/allianz.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/allianz.html",
-      "oF" : 0
-    },
     "\/allianz.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -194,8 +186,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -218,8 +210,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -242,8 +234,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -266,8 +258,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/aucta.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -290,8 +282,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -314,8 +306,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -338,8 +330,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/nucleus-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -362,8 +354,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/nucleus.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -386,8 +378,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/university-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -410,8 +402,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/university.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -434,8 +426,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -458,8 +450,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/wizart.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -482,8 +474,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/yral-sm.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -506,8 +498,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/yral.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -517,8 +509,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/adscanner.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -554,7 +546,7 @@
       "oAP" : "\/docs\/assets\/img\/allianz\/allianz-pattern.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -566,8 +558,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/ipad.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -580,7 +572,7 @@
       "oAP" : "\/docs\/assets\/img\/allianz\/ipad.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -590,8 +582,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -604,7 +596,7 @@
       "oAP" : "\/docs\/assets\/img\/allianz\/slide1.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -614,8 +606,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -628,7 +620,7 @@
       "oAP" : "\/docs\/assets\/img\/allianz\/slide2.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -638,8 +630,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -652,7 +644,7 @@
       "oAP" : "\/docs\/assets\/img\/allianz\/slide3.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -675,8 +667,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor-full.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -735,7 +727,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-ipad.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -759,7 +751,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-iphone.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -852,7 +844,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-team.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -863,11 +855,11 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-typography.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-typography.svg" : {
@@ -955,8 +947,8 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/baier.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1014,7 +1006,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/book-a-speaker.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -1028,7 +1020,7 @@
       "oAP" : "\/docs\/assets\/img\/book-a-speaker.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -2355,7 +2347,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 2,
-      "oAP" : "\/docs\/build\/docs\/assets\/js\/lib\/jquery-3.6.1.min.js",
+      "oAP" : "\/docs\/assets\/js\/lib\/jquery-3.6.1.min.js",
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
@@ -2876,7 +2868,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/styles-min-min.css",
       "oF" : 0,
       "pg" : 0
@@ -2888,7 +2880,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/styles-min.css",
       "oF" : 0,
       "pg" : 0
@@ -2948,14 +2940,6 @@
       "oAP" : "\/docs\/docs",
       "oF" : 0
     },
-    "\/holtzbrinck.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/holtzbrinck.html",
-      "oF" : 0
-    },
     "\/holtzbrinck.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -2965,14 +2949,6 @@
       "oAP" : "\/docs\/holtzbrinck.html",
       "oF" : 0,
       "oS" : 1
-    },
-    "\/hugo.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/hugo.html",
-      "oF" : 0
     },
     "\/hugo.pug" : {
       "cB" : 0,
@@ -3660,14 +3636,6 @@
       "oF" : 2,
       "oS" : 0
     },
-    "\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/README.html",
-      "oF" : 0
-    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3677,9 +3645,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/docs\/README.html",
-      "oF" : 0,
+      "oF" : 1,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,
@@ -3697,14 +3665,6 @@
       "oF" : 2,
       "oS" : 0
     },
-    "\/skype.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/skype.html",
-      "oF" : 0
-    },
     "\/skype.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -3712,7 +3672,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/skype.html",
-      "oF" : 0,
+      "oF" : 2,
       "oS" : 1
     }
   },
@@ -3728,7 +3688,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693935220.37971604
+    "lastBuiltDate" : 693940831.89032602
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -4984,7 +4944,7 @@
     },
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
-    "gitIgnoreBuildFolder" : 1,
+    "gitIgnoreBuildFolder" : 0,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
     "languageDefaultsCOFFEE" : {
