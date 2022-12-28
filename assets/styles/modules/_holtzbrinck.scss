@@ -1,0 +1,43 @@
+// holtzbrinck
+
+.holtzbrinck {
+  .hero-info {
+    max-width: none;
+  }
+
+  .browser-video {
+    position: relative;
+    .video {
+      bottom: 18%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 87%;
+      position: absolute;
+      border-radius: 10px;
+      z-index: 10;
+    }
+    .image {
+      position: relative;
+    }
+  }
+  @include media-query(lap-and-up) {
+    &-info {
+      margin-top: 60px;
+      .hero-info {
+        margin-top: -56px;
+      }
+    }
+    .browser-video {
+      position: relative;
+      .video {
+        width: 89%;
+        bottom: 17%;
+      }
+    }
+  }
+  @include media-query(desk) {
+    .text-grid {
+      margin-top: -40px;
+    }
+  }
+}

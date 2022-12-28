@@ -6,24 +6,21 @@
 /* Tipos */
 @font-face {
   font-family: "Figtree";
-  src: url("../../assets/fonts/Figtree-Regular.woff2") format("woff2"), url("../../assets/fonts/Figtree-Regular.woff") format("woff"), url("../../assets/fonts/Figtree-Regular.ttf") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+  src: url("../../assets/fonts/Figtree-Regular.woff2") format("woff2"), url("../../assets/fonts/Figtree-Regular.woff") format("woff"), url("../../assets/fonts/Figtree-Regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("../../assets/fonts/Figtree-Medium.woff2") format("woff2"), url("../../assets/fonts/Figtree-Medium.woff") format("woff"), url("../../assets/fonts/Figtree-Medium.ttf") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+  src: url("../../assets/fonts/Figtree-Medium.woff2") format("woff2"), url("../../assets/fonts/Figtree-Medium.woff") format("woff"), url("../../assets/fonts/Figtree-Medium.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("../../assets/fonts/Figtree-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Figtree-SemiBold.woff") format("woff"), url("../../assets/fonts/Figtree-SemiBold.ttf") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
+  src: url("../../assets/fonts/Figtree-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Figtree-SemiBold.woff") format("woff"), url("../../assets/fonts/Figtree-SemiBold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5, Android 2.2+,  */
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -228,13 +225,11 @@ input[type=radio] {
 }
 @keyframes filterColor {
   0% {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
   }
   100% {
-    -webkit-filter: grayscale(0);
-    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
     filter: grayscale(0);
   }
 }
@@ -417,7 +412,6 @@ input[type=radio] {
 *::after {
     cursor: none;
   }
-
   #cursor {
     z-index: 999;
     position: fixed;
@@ -796,8 +790,8 @@ input[type=radio] {
   width: 8.625rem;
 }
 .project-dot-grid .dot {
-  width: 0.8125rem;
-  height: 0.8125rem;
+  width: 0.75rem;
+  height: 0.75rem;
   margin: 0 0.625rem 0.625rem 0;
 }
 
@@ -856,13 +850,12 @@ input[type=radio] {
 }
 
 .logo-bw {
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
 .has-dark-gradient {
-  background: #171717;
+  background: rgb(23, 23, 23);
   background: linear-gradient(#171717, #1b1b1b);
 }
 
@@ -1560,22 +1553,48 @@ svg {
   margin: 20px 0;
 }
 .project.project-simple .hero-image {
-  top: 20px;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex: 1 1 auto;
+  text-align: center;
+}
+.project.project-simple .hero-info {
+  flex: 0 0 337px;
+}
+.project.project-simple .project-hero {
+  padding-right: 0;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 40px;
 }
 @media only screen and (max-width: 739px) {
   .project.project-simple .project-hero {
-    padding-right: 106px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
   }
   .project.project-simple .hero-image {
-    width: 265px;
-    right: -137px;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    order: -1;
+    margin-bottom: 10px;
+  }
+  .project.project-simple .spacer-block {
+    padding-top: 20px;
   }
 }
 @media only screen and (min-width: 740px) and (max-width: 999px) {
   .project.project-simple .text-block {
     flex: 1 1 50%;
     padding-right: 20px;
+  }
+}
+@media only screen and (min-width: 740px) {
+  .project.project-simple .hero-image {
+    padding-left: 40px;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -2200,8 +2219,7 @@ svg {
     margin-bottom: 22%;
   }
   .hello-content .card .card-content {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
   }
   .hello-content .card .card-content img {
@@ -2523,9 +2541,8 @@ svg {
   min-width: 1080px;
 }
 @media only screen and (min-width: 1000px) {
-  .skype .hero-image {
-    right: 100px;
-    width: 499px;
+  .skype .hero-image img {
+    max-width: 640px;
   }
 }
 
@@ -2545,19 +2562,6 @@ svg {
 .allianz .hero-image {
   width: calc(100% - 360px);
 }
-@media only screen and (max-width: 739px) {
-  .allianz .spacer-block {
-    padding-top: 0;
-  }
-  .allianz .project-hero {
-    padding-top: 360px;
-  }
-  .allianz .hero-image {
-    top: 20px;
-    left: 4px;
-    width: 100%;
-  }
-}
 @media only screen and (min-width: 1000px) {
   .allianz .hero-image {
     text-align: center;
@@ -2570,16 +2574,6 @@ svg {
 
 .hugo .custom-carousel {
   padding: 0 0 50px;
-}
-.hugo-app-block {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background: #fafafa;
-  padding: 40px 0;
-}
-.hugo-app-block img {
-  width: 490px;
 }
 .hugo .hero-image {
   width: calc(100% - 360px);
@@ -2616,35 +2610,29 @@ svg {
   width: 90%;
   z-index: 10;
 }
+.hugo-app-block {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  padding: 40px 0;
+}
 .hugo-flow .beta {
   margin-bottom: 12px;
 }
 @media only screen and (max-width: 739px) {
-  .hugo.project-simple .project-hero {
-    padding-right: 0;
-  }
-  .hugo .project-hero {
-    display: flex;
-    flex-direction: column;
-  }
-  .hugo .project-hero .hero-image {
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: 0;
-    order: -1;
-    padding: 20px 0;
-  }
-  .hugo .spacer-block {
-    padding-top: 0;
+  .hugo-flow .image {
+    padding: 0 10px 20px;
   }
 }
 @media only screen and (min-width: 740px) {
   .hugo-app-block {
-    padding: 72px 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 72px 0 20px;
   }
-  .hugo-app-block img:first-child {
-    margin-left: 100px;
+  .hugo-app-block img {
+    position: relative;
   }
   .hugo-flow {
     padding: 100px 0;
@@ -2659,7 +2647,27 @@ svg {
     flex: 0 0 33%;
   }
 }
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+  .hugo-app-block img {
+    width: 400px;
+  }
+  .hugo-app-block img:first-child {
+    right: -50px;
+  }
+  .hugo-app-block img:last-child {
+    left: -50px;
+  }
+}
 @media only screen and (min-width: 1000px) {
+  .hugo-app-block img {
+    width: 490px;
+  }
+  .hugo-app-block img:first-child {
+    right: -60px;
+  }
+  .hugo-app-block img:last-child {
+    left: -60px;
+  }
   .hugo .hero-ipad {
     margin: 0 auto;
   }
@@ -2667,5 +2675,44 @@ svg {
     top: 40px;
     left: 40px;
     width: calc(100% - 80px);
+  }
+}
+
+.holtzbrinck .hero-info {
+  max-width: none;
+}
+.holtzbrinck .browser-video {
+  position: relative;
+}
+.holtzbrinck .browser-video .video {
+  bottom: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 87%;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 10;
+}
+.holtzbrinck .browser-video .image {
+  position: relative;
+}
+@media only screen and (min-width: 740px) {
+  .holtzbrinck-info {
+    margin-top: 60px;
+  }
+  .holtzbrinck-info .hero-info {
+    margin-top: -56px;
+  }
+  .holtzbrinck .browser-video {
+    position: relative;
+  }
+  .holtzbrinck .browser-video .video {
+    width: 89%;
+    bottom: 17%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .holtzbrinck .text-grid {
+    margin-top: -40px;
   }
 }

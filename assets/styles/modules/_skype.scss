@@ -10,8 +10,9 @@
   }
   @include media-query(desk) {
     .hero-image {
-      right: 100px;
-      width: 499px;
+      img {
+        max-width: 640px;
+      }
     }
   }
 }
