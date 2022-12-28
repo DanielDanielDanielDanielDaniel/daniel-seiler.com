@@ -3241,7 +3241,7 @@
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/docs\/includes\/projects\/hugo\/hugo-quote.html",
       "oF" : 0,
       "oS" : 1
@@ -3670,7 +3670,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693505387.04424703
+    "lastBuiltDate" : 693922152.27132297
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

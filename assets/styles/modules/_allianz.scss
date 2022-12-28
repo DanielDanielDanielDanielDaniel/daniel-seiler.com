@@ -17,19 +17,6 @@
   .hero-image {
     width: calc(100% - 360px);
   }
-  @include media-query(palm) {
-    .spacer-block {
-      padding-top: 0;
-    }
-    .project-hero {
-      padding-top: 360px;
-    }
-    .hero-image {
-      top: 20px;
-      left: 4px;
-      width: 100%;
-    }
-  }
   @include media-query(desk) {
     .hero-image {
       text-align: center;

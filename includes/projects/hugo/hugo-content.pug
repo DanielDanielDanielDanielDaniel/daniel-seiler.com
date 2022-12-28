@@ -1,7 +1,8 @@
-.project.project-simple.hugo
+.project.project-simple.hugo(data-aos="custom-animation")
   include hugo-hero.pug
   include hugo-carousel.pug
   include hugo-info.pug
   include hugo-app.pug
-  include hugo-quote.pug
+  include ../../shared/quote.pug
+  +quote('/assets/img/davide.png', 'Davide Barni', '/assets/img/hugo-boss.jpg', 'Hugo Boss', '"Daniels bandwidth of capabilities from research and strategical thinking to applied UI/UX design was a key ingredient for the success of the initiative."', 'Senior Manager Digital Design at HUGO BOSS', '65px', '24px')
   include hugo-flow.pug

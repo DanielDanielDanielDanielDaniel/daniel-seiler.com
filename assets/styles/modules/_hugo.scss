@@ -4,18 +4,7 @@
   .custom-carousel {
     padding: 0 0 50px;
   }
-  &-app {
-    &-block {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      background: $gray-light3;
-      padding: 40px 0;
-      img {
-        width: 490px;
-      }
-    }
-  }
+
   .hero-image {
     width: calc(100% - 360px);
   }
@@ -48,41 +37,35 @@
       z-index: 10;
     }
   }
+  &-app {
+    &-block {
+      display: flex;
+      flex-direction: column;
+      background: $gray-light3;
+      padding: 40px 0;
+    }
+  }
   &-flow {
     .beta {
       margin-bottom: 12px;
     }
   }
   @include media-query(palm) {
-    &.project-simple {
-      .project-hero {
-        padding-right: 0;
+    &-flow {
+      .image {
+        padding: 0 10px 20px;
       }
-    }
-    .project-hero {
-      display: flex;
-      flex-direction: column;
-      .hero-image {
-        position: relative;
-        width: 100%;
-        left: 0;
-        top: 0;
-        order: -1;
-        padding: 20px 0;
-      }
-    }
-    .spacer-block {
-      padding-top: 0;
     }
   }
   @include media-query(lap-and-up) {
     &-app {
       &-block {
-        padding: 72px 0;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 72px 0 20px;
         img {
-          &:first-child {
-            margin-left: 100px;
-          }
+          position: relative;
         }
       }
     }
@@ -100,7 +83,35 @@
       }
     }
   }
+  @include media-query(lap) {
+    &-app {
+      &-block {
+        img {
+          width: 400px;
+          &:first-child {
+            right: -50px;
+          }
+          &:last-child {
+            left: -50px;
+          }
+        }
+      }
+    }
+  }
   @include media-query(desk) {
+    &-app {
+      &-block {
+        img {
+          width: 490px;
+          &:first-child {
+            right: -60px;
+          }
+          &:last-child {
+            left: -60px;
+          }
+        }
+      }
+    }
     .hero-ipad {
       margin: 0 auto;
       video {
