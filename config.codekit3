@@ -35,14 +35,6 @@
       "oF" : 2,
       "oS" : 0
     },
-    "\/allianz.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/allianz.html",
-      "oF" : 0
-    },
     "\/allianz.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -2948,14 +2940,6 @@
       "oAP" : "\/docs\/docs",
       "oF" : 0
     },
-    "\/holtzbrinck.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/holtzbrinck.html",
-      "oF" : 0
-    },
     "\/holtzbrinck.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -2965,14 +2949,6 @@
       "oAP" : "\/docs\/holtzbrinck.html",
       "oF" : 0,
       "oS" : 1
-    },
-    "\/hugo.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/hugo.html",
-      "oF" : 0
     },
     "\/hugo.pug" : {
       "cB" : 0,
@@ -3592,14 +3568,6 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/index.html",
-      "oF" : 0
-    },
     "\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -3697,14 +3665,6 @@
       "oF" : 2,
       "oS" : 0
     },
-    "\/skype.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/skype.html",
-      "oF" : 0
-    },
     "\/skype.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -3728,7 +3688,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693936758.19359696
+    "lastBuiltDate" : 693936993.44146204
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
