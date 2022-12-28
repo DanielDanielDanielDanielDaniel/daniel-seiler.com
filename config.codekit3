@@ -190,7 +190,7 @@
     },
     "\/assets\/img\/about\/about-daniel-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 15776,
+      "iS" : 15532,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel-sm.webp",
       "oF" : 0,
@@ -214,7 +214,7 @@
     },
     "\/assets\/img\/about\/about-daniel.webp" : {
       "ft" : 8388608,
-      "iS" : 115982,
+      "iS" : 115186,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/about-daniel.webp",
       "oF" : 0,
@@ -238,7 +238,7 @@
     },
     "\/assets\/img\/about\/aucta-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 81544,
+      "iS" : 81444,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/aucta-sm.webp",
       "oF" : 0,
@@ -262,7 +262,7 @@
     },
     "\/assets\/img\/about\/aucta.webp" : {
       "ft" : 8388608,
-      "iS" : 261676,
+      "iS" : 259576,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/aucta.webp",
       "oF" : 0,
@@ -286,7 +286,7 @@
     },
     "\/assets\/img\/about\/hackerbay-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 17606,
+      "iS" : 17360,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay-sm.webp",
       "oF" : 0,
@@ -310,7 +310,7 @@
     },
     "\/assets\/img\/about\/hackerbay.webp" : {
       "ft" : 8388608,
-      "iS" : 79232,
+      "iS" : 77212,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/hackerbay.webp",
       "oF" : 0,
@@ -334,7 +334,7 @@
     },
     "\/assets\/img\/about\/nucleus-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 47500,
+      "iS" : 47388,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/nucleus-sm.webp",
       "oF" : 0,
@@ -358,7 +358,7 @@
     },
     "\/assets\/img\/about\/nucleus.webp" : {
       "ft" : 8388608,
-      "iS" : 179364,
+      "iS" : 176478,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/nucleus.webp",
       "oF" : 0,
@@ -382,7 +382,7 @@
     },
     "\/assets\/img\/about\/university-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 61048,
+      "iS" : 60804,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/university-sm.webp",
       "oF" : 0,
@@ -406,7 +406,7 @@
     },
     "\/assets\/img\/about\/university.webp" : {
       "ft" : 8388608,
-      "iS" : 223408,
+      "iS" : 221834,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/university.webp",
       "oF" : 0,
@@ -430,7 +430,7 @@
     },
     "\/assets\/img\/about\/wizart-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 64814,
+      "iS" : 64410,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/wizart-sm.webp",
       "oF" : 0,
@@ -454,7 +454,7 @@
     },
     "\/assets\/img\/about\/wizart.webp" : {
       "ft" : 8388608,
-      "iS" : 260214,
+      "iS" : 258002,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/wizart.webp",
       "oF" : 0,
@@ -478,7 +478,7 @@
     },
     "\/assets\/img\/about\/yral-sm.webp" : {
       "ft" : 8388608,
-      "iS" : 16840,
+      "iS" : 16352,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/yral-sm.webp",
       "oF" : 0,
@@ -502,7 +502,7 @@
     },
     "\/assets\/img\/about\/yral.webp" : {
       "ft" : 8388608,
-      "iS" : 56008,
+      "iS" : 54696,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/about\/yral.webp",
       "oF" : 0,
@@ -513,7 +513,7 @@
     },
     "\/assets\/img\/adscanner.png" : {
       "ft" : 32768,
-      "iS" : 1801,
+      "iS" : 937,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/adscanner.png",
       "oF" : 0,
@@ -562,7 +562,7 @@
     },
     "\/assets\/img\/allianz\/ipad.png" : {
       "ft" : 32768,
-      "iS" : 83263,
+      "iS" : 66015,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/ipad.png",
       "oF" : 0,
@@ -586,7 +586,7 @@
     },
     "\/assets\/img\/allianz\/slide1.png" : {
       "ft" : 32768,
-      "iS" : 130273,
+      "iS" : 96494,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide1.png",
       "oF" : 0,
@@ -610,7 +610,7 @@
     },
     "\/assets\/img\/allianz\/slide2.png" : {
       "ft" : 32768,
-      "iS" : 108276,
+      "iS" : 62094,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide2.png",
       "oF" : 0,
@@ -634,7 +634,7 @@
     },
     "\/assets\/img\/allianz\/slide3.png" : {
       "ft" : 32768,
-      "iS" : 104394,
+      "iS" : 61908,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide3.png",
       "oF" : 0,
@@ -671,7 +671,7 @@
     },
     "\/assets\/img\/aucta\/aucta-editor-full.webp" : {
       "ft" : 8388608,
-      "iS" : 41266,
+      "iS" : 41042,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/aucta\/aucta-editor-full.webp",
       "oF" : 0,
