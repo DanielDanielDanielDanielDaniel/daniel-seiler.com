@@ -9,6 +9,12 @@
     min-width: 1080px;
   }
   @include media-query(desk) {
+    &.project-simple {
+      .hero-image {
+        text-align: right;
+        padding-right: 90px;
+      }
+    }
     .hero-image {
       img {
         max-width: 640px;

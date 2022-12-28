@@ -31,7 +31,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/about.html",
+      "oAP" : "\/docs\/about.html",
       "oF" : 2,
       "oS" : 0
     },
@@ -573,6 +573,17 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/img\/allianz\/ipad.webp" : {
+      "ft" : 8388608,
+      "iS" : 19972,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/ipad.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/allianz\/slide1.png" : {
       "ft" : 32768,
       "iS" : 130273,
@@ -584,6 +595,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/allianz\/slide1.webp" : {
+      "ft" : 8388608,
+      "iS" : 39734,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/slide1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/allianz\/slide2.png" : {
@@ -599,6 +621,17 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/img\/allianz\/slide2.webp" : {
+      "ft" : 8388608,
+      "iS" : 50242,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/slide2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/allianz\/slide3.png" : {
       "ft" : 32768,
       "iS" : 104394,
@@ -610,6 +643,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/allianz\/slide3.webp" : {
+      "ft" : 8388608,
+      "iS" : 49806,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/allianz\/slide3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-editor-full.png" : {
@@ -977,6 +1021,17 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/img\/book-a-speaker.webp" : {
+      "ft" : 8388608,
+      "iS" : 85386,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/book-a-speaker.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/assets\/img\/bverfg.png" : {
       "ft" : 32768,
       "iS" : 5297,
@@ -1224,17 +1279,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/img\/hugo\/slide1.webp" : {
-      "ft" : 8388608,
-      "iS" : 60516,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/hugo\/slide1.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/hugo\/slide2.png" : {
@@ -2061,17 +2105,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/skype\/iphone.webp" : {
-      "ft" : 8388608,
-      "iS" : 108730,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/iphone.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/img\/skype\/pattern.png" : {
       "ft" : 32768,
       "iS" : 140612,
@@ -2289,7 +2322,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/assets\/js\/about-min.js",
+      "oAP" : "\/docs\/assets\/js\/about-min.js",
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
@@ -2869,7 +2902,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/assets\/styles\/styles.css",
+      "oAP" : "\/docs\/assets\/styles\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -2897,17 +2930,9 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/aucta.html",
+      "oAP" : "\/docs\/aucta.html",
       "oF" : 2,
       "oS" : 0
-    },
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/build\/.gitignore",
-      "oF" : 0
     },
     "\/CNAME" : {
       "cB" : 0,
@@ -3573,7 +3598,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/index.html",
+      "oAP" : "\/docs\/index.html",
       "oF" : 3,
       "oS" : 1
     },
@@ -3593,7 +3618,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/legal.html",
+      "oAP" : "\/docs\/legal.html",
       "oF" : 2,
       "oS" : 0
     },
@@ -3603,7 +3628,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/nucleus.html",
+      "oAP" : "\/docs\/nucleus.html",
       "oF" : 2,
       "oS" : 0
     },
@@ -3621,7 +3646,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/projects.html",
+      "oAP" : "\/docs\/projects.html",
       "oF" : 2,
       "oS" : 0
     },
@@ -3631,7 +3656,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/publications.html",
+      "oAP" : "\/docs\/publications.html",
       "oF" : 2,
       "oS" : 0
     },
@@ -3668,7 +3693,7 @@
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/docs\/services.html",
+      "oAP" : "\/docs\/services.html",
       "oF" : 2,
       "oS" : 0
     },
@@ -3703,7 +3728,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 693932342.28769898
+    "lastBuiltDate" : 693934004.514094
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
