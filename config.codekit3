@@ -554,26 +554,15 @@
     },
     "\/assets\/img\/allianz\/ipad.png" : {
       "ft" : 32768,
-      "iS" : 66015,
+      "iS" : 554277,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/ipad.png",
       "oF" : 0,
-      "oIPL" : 1,
+      "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/allianz\/ipad.webp" : {
-      "ft" : 8388608,
-      "iS" : 19972,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/ipad.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/allianz\/slide1.png" : {
@@ -589,17 +578,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/allianz\/slide1.webp" : {
-      "ft" : 8388608,
-      "iS" : 39734,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/slide1.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/img\/allianz\/slide2.png" : {
       "ft" : 32768,
       "iS" : 62094,
@@ -613,17 +591,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/allianz\/slide2.webp" : {
-      "ft" : 8388608,
-      "iS" : 50242,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/slide2.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/img\/allianz\/slide3.png" : {
       "ft" : 32768,
       "iS" : 61908,
@@ -635,17 +602,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/allianz\/slide3.webp" : {
-      "ft" : 8388608,
-      "iS" : 49806,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/slide3.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-editor-full.png" : {
@@ -1002,26 +958,15 @@
     },
     "\/assets\/img\/book-a-speaker.png" : {
       "ft" : 32768,
-      "iS" : 2694124,
+      "iS" : 4437334,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/book-a-speaker.png",
       "oF" : 0,
-      "oIPL" : 1,
+      "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/book-a-speaker.webp" : {
-      "ft" : 8388608,
-      "iS" : 85386,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/book-a-speaker.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/bverfg.png" : {
@@ -2143,17 +2088,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/skype\/slide1.webp" : {
-      "ft" : 8388608,
-      "iS" : 102718,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/slide1.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/img\/skype\/slide2.png" : {
       "ft" : 32768,
       "iS" : 477303,
@@ -2167,17 +2101,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/skype\/slide2.webp" : {
-      "ft" : 8388608,
-      "iS" : 102450,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/slide2.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/img\/skype\/slide3.png" : {
       "ft" : 32768,
       "iS" : 451375,
@@ -2189,17 +2112,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/img\/skype\/slide3.webp" : {
-      "ft" : 8388608,
-      "iS" : 93758,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/slide3.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/tobias.png" : {
@@ -3688,7 +3600,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 694007760.395105
+    "lastBuiltDate" : 694010318.12765002
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

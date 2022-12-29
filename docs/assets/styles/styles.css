@@ -972,6 +972,9 @@ svg {
     font-size: 1.5313rem;
     line-height: 1.8125rem;
     margin-bottom: 0.625rem;
+    min-height: 70px;
+    display: flex;
+    align-items: flex-end;
   }
   .text-block .text {
     font-size: 1.0313rem;
@@ -1365,12 +1368,17 @@ svg {
     margin-bottom: 1.75rem;
   }
   .product-item {
-    flex: 1 1 50%;
+    flex: 0 1 50%;
     margin-bottom: 1.625rem;
     padding-right: 0.5rem;
   }
 }
 @media only screen and (min-width: 1000px) {
+  .product-item {
+    flex-basis: 33.3%;
+  }
+}
+@media only screen and (min-width: 1200px) {
   .product-item {
     flex-basis: 25%;
   }
@@ -2606,8 +2614,8 @@ svg {
   left: 0;
   box-shadow: 0 -14px 400px 400px rgba(255, 255, 255, 0.6);
 }
-.allianz .hero-image {
-  width: calc(100% - 360px);
+.allianz-hero img {
+  max-width: 640px;
 }
 @media only screen and (min-width: 1000px) {
   .allianz .hero-image {
@@ -2740,12 +2748,11 @@ svg {
 .holtzbrinck .browser-video .video {
   bottom: 18%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateZ(0);
   width: 87%;
   position: absolute;
-  border-radius: 10px;
   z-index: 10;
-  -webkit-transform: translateZ(0);
+  overflow: hidden;
 }
 .holtzbrinck .browser-video .image {
   position: relative;
@@ -2768,5 +2775,19 @@ svg {
 @media only screen and (min-width: 1000px) {
   .holtzbrinck .text-grid {
     margin-top: -2.5rem;
+  }
+}
+@supports (-webkit-touch-callout: none) {
+  .holtzbrinck .browser-video .video {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+}
+@supports not (-webkit-touch-callout: none) {
+  .holtzbrinck .browser-video .video {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
   }
 }
