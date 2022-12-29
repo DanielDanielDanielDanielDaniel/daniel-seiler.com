@@ -1368,7 +1368,7 @@
       "oAP" : "\/docs\/assets\/img\/melanie.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -2055,7 +2055,7 @@
       "oAP" : "\/docs\/assets\/img\/pierre.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -3688,7 +3688,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 694003092.56422198
+    "lastBuiltDate" : 694007760.395105
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
