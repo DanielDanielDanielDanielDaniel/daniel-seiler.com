@@ -61,7 +61,15 @@ $(function () {
     autoplaySpeed: 6000,
     arrows: false,
     centerMode: true,
-    centerPadding: '20%'
+    centerPadding: '20%',
+    responsive: [
+      {
+        breakpoint: 730,
+        settings: {
+          centerPadding: '20px'
+        }
+      }
+    ]
   })
 
   // Tippy - Tooltips

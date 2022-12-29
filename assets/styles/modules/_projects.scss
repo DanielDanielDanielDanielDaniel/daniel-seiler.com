@@ -150,13 +150,13 @@
     @include media-query(lap) {
       .text-block {
         flex: 1 1 50%;
-        padding-right: 20px;
+        padding-right: 1.25rem;
       }
     }
 
     @include media-query(lap-and-up) {
       .hero-image {
-        padding-left: 40px;
+        padding-left: 2.5rem;
       }
     }
 
@@ -164,7 +164,7 @@
       .text-block {
         flex: 1 1 25%;
         &:not(:last-child) {
-          padding-right: 38px;
+          padding-right: 2.375rem;
         }
       }
     }

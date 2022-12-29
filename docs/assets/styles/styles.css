@@ -404,6 +404,9 @@ input[type=radio] {
   .light-theme .info-data .info-piece {
     border-top-color: rgba(0, 0, 0, 0.1);
   }
+  .light-theme .quote-img:after {
+    background: rgba(40, 40, 40, 0.06);
+  }
 }
 
 @media only screen and (min-width: 740px) {
@@ -964,6 +967,16 @@ svg {
   letter-spacing: -0.02em;
   opacity: 0.5;
 }
+@media only screen and (min-width: 740px) {
+  .text-block .text-title {
+    font-size: 1.5313rem;
+    line-height: 1.8125rem;
+    margin-bottom: 0.625rem;
+  }
+  .text-block .text {
+    font-size: 1.0313rem;
+  }
+}
 
 .collapsable-button {
   display: none;
@@ -1259,6 +1272,9 @@ svg {
   opacity: 0.7;
 }
 @media only screen and (max-width: 739px) {
+  .services-content .quote {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
   .services-intro .main-text {
     max-width: 90%;
   }
@@ -1288,6 +1304,9 @@ svg {
   }
   .services-visual {
     margin-bottom: 0;
+  }
+  .services-content .quote {
+    max-width: 65rem;
   }
 }
 
@@ -1396,6 +1415,9 @@ svg {
 }
 .publications-featured .text-sm {
   padding: 0 1.1875rem;
+}
+.publications-item:hover {
+  opacity: 0.6;
 }
 .publications-item .beta {
   height: 3.375rem;
@@ -1589,12 +1611,12 @@ svg {
 @media only screen and (min-width: 740px) and (max-width: 999px) {
   .project.project-simple .text-block {
     flex: 1 1 50%;
-    padding-right: 20px;
+    padding-right: 1.25rem;
   }
 }
 @media only screen and (min-width: 740px) {
   .project.project-simple .hero-image {
-    padding-left: 40px;
+    padding-left: 2.5rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -1602,7 +1624,7 @@ svg {
     flex: 1 1 25%;
   }
   .project.project-simple .text-block:not(:last-child) {
-    padding-right: 38px;
+    padding-right: 2.375rem;
   }
 }
 
@@ -1658,7 +1680,7 @@ svg {
 }
 @media only screen and (min-width: 1200px) {
   .project .hero-info {
-    padding-top: 86px;
+    padding-top: 5.375rem;
   }
 }
 
@@ -2463,14 +2485,15 @@ svg {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 40px 20px;
-  max-width: 920px;
+  padding: 24px 20px;
+  max-width: 58.5rem;
   margin: 0 auto;
 }
 .quote-extra {
   font-weight: 400;
   font-size: 14.5px;
   line-height: 122%;
+  letter-spacing: -0.03em;
   opacity: 0.3;
 }
 .quote .logo {
@@ -2485,6 +2508,9 @@ svg {
   margin-bottom: 18px;
 }
 @media only screen and (max-width: 739px) {
+  .quote {
+    text-align: center;
+  }
   .quote-img {
     display: flex;
     flex-direction: column;
@@ -2499,9 +2525,6 @@ svg {
     border-radius: 50%;
     margin-bottom: 21px;
   }
-  .quote-text {
-    display: none;
-  }
   .quote-extra {
     text-align: center;
   }
@@ -2509,27 +2532,47 @@ svg {
 @media only screen and (min-width: 740px) {
   .quote {
     flex-direction: row;
+    padding: 2.5rem 1.25rem;
   }
   .quote-img {
+    position: relative;
     flex: 0 0 auto;
+  }
+  .quote-img:after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: rgba(40, 40, 40, 0.6);
+    position: absolute;
+    top: 0;
+    right: -3.625rem;
   }
   .quote-img .author {
     display: block;
-    width: 134px;
-    height: 134px;
-    margin-bottom: 23px;
+    width: 8.375rem;
+    height: 8.375rem;
+    margin-bottom: 1.4375rem;
   }
   .quote-img .logo {
     display: block;
-    max-width: 134px;
+    max-width: 8.375rem;
+    transform: scale(1.1);
   }
   .quote-info {
-    padding-left: 80px;
+    padding-left: 5rem;
+  }
+  .quote-extra {
+    font-size: 0.9063rem;
+  }
+  .quote-text {
+    font-size: 1.5313rem;
+    line-height: 1.8125rem;
+    margin-bottom: 1.125rem;
   }
 }
 @media only screen and (min-width: 1000px) {
   .quote-info {
-    padding-left: 114px;
+    padding-left: 7.125rem;
   }
 }
 
@@ -2572,8 +2615,10 @@ svg {
   }
 }
 
-.block-carousel {
-  padding-top: 40px;
+@media only screen and (min-width: 740px) {
+  .block-carousel {
+    padding-top: 2.5rem;
+  }
 }
 
 .hugo .custom-carousel {
@@ -2615,6 +2660,7 @@ svg {
   z-index: 10;
 }
 .hugo-app-block {
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   background: #fafafa;
@@ -2626,6 +2672,9 @@ svg {
 @media only screen and (max-width: 739px) {
   .hugo-flow .image {
     padding: 0 10px 20px;
+  }
+  .hugo-app-block img {
+    margin-left: 16%;
   }
 }
 @media only screen and (min-width: 740px) {
@@ -2653,32 +2702,32 @@ svg {
 }
 @media only screen and (min-width: 740px) and (max-width: 999px) {
   .hugo-app-block img {
-    width: 400px;
+    width: 22.5rem;
   }
   .hugo-app-block img:first-child {
-    right: -50px;
+    right: -4rem;
   }
   .hugo-app-block img:last-child {
-    left: -50px;
+    left: 0;
   }
 }
 @media only screen and (min-width: 1000px) {
   .hugo-app-block img {
-    width: 490px;
+    width: 27.5rem;
   }
   .hugo-app-block img:first-child {
-    right: -60px;
+    right: -5.5rem;
   }
   .hugo-app-block img:last-child {
-    left: -60px;
+    right: -1rem;
   }
   .hugo .hero-ipad {
     margin: 0 auto;
   }
   .hugo .hero-ipad video {
-    top: 40px;
-    left: 40px;
-    width: calc(100% - 80px);
+    top: 2.5rem;
+    left: 2.5rem;
+    width: calc(100% - 5rem);
   }
 }
 
@@ -2696,16 +2745,17 @@ svg {
   position: absolute;
   border-radius: 10px;
   z-index: 10;
+  -webkit-transform: translateZ(0);
 }
 .holtzbrinck .browser-video .image {
   position: relative;
 }
 @media only screen and (min-width: 740px) {
   .holtzbrinck-info {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .holtzbrinck-info .hero-info {
-    margin-top: -56px;
+    margin-top: -3.5rem;
   }
   .holtzbrinck .browser-video {
     position: relative;
@@ -2717,6 +2767,6 @@ svg {
 }
 @media only screen and (min-width: 1000px) {
   .holtzbrinck .text-grid {
-    margin-top: -40px;
+    margin-top: -2.5rem;
   }
 }

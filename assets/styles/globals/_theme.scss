@@ -71,5 +71,10 @@
         border-top-color: rgba($black, 0.1);
       }
     }
+    .quote-img {
+      &:after {
+        background: rgba(#282828, 0.06);
+      }
+    }
   }
 }
