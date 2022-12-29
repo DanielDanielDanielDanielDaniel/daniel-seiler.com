@@ -39,6 +39,7 @@
   }
   &-app {
     &-block {
+      border-radius: 16px;
       display: flex;
       flex-direction: column;
       background: $gray-light3;
@@ -54,6 +55,13 @@
     &-flow {
       .image {
         padding: 0 10px 20px;
+      }
+    }
+    &-app {
+      &-block {
+        img {
+          margin-left: 16%;
+        }
       }
     }
   }
@@ -87,12 +95,12 @@
     &-app {
       &-block {
         img {
-          width: 400px;
+          width: 22.5rem;
           &:first-child {
-            right: -50px;
+            right: -4rem;
           }
           &:last-child {
-            left: -50px;
+            left: 0;
           }
         }
       }
@@ -102,12 +110,12 @@
     &-app {
       &-block {
         img {
-          width: 490px;
+          width: 27.5rem;
           &:first-child {
-            right: -60px;
+            right: -5.5rem;
           }
           &:last-child {
-            left: -60px;
+            right: -1rem;
           }
         }
       }
@@ -115,9 +123,9 @@
     .hero-ipad {
       margin: 0 auto;
       video {
-        top: 40px;
-        left: 40px;
-        width: calc(100% - 80px);
+        top: 2.5rem;
+        left: 2.5rem;
+        width: calc(100% - 5rem);
       }
     }
   }

@@ -184,4 +184,14 @@ svg {
     letter-spacing: -0.02em;
     opacity: 0.5;
   }
+  @include media-query(lap-and-up) {
+    .text-title {
+      font-size: 1.5313rem;
+      line-height: 1.8125rem;
+      margin-bottom: 0.625rem;
+    }
+    .text {
+      font-size: 1.0313rem;
+    }
+  }
 }

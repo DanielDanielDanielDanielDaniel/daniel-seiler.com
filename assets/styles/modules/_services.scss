@@ -61,6 +61,11 @@
   // Media queries
 
   @include media-query(palm) {
+    &-content {
+      .quote {
+        border-top: 1px solid rgba(#fff, 0.1);
+      }
+    }
     &-intro {
       .main-text {
         max-width: 90%;
@@ -97,6 +102,12 @@
 
     &-visual {
       margin-bottom: 0;
+    }
+
+    &-content {
+      .quote {
+        max-width: 65rem;
+      }
     }
   }
 }
