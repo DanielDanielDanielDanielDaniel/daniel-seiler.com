@@ -2736,10 +2736,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_project.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_projects.scss" : {
       "aP" : 0,
@@ -2766,10 +2766,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_publications.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_quote.scss" : {
       "aP" : 0,
@@ -2796,10 +2796,10 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/assets\/styles\/modules\/_services.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_skype.scss" : {
       "aP" : 0,
@@ -2998,7 +2998,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/hello\/hello-content.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/legal\/legal-content.pug" : {
       "cB" : 0,
