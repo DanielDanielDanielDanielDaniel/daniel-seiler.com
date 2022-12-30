@@ -1,6 +1,9 @@
 // Allianz
 
 .allianz {
+  .hero-info {
+    max-width: 17rem;
+  }
   &-hero {
     background: url('/assets/img/allianz/allianz-pattern.png');
     position: relative;
@@ -13,6 +16,7 @@
       left: 0;
       box-shadow: 0 -14px 400px 400px rgba(white, 0.6);
     }
+
     img {
       max-width: 640px;
     }
