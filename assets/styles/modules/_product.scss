@@ -65,12 +65,17 @@
       }
     }
     &-item {
-      flex: 1 1 50%;
+      flex: 0 1 50%;
       margin-bottom: 1.625rem;
       padding-right: 0.5rem;
     }
   }
   @include media-query(desk) {
+    &-item {
+      flex-basis: 33.3%;
+    }
+  }
+  @include media-query(desk-wide) {
     &-item {
       flex-basis: 25%;
     }

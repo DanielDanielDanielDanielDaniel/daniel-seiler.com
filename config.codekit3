@@ -554,7 +554,7 @@
     },
     "\/assets\/img\/allianz\/ipad.png" : {
       "ft" : 32768,
-      "iS" : 66015,
+      "iS" : 554277,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/ipad.png",
       "oF" : 0,
@@ -565,39 +565,17 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/allianz\/ipad.webp" : {
-      "ft" : 8388608,
-      "iS" : 19972,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/ipad.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/img\/allianz\/slide1.png" : {
       "ft" : 32768,
       "iS" : 96494,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide1.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/allianz\/slide1.webp" : {
-      "ft" : 8388608,
-      "iS" : 39734,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/slide1.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/allianz\/slide2.png" : {
@@ -606,22 +584,11 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide2.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/allianz\/slide2.webp" : {
-      "ft" : 8388608,
-      "iS" : 50242,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/slide2.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/allianz\/slide3.png" : {
@@ -630,22 +597,11 @@
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/allianz\/slide3.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/allianz\/slide3.webp" : {
-      "ft" : 8388608,
-      "iS" : 49806,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/allianz\/slide3.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aucta\/aucta-editor-full.png" : {
@@ -1002,7 +958,7 @@
     },
     "\/assets\/img\/book-a-speaker.png" : {
       "ft" : 32768,
-      "iS" : 422854,
+      "iS" : 4437334,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/book-a-speaker.png",
       "oF" : 0,
@@ -1011,17 +967,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/book-a-speaker.webp" : {
-      "ft" : 8388608,
-      "iS" : 85386,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/book-a-speaker.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/bverfg.png" : {
@@ -2086,15 +2031,15 @@
     },
     "\/assets\/img\/skype\/iphone.png" : {
       "ft" : 32768,
-      "iS" : 79344,
+      "iS" : 102971,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/iphone.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/img\/skype\/pattern.png" : {
@@ -2132,74 +2077,41 @@
     },
     "\/assets\/img\/skype\/slide1.png" : {
       "ft" : 32768,
-      "iS" : 99402,
+      "iS" : 466876,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide1.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/skype\/slide1.webp" : {
-      "ft" : 8388608,
-      "iS" : 98088,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/slide1.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/img\/skype\/slide2.png" : {
       "ft" : 32768,
-      "iS" : 86014,
+      "iS" : 477303,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide2.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/skype\/slide2.webp" : {
-      "ft" : 8388608,
-      "iS" : 98956,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/slide2.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/img\/skype\/slide3.png" : {
       "ft" : 32768,
-      "iS" : 88867,
+      "iS" : 451375,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide3.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/skype\/slide3.webp" : {
-      "ft" : 8388608,
-      "iS" : 89250,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/skype\/slide3.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/img\/tobias.png" : {
