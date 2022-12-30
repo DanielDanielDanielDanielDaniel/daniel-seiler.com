@@ -118,7 +118,7 @@
     }
 
     .hero-info {
-      flex: 0 0 337px;
+      flex: 0 0 21.0625rem;
     }
 
     .project-hero {
@@ -150,13 +150,13 @@
     @include media-query(lap) {
       .text-block {
         flex: 1 1 50%;
-        padding-right: 1.25rem;
+        padding-right: 20px;
       }
     }
 
     @include media-query(lap-and-up) {
       .hero-image {
-        padding-left: 2.5rem;
+        padding-left: 40px;
       }
     }
 
@@ -164,7 +164,7 @@
       .text-block {
         flex: 1 1 25%;
         &:not(:last-child) {
-          padding-right: 2.375rem;
+          padding-right: 38px;
         }
       }
     }

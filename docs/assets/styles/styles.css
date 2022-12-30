@@ -1424,6 +1424,9 @@ svg {
 .publications-featured .text-sm {
   padding: 0 1.1875rem;
 }
+.publications-item {
+  transition: opacity 0.3s ease-in-out;
+}
 .publications-item:hover {
   opacity: 0.6;
 }
@@ -1590,7 +1593,7 @@ svg {
   text-align: center;
 }
 .project.project-simple .hero-info {
-  flex: 0 0 337px;
+  flex: 0 0 21.0625rem;
 }
 .project.project-simple .project-hero {
   padding-right: 0;
@@ -1619,12 +1622,12 @@ svg {
 @media only screen and (min-width: 740px) and (max-width: 999px) {
   .project.project-simple .text-block {
     flex: 1 1 50%;
-    padding-right: 1.25rem;
+    padding-right: 20px;
   }
 }
 @media only screen and (min-width: 740px) {
   .project.project-simple .hero-image {
-    padding-left: 2.5rem;
+    padding-left: 40px;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -1632,7 +1635,7 @@ svg {
     flex: 1 1 25%;
   }
   .project.project-simple .text-block:not(:last-child) {
-    padding-right: 2.375rem;
+    padding-right: 38px;
   }
 }
 
@@ -2601,6 +2604,9 @@ svg {
   }
 }
 
+.allianz .hero-info {
+  max-width: 17rem;
+}
 .allianz-hero {
   background: url("/assets/img/allianz/allianz-pattern.png");
   position: relative;

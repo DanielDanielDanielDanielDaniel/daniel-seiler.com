@@ -23,6 +23,7 @@
     }
   }
   &-item {
+    transition: opacity $general-change;
     &:hover {
       opacity: 0.6;
     }
