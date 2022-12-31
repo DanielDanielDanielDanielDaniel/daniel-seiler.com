@@ -2621,6 +2621,7 @@ svg {
   box-shadow: 0 -14px 400px 400px rgba(255, 255, 255, 0.6);
 }
 .allianz-hero img {
+  width: 100%;
   max-width: 640px;
 }
 @media only screen and (min-width: 1000px) {
