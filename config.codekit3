@@ -2077,7 +2077,7 @@
     },
     "\/assets\/img\/skype\/slide1.png" : {
       "ft" : 32768,
-      "iS" : 2315661,
+      "iS" : 2789392,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide1.png",
       "oF" : 0,
@@ -2090,7 +2090,7 @@
     },
     "\/assets\/img\/skype\/slide2.png" : {
       "ft" : 32768,
-      "iS" : 2503197,
+      "iS" : 2784311,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide2.png",
       "oF" : 0,
@@ -2103,7 +2103,7 @@
     },
     "\/assets\/img\/skype\/slide3.png" : {
       "ft" : 32768,
-      "iS" : 2465820,
+      "iS" : 2701980,
       "oA" : 0,
       "oAP" : "\/docs\/assets\/img\/skype\/slide3.png",
       "oF" : 0,
@@ -2890,7 +2890,7 @@
       "oA" : 1,
       "oAP" : "\/docs\/includes\/footer.html",
       "oF" : 0,
-      "oS" : 0
+      "oS" : 1
     },
     "\/includes\/head.pug" : {
       "cB" : 0,
@@ -3600,7 +3600,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 694123929.07735205
+    "lastBuiltDate" : 694142659.73058498
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
