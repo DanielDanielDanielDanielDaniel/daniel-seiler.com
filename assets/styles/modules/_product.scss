@@ -88,7 +88,7 @@
   .product-item {
     .dot-grid {
       .active {
-        animation: pulse 2.8s ease infinite;
+        animation: pulse 4s cubic-bezier(0.36, 1.35, 0.95, 0.99) infinite;
       }
     }
     &:first-child {
