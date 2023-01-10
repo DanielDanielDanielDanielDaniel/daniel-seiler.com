@@ -1246,23 +1246,13 @@ svg {
   position: relative;
   margin: 0 auto 2.5rem auto;
 }
-.services-visual .dot {
-  width: 9.75rem;
-  height: 9.75rem;
+.services-visual .lottie {
   position: absolute;
-}
-.services-visual .dot.green {
-  top: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-}
-.services-visual .dot.cyan {
-  bottom: 0;
-  left: 0;
-}
-.services-visual .dot.blue {
-  bottom: 0;
-  right: 0;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
 }
 .services-clients {
   display: flex;
@@ -1310,6 +1300,12 @@ svg {
   }
   .services-content .quote {
     max-width: 65rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .services-visual .lottie {
+    width: 140%;
+    height: 140%;
   }
 }
 
@@ -1508,17 +1504,23 @@ svg {
   display: flex;
   align-items: flex-end;
   margin-bottom: 0.625rem;
+  position: relative;
 }
 .projects .title .text {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding-left: 26px;
+}
+.projects .title .lottie {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  bottom: -104px;
+  right: calc(100% - 125px);
 }
 .projects .label {
   padding-left: 1.375rem;
-}
-.projects .dot-sign {
-  margin: 0 0.4375rem 0.3125rem 0;
 }
 @media only screen and (max-width: 739px) {
   .projects-item {
@@ -2797,4 +2799,11 @@ svg {
     -webkit-border-radius: 10px;
     border-radius: 10px;
   }
+}
+
+.lottie-box {
+  text-align: center;
+}
+.lottie-box .lottie {
+  margin: 0 auto;
 }

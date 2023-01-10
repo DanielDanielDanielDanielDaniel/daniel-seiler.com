@@ -19,7 +19,7 @@
     .cards
       a.card(href='/about.html')
         .card-content
-          img(src="assets/img/pattern1.svg", alt="Visual pattern", width='95px', height='95px')
+          img(src="assets/img/pattern1.svg", alt="Visual pattern", width='95px',height='95px')
           p About me
       a.card(href='/projects.html')
         .card-content
@@ -27,7 +27,8 @@
           p Projects
       a.card(href='/services.html')
         .card-content
-          img(src="assets/img/pattern3.svg", alt="Visual pattern", width='90px', height='96.84px')
+          .lottie-box
+            lottie-player.lottie(id='firstLottie' src='/assets/lotties/3-rotating-circles.json', speed='.3' loop, autoplay, style='width: 122px')
           p Services
       a.card(href='/publications.html')
         .card-content

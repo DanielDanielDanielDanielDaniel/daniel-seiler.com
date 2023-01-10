@@ -1,4 +1,4 @@
-/* global $, AOS, tippy, glowCookies, dataLayer*/
+/* global $, AOS, tippy, glowCookies, dataLayer */
 
 $(function () {
   // Hotjar

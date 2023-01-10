@@ -27,24 +27,29 @@
     max-width: 30rem;
     position: relative;
     margin: 0 auto 2.5rem auto;
-    .dot {
-      width: 9.75rem;
-      height: 9.75rem;
-      position: absolute;
-      &.green {
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      &.cyan {
-        bottom: 0;
-        left: 0;
-      }
-      &.blue {
-        bottom: 0;
-        right: 0;
-      }
+    .lottie {
+      @include centered(absolute);
+      width: 120%;
+      height: 120%;
     }
+    // .dot {
+    //   width: 9.75rem;
+    //   height: 9.75rem;
+    //   position: absolute;
+    //   &.green {
+    //     top: 0;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //   }
+    //   &.cyan {
+    //     bottom: 0;
+    //     left: 0;
+    //   }
+    //   &.blue {
+    //     bottom: 0;
+    //     right: 0;
+    //   }
+    // }
   }
 
   &-clients {
@@ -107,6 +112,14 @@
     &-content {
       .quote {
         max-width: 65rem;
+      }
+    }
+  }
+  @include media-query(desk) {
+    &-visual {
+      .lottie {
+        width: 140%;
+        height: 140%;
       }
     }
   }

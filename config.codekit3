@@ -2308,6 +2308,134 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/lotties\/3-rotating-circles.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/3-rotating-circles.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/3-rotating-circles.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/3-rotating-circles-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/blue1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/blue1.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/blue1.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/blue1-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/cyan-blue-green.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-blue-green.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/cyan-blue-green.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-blue-green-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/cyan-blue.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-blue.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/cyan-blue.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-blue-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/cyan-green.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-green.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/cyan-green.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-green-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/cyan1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/cyan1.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/cyan1.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan1-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/green-blue.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/green-blue.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/green-blue.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/green-blue-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/assets\/lotties\/green1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/lotties\/green1.html",
+      "oF" : 0
+    },
+    "\/assets\/lotties\/green1.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/green1-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/assets\/styles\/globals\/_animations.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2592,6 +2720,21 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/assets\/styles\/modules\/_lotties.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/assets\/styles\/modules\/_lotties.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/modules\/_menu.scss" : {
       "aP" : 0,
@@ -3600,7 +3743,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 694142659.73058498
+    "lastBuiltDate" : 695046963.10373294
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

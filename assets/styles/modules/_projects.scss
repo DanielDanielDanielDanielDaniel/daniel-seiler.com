@@ -23,18 +23,27 @@
     display: flex;
     align-items: flex-end;
     margin-bottom: 0.625rem;
+    position: relative;
     .text {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+      padding-left: 26px;
+    }
+    .lottie {
+      position: absolute;
+      width: 240px;
+      height: 240px;
+      bottom: -104px;
+      right: calc(100% - 125px);
     }
   }
   .label {
     padding-left: 1.375rem;
   }
-  .dot-sign {
-    margin: 0 0.4375rem 0.3125rem 0;
-  }
+  // .dot-sign {
+  //   margin: 0 0.4375rem 0.3125rem 0;
+  // }
   @include media-query(palm) {
     &-item {
       width: calc(100% + 20px);
