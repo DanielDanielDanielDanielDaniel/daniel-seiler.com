@@ -2319,8 +2319,8 @@
     "\/assets\/lotties\/3-rotating-circles.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/3-rotating-circles-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/3-rotating-circles.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2335,8 +2335,8 @@
     "\/assets\/lotties\/blue1.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/blue1-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/blue1.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2351,8 +2351,8 @@
     "\/assets\/lotties\/cyan-blue-green.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/cyan-blue-green-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-blue-green.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2367,8 +2367,8 @@
     "\/assets\/lotties\/cyan-blue.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/cyan-blue-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-blue.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2383,8 +2383,8 @@
     "\/assets\/lotties\/cyan-green.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/cyan-green-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan-green.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2399,8 +2399,8 @@
     "\/assets\/lotties\/cyan1.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/cyan1-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/cyan1.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2415,8 +2415,8 @@
     "\/assets\/lotties\/green-blue.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/green-blue-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/green-blue.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -2431,8 +2431,8 @@
     "\/assets\/lotties\/green1.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/docs\/assets\/lotties\/green1-min.json",
-      "oF" : 1,
+      "oAP" : "\/docs\/assets\/lotties\/green1.json",
+      "oF" : 3,
       "oO" : 1,
       "oS" : 1
     },
@@ -3743,7 +3743,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/img\/meta\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 695047986.64252901
+    "lastBuiltDate" : 695048255.77350998
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
