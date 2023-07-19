@@ -54,9 +54,9 @@
         height: auto;
         max-width: 300px;
       }
-      &:last-child {
-        background: linear-gradient(#171717, $base-bg);
-      }
+      // &:last-child {
+      //   background: linear-gradient(#171717, $base-bg);
+      // }
       &.empty {
         display: none;
       }

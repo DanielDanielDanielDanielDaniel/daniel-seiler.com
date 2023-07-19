@@ -1445,9 +1445,6 @@ svg {
     height: auto;
     max-width: 300px;
   }
-  .publications-item:last-child {
-    background: linear-gradient(#171717, #171717);
-  }
   .publications-item.empty {
     display: none;
   }
