@@ -46,13 +46,17 @@
   // }
   @include media-query(palm) {
     &-item {
-      width: calc(100% + 20px);
-      margin-left: -10px;
-      background: linear-gradient(#171717, #1b1b1b);
-      padding: 10px 0 10px 10px;
-      &:last-child {
-        background: $base-bg;
-      }
+      // width: calc(100% + 20px);
+      // margin-left: -10px;
+      // background: linear-gradient(#171717, #1b1b1b);
+      // padding: 10px 0 10px 10px;
+      // &:last-child {
+      //   background: $base-bg;
+      // }
+      background: rgba(#fff, 0.05);
+      border-radius: 11px;
+      margin-bottom: 11px;
+      padding: 20px 24px;
     }
   }
   @include media-query(lap-and-up) {

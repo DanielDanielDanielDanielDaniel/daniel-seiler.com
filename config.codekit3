@@ -1005,6 +1005,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/daniel-portrait2.png" : {
+      "ft" : 32768,
+      "iS" : 571897,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/img\/daniel-portrait2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/img\/daniel.png" : {
       "ft" : 32768,
       "iS" : 118941,

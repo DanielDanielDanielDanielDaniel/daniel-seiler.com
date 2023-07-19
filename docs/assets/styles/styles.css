@@ -1138,7 +1138,7 @@ svg {
 }
 @media only screen and (min-width: 740px) {
   .footer {
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
   .footer .wrapper {
     flex-direction: row;
@@ -1435,14 +1435,21 @@ svg {
 @media only screen and (max-width: 739px) {
   .publications-item {
     width: 100%;
-    padding: 14px 0;
-    background: linear-gradient(#171717, #1b1b1b);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 11px;
+    margin-bottom: 11px;
+    padding: 20px 24px;
   }
   .publications-item .beta {
     margin-bottom: 8px;
+    height: auto;
+    max-width: 300px;
   }
   .publications-item:last-child {
     background: linear-gradient(#171717, #171717);
+  }
+  .publications-item.empty {
+    display: none;
   }
   .publications-featured {
     width: 100%;
@@ -1520,13 +1527,10 @@ svg {
 }
 @media only screen and (max-width: 739px) {
   .projects-item {
-    width: calc(100% + 20px);
-    margin-left: -10px;
-    background: linear-gradient(#171717, #1b1b1b);
-    padding: 10px 0 10px 10px;
-  }
-  .projects-item:last-child {
-    background: #171717;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 11px;
+    margin-bottom: 11px;
+    padding: 20px 24px;
   }
 }
 @media only screen and (min-width: 740px) {

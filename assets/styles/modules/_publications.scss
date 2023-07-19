@@ -42,14 +42,23 @@
   @include media-query(palm) {
     &-item {
       width: 100%;
-      padding: 14px 0;
-      background: linear-gradient(#171717, #1b1b1b);
+      // padding: 14px 0;
+      //background: linear-gradient(#171717, #1b1b1b);
+      background: rgba(#fff, 0.05);
+      border-radius: 11px;
+      margin-bottom: 11px;
+      padding: 20px 24px;
 
       .beta {
         margin-bottom: 8px;
+        height: auto;
+        max-width: 300px;
       }
       &:last-child {
         background: linear-gradient(#171717, $base-bg);
+      }
+      &.empty {
+        display: none;
       }
     }
     &-featured {
